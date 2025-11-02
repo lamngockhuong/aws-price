@@ -1,0 +1,39 @@
+{
+  "name": "aws-price",
+  "version": "0.1.0",
+  "description": "A website to track the price of AWS services",
+  "author": "Lam Ngoc Khuong <hi@khuong.dev>",
+  "license": "MIT",
+  "homepage": "https://lamngockhuong.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lamngockhuong/aws-price.git"
+  },
+  "keywords": [
+    "aws",
+    "pricing",
+    "aws-pricing"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "next": "16.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1"
+  },
+  "packageManager": "pnpm@10.17.0+sha512.fce8a3dd29a4ed2ec566fb53efbb04d8c44a0f05bc6f24a73046910fb9c3ce7afa35a0980500668fa3573345bd644644fa98338fa168235c80f4aa17aa17fbef"
+}
