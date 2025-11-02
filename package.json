@@ -4,7 +4,7 @@
   "description": "A website to track the price of AWS services",
   "author": "Lam Ngoc Khuong <hi@khuong.dev>",
   "license": "MIT",
-  "homepage": "https://lamngockhuong.github.io",
+  "homepage": "https://awsprice.khuong.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/lamngockhuong/aws-price.git"
@@ -17,6 +17,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build",
     "start": "next start",
     "lint": "eslint"
   },
