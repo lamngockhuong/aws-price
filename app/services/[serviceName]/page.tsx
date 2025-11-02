@@ -1,8 +1,14 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import ServiceDetailContent from './ServiceDetailContent';
-import { getServiceById } from '@/lib/data/services';
+import { getServiceById, services } from '@/lib/data/services';
 import { getPricingByServiceId } from '@/lib/data/pricing';
+
+export function generateStaticParams() {
+  return services.map((service) => ({
+    serviceName: service.id,
+  }));
+}
 
 interface ServiceDetailPageProps {
   params: Promise<{ serviceName: string }>;
