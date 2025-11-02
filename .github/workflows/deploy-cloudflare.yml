@@ -16,8 +16,6 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10.17.0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -35,7 +33,7 @@ jobs:
           DEPLOYMENT_PLATFORM: cloudflare
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/pages-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
