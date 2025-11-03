@@ -24,46 +24,66 @@ The system SHALL fetch AWS locations data from the official AWS API and store it
 
 ### Requirement: Fetch AWS Pricing Data Per Service
 
-The system SHALL fetch pricing data for each AWS service from their respective API endpoints.
+The system SHALL fetch pricing data for multiple AWS services from their respective API endpoints, supporting EC2, NAT Gateway, S3, RDS, Lambda, CloudFront, Translate, API Gateway, and other services that have valid pricing APIs.
 
-#### Scenario: Fetch EC2 pricing
+#### Scenario: Fetch multiple services including new ones
 
 - **WHEN** the `fetch:pricing` script is executed
-- **THEN** it fetches EC2 pricing from `https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ec2/USD/current/ec2.json`
-- **AND** saves raw data to `lib/data/pricing/ec2.json`
-- **AND** validates the response contains expected pricing structure (manifest, sets, regions)
-
-#### Scenario: Fetch multiple services in parallel
-
-- **WHEN** fetching pricing data for multiple services (EC2, NAT Gateway, etc.)
-- **THEN** it fetches all services in parallel
-- **AND** saves each service's data to its own JSON file
+- **THEN** it fetches pricing data for all configured services (EC2, NAT Gateway, S3, RDS, Lambda, CloudFront, etc.)
+- **AND** uses the API pattern: `https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/{service}/USD/current/{service}.json`
+- **AND** saves raw data to `lib/data/pricing/{service}.json` for each service
+- **AND** validates that each service's API returns valid pricing structure (manifest, sets, regions)
 - **AND** continues fetching other services even if one fails
 - **AND** logs which services succeeded and which failed
 
-#### Scenario: Fetch NAT Gateway pricing
+#### Scenario: Validate service API before adding
 
-- **WHEN** fetching NAT Gateway pricing data
-- **THEN** it fetches from `https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ec2/USD/current/natgateway.json`
-- **AND** saves raw data to `lib/data/pricing/natgateway.json`
-- **AND** validates the response structure matches AWS pricing API format
+- **WHEN** adding a new service to the configuration
+- **THEN** the service's pricing API endpoint must return valid data
+- **AND** the response must contain expected structure (manifest, sets, regions)
+- **AND** only services with valid APIs are added to the configuration
 
 ### Requirement: Transform AWS Pricing Format
 
-The system SHALL transform raw AWS pricing API format to the internal `PricingEntry[]` format.
+The system SHALL transform raw AWS pricing API format to the internal `PricingEntry[]` format for all supported services.
 
-#### Scenario: Transform EC2 pricing
+#### Scenario: Transform S3 pricing
 
-- **WHEN** EC2 pricing data is fetched and saved
-- **THEN** a TypeScript transform module (`lib/data/pricing/ec2.ts`) converts raw JSON to `PricingEntry[]`
-- **AND** extracts instance types, regions, prices, and attributes correctly
+- **WHEN** S3 pricing data is fetched and saved
+- **THEN** a TypeScript transform module (`lib/data/pricing/s3.ts`) converts raw JSON to `PricingEntry[]`
+- **AND** extracts storage classes, request types, regions, and prices correctly
+- **AND** maps AWS rate codes to readable attributes (Standard, Standard-IA, Glacier, etc.)
+- **AND** handles different pricing dimensions (storage vs. requests)
+
+#### Scenario: Transform RDS pricing
+
+- **WHEN** RDS pricing data is fetched and saved
+- **THEN** a TypeScript transform module (`lib/data/pricing/rds.ts`) converts raw JSON to `PricingEntry[]`
+- **AND** extracts instance types, database engines, regions, and prices correctly
+- **AND** maps AWS rate codes to readable attributes (MySQL, PostgreSQL, MariaDB, etc.)
+- **AND** handles multi-AZ options and storage pricing
+
+#### Scenario: Transform Lambda pricing
+
+- **WHEN** Lambda pricing data is fetched and saved
+- **THEN** a TypeScript transform module (`lib/data/pricing/lambda.ts`) converts raw JSON to `PricingEntry[]`
+- **AND** extracts memory sizes, request types, compute durations, regions, and prices correctly
+- **AND** maps AWS rate codes to readable attributes
+- **AND** handles different pricing dimensions (requests vs. compute)
+
+#### Scenario: Transform CloudFront pricing
+
+- **WHEN** CloudFront pricing data is fetched and saved
+- **THEN** a TypeScript transform module (`lib/data/pricing/cloudfront.ts`) converts raw JSON to `PricingEntry[]`
+- **AND** extracts data transfer classes, request types, regions, and prices correctly
 - **AND** maps AWS rate codes to readable attributes
 
-#### Scenario: Transform NAT Gateway pricing
+#### Scenario: Transform additional services
 
-- **WHEN** NAT Gateway pricing data is fetched and saved
-- **THEN** a TypeScript transform module converts raw JSON to `PricingEntry[]`
-- **AND** extracts NAT Gateway specific attributes (data processing, gateway hours, etc.)
+- **WHEN** pricing data for additional services (Translate, API Gateway, etc.) is fetched
+- **THEN** each service has its own transform module that converts raw JSON to `PricingEntry[]`
+- **AND** extracts service-specific attributes correctly
+- **AND** maps AWS rate codes to human-readable attributes
 
 ### Requirement: Common Fetch Utilities
 
@@ -85,22 +105,16 @@ The system SHALL provide common utilities for fetching data with retry logic and
 
 ### Requirement: Data Source Configuration
 
-The system SHALL define all data sources in a centralized configuration file.
+The system SHALL define all pricing data sources in a centralized configuration file, supporting multiple AWS services.
 
-#### Scenario: Configure locations source
-
-- **WHEN** defining data sources
-- **THEN** locations API URL is defined in `lib/config/data-sources.ts`
-- **AND** includes validation function to verify data structure
-- **AND** includes transform function if needed
-
-#### Scenario: Configure pricing sources
+#### Scenario: Configure pricing sources for multiple services
 
 - **WHEN** defining pricing data sources
-- **THEN** each service (EC2, NAT Gateway, etc.) has its configuration in `lib/config/data-sources.ts`
+- **THEN** each service (EC2, S3, RDS, Lambda, CloudFront, etc.) has its configuration in `lib/config/data-sources.ts`
 - **AND** URL pattern follows: `https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/{service}/USD/current/{service}.json`
-- **AND** each includes URL, transform function, and validation function
-- **AND** new services can be added by adding configuration only (following the URL pattern)
+- **AND** each includes URL, transform function reference, and validation function
+- **AND** new services can be added by adding configuration and transform module
+- **AND** only services with valid pricing APIs are configured
 
 ### Requirement: Offline Data Storage
 
