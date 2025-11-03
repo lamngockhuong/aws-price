@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 // Preline-style Button Toggle (sun/moon)
 
 export default function Header() {
-  const [theme, setTheme] = useState<string>(() => {
+  const [theme] = useState<string>(() => {
     try {
       const stored = localStorage.getItem("theme");
       if (stored) return stored;
@@ -25,9 +25,6 @@ export default function Header() {
     localStorage.setItem("theme", next);
   }
 
-  function applyTheme(next: string) {
-    setTheme(next);
-  }
 
   // toggle handled via Switch onChange
 

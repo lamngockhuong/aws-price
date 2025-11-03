@@ -13,12 +13,12 @@ let snsPricingData: PricingEntry[] = [];
 
 try {
   snsPricingData = require('./sns-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   try {
     const rawData = require('./sns.json') as AWSSNSPricingData;
     snsPricingData = transformSNSPricing(rawData);
     console.warn('SNS pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     console.warn('SNS pricing data not found. Run fetch:pricing first.');
   }
 }

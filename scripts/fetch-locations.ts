@@ -1,6 +1,6 @@
 import { join } from 'path';
 import { fetchData } from '../lib/scripts/common/fetcher';
-import { saveData, logResults } from '../lib/scripts/common/processor';
+import { saveData } from '../lib/scripts/common/processor';
 import { locationsSource } from '../lib/config/data-sources';
 
 const OUTPUT_PATH = join(process.cwd(), 'lib/data/locations.json');

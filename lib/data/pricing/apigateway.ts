@@ -13,12 +13,12 @@ let apigatewayPricingData: PricingEntry[] = [];
 
 try {
   apigatewayPricingData = require('./apigateway-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   try {
     const rawData = require('./apigateway.json') as AWSAPIGatewayPricingData;
     apigatewayPricingData = transformAPIGatewayPricing(rawData);
     console.warn('API Gateway pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     console.warn('API Gateway pricing data not found. Run fetch:pricing first.');
   }
 }

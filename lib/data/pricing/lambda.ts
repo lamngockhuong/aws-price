@@ -122,13 +122,13 @@ let lambdaPricingData: PricingEntry[] = [];
 try {
   // Try to load pre-transformed data first (much faster)
   lambdaPricingData = require('./lambda-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   // Fallback: transform on-the-fly if transformed file doesn't exist
   try {
     const rawData = require('./lambda.json') as AWSLambdaPricingData;
     lambdaPricingData = transformLambdaPricing(rawData);
     console.warn('Lambda pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     // File doesn't exist yet or error loading
     console.warn('Lambda pricing data not found. Run fetch:pricing first.');
   }

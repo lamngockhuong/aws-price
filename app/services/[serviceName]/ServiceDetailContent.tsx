@@ -38,7 +38,7 @@ export default function ServiceDetailContent({
     }
 
     return filtered;
-  }, [allPricing, selectedRegion, selectedInstanceFamily, serviceId]);
+  }, [allPricing, selectedRegion, selectedInstanceFamily, selectedOS, serviceId]);
 
   return (
     <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">

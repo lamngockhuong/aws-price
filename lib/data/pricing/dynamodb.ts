@@ -13,12 +13,12 @@ let dynamodbPricingData: PricingEntry[] = [];
 
 try {
   dynamodbPricingData = require('./dynamodb-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   try {
     const rawData = require('./dynamodb.json') as AWSDynamoDBPricingData;
     dynamodbPricingData = transformDynamoDBPricing(rawData);
     console.warn('DynamoDB pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     console.warn('DynamoDB pricing data not found. Run fetch:pricing first.');
   }
 }
