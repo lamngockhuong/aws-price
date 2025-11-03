@@ -1,7 +1,10 @@
-import Link from 'next/link';
+// (Link no longer used here; kept for potential future sections)
 import { services, getServicesByCategory } from '@/lib/data/services';
 import ServiceCard from '@/app/components/ServiceCard';
 import type { ServiceCategory } from '@/lib/types';
+import { LinkButtonPrimary } from '@/app/components/ui/Button';
+import { SectionHeader } from '@/app/components/ui/SectionHeader';
+import { CategoryCard } from '@/app/components/ui/CategoryCard';
 
 const categories: ServiceCategory[] = ['Compute', 'Networking', 'Storage', 'Database', 'Other'];
 
@@ -13,7 +16,7 @@ export default function Home() {
   );
 
   return (
-    <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-black">
+    <div className="flex min-h-screen flex-col bg-bg text-text">
       {/* Hero Section */}
       <div className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="text-center">
@@ -24,26 +27,14 @@ export default function Home() {
             View and compare pricing for AWS services in a clear, organized format
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Link
-              href="/services"
-              className="rounded-md bg-zinc-900 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-100"
-            >
-              View All Services
-            </Link>
+            <LinkButtonPrimary href="/services">View All Services</LinkButtonPrimary>
           </div>
         </div>
       </div>
 
       {/* Popular Services */}
       <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">
-            Popular Services
-          </h2>
-          <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-            Most commonly viewed AWS services
-          </p>
-        </div>
+        <SectionHeader title="Popular Services" subtitle="Most commonly viewed AWS services" />
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {popularServicesData.map((service) => (
             <ServiceCard key={service.id} service={service} />
@@ -53,30 +44,17 @@ export default function Home() {
 
       {/* Categories Grid */}
       <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">
-            Browse by Category
-          </h2>
-          <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-            Explore AWS services organized by category
-          </p>
-        </div>
+        <SectionHeader title="Browse by Category" subtitle="Explore AWS services organized by category" />
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((category) => {
             const categoryServices = getServicesByCategory(category);
             return (
-              <Link
+              <CategoryCard
                 key={category}
                 href={`/services?category=${category.toLowerCase()}`}
-                className="group block rounded-lg border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:border-zinc-300 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-zinc-700"
-              >
-                <h3 className="text-lg font-semibold text-zinc-900 group-hover:text-zinc-950 dark:text-zinc-50 dark:group-hover:text-white">
-                  {category}
-                </h3>
-                <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                  {categoryServices.length} service{categoryServices.length !== 1 ? 's' : ''}
-                </p>
-              </Link>
+                title={category}
+                subtitle={`${categoryServices.length} service${categoryServices.length !== 1 ? 's' : ''}`}
+              />
             );
           })}
         </div>

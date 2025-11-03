@@ -17,6 +17,7 @@ export default function ServiceDetailContent({
 }: ServiceDetailContentProps) {
   const [selectedRegion, setSelectedRegion] = useState('');
   const [selectedInstanceFamily, setSelectedInstanceFamily] = useState('');
+  const [selectedOS, setSelectedOS] = useState('');
 
   const filteredPricing = useMemo(() => {
     let filtered = allPricing;
@@ -32,6 +33,10 @@ export default function ServiceDetailContent({
       });
     }
 
+    if (serviceId === 'ec2' && selectedOS) {
+      filtered = filtered.filter((entry) => entry.attributes.operatingSystem === selectedOS);
+    }
+
     return filtered;
   }, [allPricing, selectedRegion, selectedInstanceFamily, serviceId]);
 
@@ -43,6 +48,8 @@ export default function ServiceDetailContent({
           serviceId={serviceId}
           selectedRegion={selectedRegion}
           onRegionChange={setSelectedRegion}
+          selectedOS={selectedOS}
+          onOSChange={setSelectedOS}
           selectedInstanceFamily={selectedInstanceFamily}
           onInstanceFamilyChange={setSelectedInstanceFamily}
         />

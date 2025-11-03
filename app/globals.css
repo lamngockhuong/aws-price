@@ -1,26 +1,98 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Light */
+  --bg: #F6F7FB;
+  --surface: #FFFFFF;
+  --overlay: #F0F2F6;
+  --border: #E2E6EE;
+  --text: #111827;
+  --text-muted: #667085;
+  --primary: #FF9900;
+  --primary-hover: #E88E00;
+  --accent: #2563EB;
+  --success: #10B981;
+  --warning: #F59E0B;
+  --error: #EF4444;
+  --shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
+  --radius: 14px;
+
+  /* Back-compat mapping (remove once migrated fully) */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-text-muted: var(--text-muted);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --dark-mode: class;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Dark */
+    --bg: #0F1115;
+    --surface: #1A1D23;
+    --overlay: #232731;
+    --border: #2E3239;
+    --text: #F3F4F6;
+    --text-muted: #9CA3AF;
+    --primary: #FFB547;
+    --primary-hover: #FFA31A;
+    --accent: #3B82F6;
+    --success: #34D399;
+    --warning: #FBBF24;
+    --error: #F87171;
+    --shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+    --radius: 14px;
+
+    --background: var(--bg);
+    --foreground: var(--text);
   }
+}
+
+.dark {
+  --bg: #0F1115;
+  --surface: #1A1D23;
+  --overlay: #232731;
+  --border: #2E3239;
+  --text: #F3F4F6;
+  --text-muted: #9CA3AF;
+  --primary: #FFB547;
+  --primary-hover: #FFA31A;
+  --accent: #3B82F6;
+  --success: #34D399;
+  --warning: #FBBF24;
+  --error: #F87171;
+  --shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+  --radius: 14px;
+
+  --background: var(--bg);
+  --foreground: var(--text);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Smooth theme transitions */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:where(.card, table, nav, header, footer) {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Prevent flicker by temporarily disabling transitions during theme switch */
+.disable-transitions *, .disable-transitions *::before, .disable-transitions *::after {
+  transition: none !important;
 }

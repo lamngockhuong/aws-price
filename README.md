@@ -12,6 +12,17 @@ A website to track and compare pricing for AWS services in a clear, organized fo
 - 🚀 Static site generation for fast performance
 - 🌍 Multi-platform deployment support (GitHub Pages, Cloudflare Pages)
 
+### Recent UX Improvements
+
+- 🔎 Autocomplete search with match highlight
+- 🧭 Breadcrumbs on Services and Service Detail pages
+- 🧮 Category counts in Services listing
+- 🧱 Pricing tables: sticky header, sortable columns, zebra rows, right-aligned prices
+- 📄 Pagination with range display; optional rows-per-page selector
+- ⚙️ EC2 filters: Region, Operating System, Instance Family (combinable)
+- 🌓 Theme toggle with persisted preference
+- 🔗 Footer links: About, GitHub, Feedback, Data source
+
 ## Tech Stack
 
 - **Framework:** [Next.js](https://nextjs.org) 16.0.1
@@ -166,6 +177,10 @@ pnpm transform:pricing
 
 **Note**: Transformed files are generated automatically during build. Run `pnpm transform:pricing` manually if you need to refresh transformed data.
 
+### Data Source Context Banner
+
+Service detail pages show a banner: “Pricing data updated on YYYY-MM-DD — Source: AWS Calculator API”, linking to AWS pricing resources.
+
 ## Available Scripts
 
 - `pnpm dev` - Start development server
@@ -187,5 +202,5 @@ MIT
 **Lam Ngoc Khuong**
 
 - Website: [https://khuong.dev](https://khuong.dev)
-- Email: hi@khuong.dev
+- Email: <hi@khuong.dev>
 - GitHub: [@lamngockhuong](https://github.com/lamngockhuong)
