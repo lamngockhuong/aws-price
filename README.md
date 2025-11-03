@@ -130,13 +130,53 @@ For custom domain deployment, update:
 - `package.json`: `homepage` field
 - `public/CNAME`: Domain name (for GitHub Pages)
 
+## Data Fetching
+
+This project fetches AWS pricing and location data from official AWS APIs and stores them offline for better performance.
+
+### Fetching Data
+
+**Automatic (before build):**
+
+```bash
+pnpm build  # Automatically runs fetch:all and transform:pricing before build
+```
+
+**Manual:**
+
+```bash
+# Fetch locations data
+pnpm fetch:locations
+
+# Fetch pricing data for all services
+pnpm fetch:pricing
+
+# Fetch all data (locations + pricing)
+pnpm fetch:all
+
+# Transform pricing data (generates optimized transformed files)
+pnpm transform:pricing
+```
+
+### Data Files
+
+- **Locations**: `lib/data/locations.json` (auto-generated)
+- **Pricing (raw)**: `lib/data/pricing/*.json` (auto-generated from AWS APIs)
+- **Pricing (transformed)**: `lib/data/pricing/*-transformed.json` (optimized, auto-generated)
+
+**Note**: Transformed files are generated automatically during build. Run `pnpm transform:pricing` manually if you need to refresh transformed data.
+
 ## Available Scripts
 
 - `pnpm dev` - Start development server
-- `pnpm build` - Build production static site
+- `pnpm build` - Build production static site (automatically fetches and transforms data)
 - `pnpm export` - Alias for build (generates static export)
 - `pnpm start` - Start production server (for non-static deployment)
 - `pnpm lint` - Run ESLint
+- `pnpm fetch:locations` - Fetch AWS locations data
+- `pnpm fetch:pricing` - Fetch AWS pricing data for all services
+- `pnpm fetch:all` - Fetch all data (locations + pricing)
+- `pnpm transform:pricing` - Transform pricing data to optimized format
 
 ## License
 
