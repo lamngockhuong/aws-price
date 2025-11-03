@@ -119,13 +119,13 @@ let ec2PricingData: PricingEntry[] = [];
 try {
   // Try to load pre-transformed data first (much faster)
   ec2PricingData = require('./ec2-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   // Fallback: transform on-the-fly if transformed file doesn't exist
   try {
     const rawData = require('./ec2.json') as AWSEC2PricingData;
     ec2PricingData = transformEC2Pricing(rawData);
     console.warn('EC2 pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     // File doesn't exist yet or error loading
     console.warn('EC2 pricing data not found. Run fetch:pricing first.');
   }

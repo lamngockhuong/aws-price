@@ -123,12 +123,12 @@ let cloudfrontPricingData: PricingEntry[] = [];
 
 try {
   cloudfrontPricingData = require('./cloudfront-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   try {
     const rawData = require('./cloudfront.json') as AWSCloudFrontPricingData;
     cloudfrontPricingData = transformCloudFrontPricing(rawData);
     console.warn('CloudFront pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     console.warn('CloudFront pricing data not found. Run fetch:pricing first.');
   }
 }

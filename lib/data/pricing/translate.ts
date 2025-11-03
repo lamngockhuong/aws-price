@@ -14,12 +14,12 @@ let translatePricingData: PricingEntry[] = [];
 
 try {
   translatePricingData = require('./translate-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   try {
     const rawData = require('./translate.json') as AWSTranslatePricingData;
     translatePricingData = transformTranslatePricing(rawData);
     console.warn('Translate pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     console.warn('Translate pricing data not found. Run fetch:pricing first.');
   }
 }

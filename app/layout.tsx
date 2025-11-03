@@ -3,6 +3,7 @@ import { Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
+import Script from "next/script";
 
 const geistSans = Inter({
   variable: "--font-geist-sans",
@@ -25,10 +26,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-bg text-text`}
       >
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`(function(){try{var root=document.documentElement;root.classList.add('disable-transitions');root.classList.remove('no-touch');var stored=localStorage.getItem('theme');var isDark=stored?stored==='dark':(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);root.classList.toggle('dark',isDark);requestAnimationFrame(function(){root.classList.remove('disable-transitions')});}catch(e){}})();`}
+        </Script>
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">

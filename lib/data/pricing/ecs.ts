@@ -13,12 +13,12 @@ let ecsPricingData: PricingEntry[] = [];
 
 try {
   ecsPricingData = require('./ecs-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   try {
     const rawData = require('./ecs.json') as AWSECSPricingData;
     ecsPricingData = transformECSPricing(rawData);
     console.warn('ECS pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     console.warn('ECS pricing data not found. Run fetch:pricing first.');
   }
 }

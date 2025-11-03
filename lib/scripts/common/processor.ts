@@ -1,5 +1,5 @@
 import { writeFileSync, mkdirSync } from 'fs';
-import { join, dirname } from 'path';
+import { dirname } from 'path';
 import type { FetchResult } from './types';
 
 export interface SaveOptions {

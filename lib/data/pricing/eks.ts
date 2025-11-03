@@ -13,12 +13,12 @@ let eksPricingData: PricingEntry[] = [];
 
 try {
   eksPricingData = require('./eks-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   try {
     const rawData = require('./eks.json') as AWSEKSPricingData;
     eksPricingData = transformEKSPricing(rawData);
     console.warn('EKS pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     console.warn('EKS pricing data not found. Run fetch:pricing first.');
   }
 }

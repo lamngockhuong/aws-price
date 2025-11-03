@@ -138,13 +138,13 @@ let s3PricingData: PricingEntry[] = [];
 try {
   // Try to load pre-transformed data first (much faster)
   s3PricingData = require('./s3-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   // Fallback: transform on-the-fly if transformed file doesn't exist
   try {
     const rawData = require('./s3.json') as AWSS3PricingData;
     s3PricingData = transformS3Pricing(rawData);
     console.warn('S3 pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     // File doesn't exist yet or error loading
     console.warn('S3 pricing data not found. Run fetch:pricing first.');
   }

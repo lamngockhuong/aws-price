@@ -108,13 +108,13 @@ let natgatewayPricingData: PricingEntry[] = [];
 try {
   // Try to load pre-transformed data first (much faster)
   natgatewayPricingData = require('./natgateway-transformed.json') as PricingEntry[];
-} catch (error) {
+} catch {
   // Fallback: transform on-the-fly if transformed file doesn't exist
   try {
     const rawData = require('./natgateway.json') as AWSNATGatewayPricingData;
     natgatewayPricingData = transformNATGatewayPricing(rawData);
     console.warn('NAT Gateway pricing: Using on-the-fly transform. Run pnpm transform:pricing to pre-transform.');
-  } catch (transformError) {
+  } catch {
     // File doesn't exist yet or error loading
     console.warn('NAT Gateway pricing data not found. Run fetch:pricing first.');
   }
