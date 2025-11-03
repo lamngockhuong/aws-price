@@ -1,0 +1,730 @@
+{
+  "Africa (Cape Town)": {
+    "name": "Africa (Cape Town)",
+    "code": "af-south-1",
+    "type": "AWS Region",
+    "label": "Africa (Cape Town)",
+    "continent": "Africa"
+  },
+  "Asia Pacific (Hong Kong)": {
+    "name": "Asia Pacific (Hong Kong)",
+    "code": "ap-east-1",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Hong Kong)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Taipei)": {
+    "name": "Asia Pacific (Taipei)",
+    "code": "ap-east-2",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Taipei)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Tokyo)": {
+    "name": "Asia Pacific (Tokyo)",
+    "code": "ap-northeast-1",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Tokyo)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Seoul)": {
+    "name": "Asia Pacific (Seoul)",
+    "code": "ap-northeast-2",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Seoul)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Osaka)": {
+    "name": "Asia Pacific (Osaka)",
+    "code": "ap-northeast-3",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Osaka)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Mumbai)": {
+    "name": "Asia Pacific (Mumbai)",
+    "code": "ap-south-1",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Mumbai)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Hyderabad)": {
+    "name": "Asia Pacific (Hyderabad)",
+    "code": "ap-south-2",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Hyderabad)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Singapore)": {
+    "name": "Asia Pacific (Singapore)",
+    "code": "ap-southeast-1",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Singapore)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Sydney)": {
+    "name": "Asia Pacific (Sydney)",
+    "code": "ap-southeast-2",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Sydney)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Jakarta)": {
+    "name": "Asia Pacific (Jakarta)",
+    "code": "ap-southeast-3",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Jakarta)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Melbourne)": {
+    "name": "Asia Pacific (Melbourne)",
+    "code": "ap-southeast-4",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Melbourne)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Malaysia)": {
+    "name": "Asia Pacific (Malaysia)",
+    "code": "ap-southeast-5",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Malaysia)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (New Zealand)": {
+    "name": "Asia Pacific (New Zealand)",
+    "code": "ap-southeast-6",
+    "type": "AWS Region",
+    "label": "Asia Pacific (New Zealand)",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (Thailand)": {
+    "name": "Asia Pacific (Thailand)",
+    "code": "ap-southeast-7",
+    "type": "AWS Region",
+    "label": "Asia Pacific (Thailand)",
+    "continent": "Asia Pacific"
+  },
+  "Canada (Central)": {
+    "name": "Canada (Central)",
+    "code": "ca-central-1",
+    "type": "AWS Region",
+    "label": "Canada (Central)",
+    "continent": "North America"
+  },
+  "Canada West (Calgary)": {
+    "name": "Canada West (Calgary)",
+    "code": "ca-west-1",
+    "type": "AWS Region",
+    "label": "Canada West (Calgary)",
+    "continent": "North America"
+  },
+  "EU (Frankfurt)": {
+    "name": "EU (Frankfurt)",
+    "code": "eu-central-1",
+    "type": "AWS Region",
+    "label": "Europe (Frankfurt)",
+    "continent": "Europe"
+  },
+  "EU (Zurich)": {
+    "name": "EU (Zurich)",
+    "code": "eu-central-2",
+    "type": "AWS Region",
+    "label": "Europe (Zurich)",
+    "continent": "Europe"
+  },
+  "EU (Stockholm)": {
+    "name": "EU (Stockholm)",
+    "code": "eu-north-1",
+    "type": "AWS Region",
+    "label": "Europe (Stockholm)",
+    "continent": "Europe"
+  },
+  "EU (Milan)": {
+    "name": "EU (Milan)",
+    "code": "eu-south-1",
+    "type": "AWS Region",
+    "label": "Europe (Milan)",
+    "continent": "Europe"
+  },
+  "EU (Spain)": {
+    "name": "EU (Spain)",
+    "code": "eu-south-2",
+    "type": "AWS Region",
+    "label": "Europe (Spain)",
+    "continent": "Europe"
+  },
+  "EU (Ireland)": {
+    "name": "EU (Ireland)",
+    "code": "eu-west-1",
+    "type": "AWS Region",
+    "label": "Europe (Ireland)",
+    "continent": "Europe"
+  },
+  "EU (London)": {
+    "name": "EU (London)",
+    "code": "eu-west-2",
+    "type": "AWS Region",
+    "label": "Europe (London)",
+    "continent": "Europe"
+  },
+  "EU (Paris)": {
+    "name": "EU (Paris)",
+    "code": "eu-west-3",
+    "type": "AWS Region",
+    "label": "Europe (Paris)",
+    "continent": "Europe"
+  },
+  "Israel (Tel Aviv)": {
+    "name": "Israel (Tel Aviv)",
+    "code": "il-central-1",
+    "type": "AWS Region",
+    "label": "Israel (Tel Aviv)",
+    "continent": "Israel"
+  },
+  "Middle East (UAE)": {
+    "name": "Middle East (UAE)",
+    "code": "me-central-1",
+    "type": "AWS Region",
+    "label": "Middle East (UAE)",
+    "continent": "Middle East"
+  },
+  "Middle East (Bahrain)": {
+    "name": "Middle East (Bahrain)",
+    "code": "me-south-1",
+    "type": "AWS Region",
+    "label": "Middle East (Bahrain)",
+    "continent": "Middle East"
+  },
+  "Mexico (Central)": {
+    "name": "Mexico (Central)",
+    "code": "mx-central-1",
+    "type": "AWS Region",
+    "label": "Mexico (Central)",
+    "continent": "North America"
+  },
+  "South America (Sao Paulo)": {
+    "name": "South America (Sao Paulo)",
+    "code": "sa-east-1",
+    "type": "AWS Region",
+    "label": "South America (Sao Paulo)",
+    "continent": "South America"
+  },
+  "US East (N. Virginia)": {
+    "name": "US East (N. Virginia)",
+    "code": "us-east-1",
+    "type": "AWS Region",
+    "label": "US East (N. Virginia)",
+    "continent": "North America"
+  },
+  "US East (Ohio)": {
+    "name": "US East (Ohio)",
+    "code": "us-east-2",
+    "type": "AWS Region",
+    "label": "US East (Ohio)",
+    "continent": "North America"
+  },
+  "US East (Kansas City)": {
+    "name": "US East (Kansas City)",
+    "code": "us-east-2-mci-1",
+    "type": "AWS Region",
+    "label": "US East (Kansas City)",
+    "continent": "North America"
+  },
+  "AWS GovCloud (US-East)": {
+    "name": "AWS GovCloud (US-East)",
+    "code": "us-gov-east-1",
+    "type": "AWS Region",
+    "label": "AWS GovCloud (US-East)",
+    "continent": "North America"
+  },
+  "AWS GovCloud (US)": {
+    "name": "AWS GovCloud (US)",
+    "code": "us-gov-west-1",
+    "type": "AWS Region",
+    "label": "AWS GovCloud (US-West)",
+    "continent": "North America"
+  },
+  "US West (N. California)": {
+    "name": "US West (N. California)",
+    "code": "us-west-1",
+    "type": "AWS Region",
+    "label": "US West (N. California)",
+    "continent": "North America"
+  },
+  "US West (Oregon)": {
+    "name": "US West (Oregon)",
+    "code": "us-west-2",
+    "type": "AWS Region",
+    "label": "US West (Oregon)",
+    "continent": "North America"
+  },
+  "Asia Pacific (KDDI) - Osaka": {
+    "name": "Asia Pacific (KDDI) - Osaka",
+    "code": "ap-northeast-1-wl1-kix1",
+    "type": "AWS Wavelength Zone",
+    "label": "Asia Pacific (KDDI) - Osaka",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (KDDI) - Tokyo": {
+    "name": "Asia Pacific (KDDI) - Tokyo",
+    "code": "ap-northeast-1-wl1-nrt1",
+    "type": "AWS Wavelength Zone",
+    "label": "Asia Pacific (KDDI) - Tokyo",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (SKT) - Daejeon": {
+    "name": "Asia Pacific (SKT) - Daejeon",
+    "code": "ap-northeast-2-wl1-cjj1",
+    "type": "AWS Wavelength Zone",
+    "label": "Asia Pacific (SKT) - Daejeon",
+    "continent": "Asia Pacific"
+  },
+  "Asia Pacific (SKT) - Seoul": {
+    "name": "Asia Pacific (SKT) - Seoul",
+    "code": "ap-northeast-2-wl1-sel1",
+    "type": "AWS Wavelength Zone",
+    "label": "Asia Pacific (SKT) - Seoul",
+    "continent": "Asia Pacific"
+  },
+  "Canada (BELL) - Toronto": {
+    "name": "Canada (BELL) - Toronto",
+    "code": "ca-central-1-wl1-yto1",
+    "type": "AWS Wavelength Zone",
+    "label": "Canada (BELL) - Toronto",
+    "continent": "North America"
+  },
+  "EU (Vodafone) - Berlin": {
+    "name": "EU (Vodafone) - Berlin",
+    "code": "eu-central-1-wl1-ber1",
+    "type": "AWS Wavelength Zone",
+    "label": "Europe (Vodafone) - Berlin",
+    "continent": "Europe"
+  },
+  "EU (Vodafone) - Dortmund": {
+    "name": "EU (Vodafone) - Dortmund",
+    "code": "eu-central-1-wl1-dtm1",
+    "type": "AWS Wavelength Zone",
+    "label": "Europe (Vodafone) - Dortmund",
+    "continent": "Europe"
+  },
+  "EU (Vodafone) - Munich": {
+    "name": "EU (Vodafone) - Munich",
+    "code": "eu-central-1-wl1-muc1",
+    "type": "AWS Wavelength Zone",
+    "label": "Europe (Vodafone) - Munich",
+    "continent": "Europe"
+  },
+  "EU (Vodafone) - London": {
+    "name": "EU (Vodafone) - London",
+    "code": "eu-west-2-wl1-lon1",
+    "type": "AWS Wavelength Zone",
+    "label": "Europe (Vodafone) - London",
+    "continent": "Europe"
+  },
+  "EU (Vodafone) - Manchester": {
+    "name": "EU (Vodafone) - Manchester",
+    "code": "eu-west-2-wl1-man1",
+    "type": "AWS Wavelength Zone",
+    "label": "Europe (Vodafone) - Manchester",
+    "continent": "Europe"
+  },
+  "EU (British Telecom) - Manchester": {
+    "name": "EU (British Telecom) - Manchester",
+    "code": "eu-west-2-wl2-man1",
+    "type": "AWS Wavelength Zone",
+    "label": "Europe (British Telecom) - Manchester",
+    "continent": "Europe"
+  },
+  "Morocco (Casablanca)": {
+    "name": "Morocco (Casablanca)",
+    "code": "eu-west-3-wl1-cmn1",
+    "type": "AWS Wavelength Zone",
+    "label": "Morocco (Casablanca)",
+    "continent": "Europe"
+  },
+  "Senegal (Dakar)": {
+    "name": "Senegal (Dakar)",
+    "code": "eu-west-3-wl1-dss1",
+    "type": "AWS Wavelength Zone",
+    "label": "Senegal (Dakar)",
+    "continent": "Europe"
+  },
+  "US East (Verizon) - Boston": {
+    "name": "US East (Verizon) - Boston",
+    "code": "us-east-1-wl1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Boston",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Atlanta": {
+    "name": "US East (Verizon) - Atlanta",
+    "code": "us-east-1-wl1-atl1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Atlanta",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Nashville": {
+    "name": "US East (Verizon) - Nashville",
+    "code": "us-east-1-wl1-bna1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Nashville",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Chicago": {
+    "name": "US East (Verizon) - Chicago",
+    "code": "us-east-1-wl1-chi1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Chicago",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Charlotte": {
+    "name": "US East (Verizon) - Charlotte",
+    "code": "us-east-1-wl1-clt1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Charlotte",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Dallas": {
+    "name": "US East (Verizon) - Dallas",
+    "code": "us-east-1-wl1-dfw1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Dallas",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Detroit": {
+    "name": "US East (Verizon) - Detroit",
+    "code": "us-east-1-wl1-dtw1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Detroit",
+    "continent": "North America"
+  },
+  "US East (Lenexa)": {
+    "name": "US East (Lenexa)",
+    "code": "us-east-1-wl1-foe1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Lenexa)",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Houston": {
+    "name": "US East (Verizon) - Houston",
+    "code": "us-east-1-wl1-iah1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Houston",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Miami": {
+    "name": "US East (Verizon) - Miami",
+    "code": "us-east-1-wl1-mia1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Miami",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Minneapolis": {
+    "name": "US East (Verizon) - Minneapolis",
+    "code": "us-east-1-wl1-msp1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Minneapolis",
+    "continent": "North America"
+  },
+  "US East (Verizon) - New York": {
+    "name": "US East (Verizon) - New York",
+    "code": "us-east-1-wl1-nyc1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - New York",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Tampa": {
+    "name": "US East (Verizon) - Tampa",
+    "code": "us-east-1-wl1-tpa1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Tampa",
+    "continent": "North America"
+  },
+  "US East (Verizon) - Washington DC": {
+    "name": "US East (Verizon) - Washington DC",
+    "code": "us-east-1-wl1-was1",
+    "type": "AWS Wavelength Zone",
+    "label": "US East (Verizon) - Washington DC",
+    "continent": "North America"
+  },
+  "US West (Verizon) - San Francisco Bay Area": {
+    "name": "US West (Verizon) - San Francisco Bay Area",
+    "code": "us-west-2-wl1",
+    "type": "AWS Wavelength Zone",
+    "label": "US West (Verizon) - San Francisco Bay Area",
+    "continent": "North America"
+  },
+  "US West (Verizon) - Denver": {
+    "name": "US West (Verizon) - Denver",
+    "code": "us-west-2-wl1-den1",
+    "type": "AWS Wavelength Zone",
+    "label": "US West (Verizon) - Denver",
+    "continent": "North America"
+  },
+  "US West (Verizon) - Las Vegas": {
+    "name": "US West (Verizon) - Las Vegas",
+    "code": "us-west-2-wl1-las1",
+    "type": "AWS Wavelength Zone",
+    "label": "US West (Verizon) - Las Vegas",
+    "continent": "North America"
+  },
+  "US West (Verizon) - Los Angeles": {
+    "name": "US West (Verizon) - Los Angeles",
+    "code": "us-west-2-wl1-lax1",
+    "type": "AWS Wavelength Zone",
+    "label": "US West (Verizon) - Los Angeles",
+    "continent": "North America"
+  },
+  "US West (Verizon) - Phoenix": {
+    "name": "US West (Verizon) - Phoenix",
+    "code": "us-west-2-wl1-phx1",
+    "type": "AWS Wavelength Zone",
+    "label": "US West (Verizon) - Phoenix",
+    "continent": "North America"
+  },
+  "US West (Verizon) - Seattle": {
+    "name": "US West (Verizon) - Seattle",
+    "code": "us-west-2-wl1-sea1",
+    "type": "AWS Wavelength Zone",
+    "label": "US West (Verizon) - Seattle",
+    "continent": "North America"
+  },
+  "Nigeria (Lagos)": {
+    "name": "Nigeria (Lagos)",
+    "code": "af-south-1-los-1",
+    "type": "AWS Local Zone",
+    "label": "Nigeria (Lagos)",
+    "continent": "Africa"
+  },
+  "Taiwan (Taipei)": {
+    "name": "Taiwan (Taipei)",
+    "code": "ap-northeast-1-tpe-1",
+    "type": "AWS Local Zone",
+    "label": "Taiwan (Taipei)",
+    "continent": "Asia Pacific"
+  },
+  "India (Kolkata)": {
+    "name": "India (Kolkata)",
+    "code": "ap-south-1-ccu-1",
+    "type": "AWS Local Zone",
+    "label": "India (Kolkata)",
+    "continent": "Asia Pacific"
+  },
+  "India (Delhi)": {
+    "name": "India (Delhi)",
+    "code": "ap-south-1-del-1",
+    "type": "AWS Local Zone",
+    "label": "India (Delhi)",
+    "continent": "Asia Pacific"
+  },
+  "Thailand (Bangkok)": {
+    "name": "Thailand (Bangkok)",
+    "code": "ap-southeast-1-bkk-1",
+    "type": "AWS Local Zone",
+    "label": "Thailand (Bangkok)",
+    "continent": "Asia Pacific"
+  },
+  "Philippines (Manila)": {
+    "name": "Philippines (Manila)",
+    "code": "ap-southeast-1-mnl-1",
+    "type": "AWS Local Zone",
+    "label": "Philippines (Manila)",
+    "continent": "Asia Pacific"
+  },
+  "New Zealand (Auckland)": {
+    "name": "New Zealand (Auckland)",
+    "code": "ap-southeast-2-akl-1",
+    "type": "AWS Local Zone",
+    "label": "New Zealand (Auckland)",
+    "continent": "Asia Pacific"
+  },
+  "Australia (Perth)": {
+    "name": "Australia (Perth)",
+    "code": "ap-southeast-2-per-1",
+    "type": "AWS Local Zone",
+    "label": "Australia (Perth)",
+    "continent": "Asia Pacific"
+  },
+  "Germany (Hamburg)": {
+    "name": "Germany (Hamburg)",
+    "code": "eu-central-1-ham-1",
+    "type": "AWS Local Zone",
+    "label": "Germany (Hamburg)",
+    "continent": "Europe"
+  },
+  "Poland (Warsaw)": {
+    "name": "Poland (Warsaw)",
+    "code": "eu-central-1-waw-1",
+    "type": "AWS Local Zone",
+    "label": "Poland (Warsaw)",
+    "continent": "Europe"
+  },
+  "Denmark (Copenhagen)": {
+    "name": "Denmark (Copenhagen)",
+    "code": "eu-north-1-cph-1",
+    "type": "AWS Local Zone",
+    "label": "Denmark (Copenhagen)",
+    "continent": "Europe"
+  },
+  "Finland (Helsinki)": {
+    "name": "Finland (Helsinki)",
+    "code": "eu-north-1-hel-1",
+    "type": "AWS Local Zone",
+    "label": "Finland (Helsinki)",
+    "continent": "Europe"
+  },
+  "Oman (Muscat)": {
+    "name": "Oman (Muscat)",
+    "code": "me-south-1-mct-1",
+    "type": "AWS Local Zone",
+    "label": "Oman (Muscat)",
+    "continent": "Middle East"
+  },
+  "US East (Atlanta)": {
+    "name": "US East (Atlanta)",
+    "code": "us-east-1-atl-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Atlanta)",
+    "continent": "North America"
+  },
+  "US East (Boston)": {
+    "name": "US East (Boston)",
+    "code": "us-east-1-bos-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Boston)",
+    "continent": "North America"
+  },
+  "Argentina (Buenos Aires)": {
+    "name": "Argentina (Buenos Aires)",
+    "code": "us-east-1-bue-1",
+    "type": "AWS Local Zone",
+    "label": "Argentina (Buenos Aires)",
+    "continent": "South America"
+  },
+  "US East (Chicago)": {
+    "name": "US East (Chicago)",
+    "code": "us-east-1-chi-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Chicago)",
+    "continent": "North America"
+  },
+  "US East (Dallas)": {
+    "name": "US East (Dallas)",
+    "code": "us-east-1-dfw-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Dallas)",
+    "continent": "North America"
+  },
+  "US East (Houston)": {
+    "name": "US East (Houston)",
+    "code": "us-east-1-iah-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Houston)",
+    "continent": "North America"
+  },
+  "Peru (Lima)": {
+    "name": "Peru (Lima)",
+    "code": "us-east-1-lim-1",
+    "type": "AWS Local Zone",
+    "label": "Peru (Lima)",
+    "continent": "South America"
+  },
+  "US East (Kansas City 2)": {
+    "name": "US East (Kansas City 2)",
+    "code": "us-east-1-mci-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Kansas City 2)",
+    "continent": "North America"
+  },
+  "US East (Miami)": {
+    "name": "US East (Miami)",
+    "code": "us-east-1-mia-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Miami)",
+    "continent": "North America"
+  },
+  "US East (Minneapolis)": {
+    "name": "US East (Minneapolis)",
+    "code": "us-east-1-msp-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Minneapolis)",
+    "continent": "North America"
+  },
+  "US East (New York City)": {
+    "name": "US East (New York City)",
+    "code": "us-east-1-nyc-1",
+    "type": "AWS Local Zone",
+    "label": "US East (New York City)",
+    "continent": "North America"
+  },
+  "US East (Philadelphia)": {
+    "name": "US East (Philadelphia)",
+    "code": "us-east-1-phl-1",
+    "type": "AWS Local Zone",
+    "label": "US East (Philadelphia)",
+    "continent": "North America"
+  },
+  "Mexico (Queretaro)": {
+    "name": "Mexico (Queretaro)",
+    "code": "us-east-1-qro-1",
+    "type": "AWS Local Zone",
+    "label": "México (Querétaro)",
+    "continent": "North America"
+  },
+  "Chile (Santiago)": {
+    "name": "Chile (Santiago)",
+    "code": "us-east-1-scl-1",
+    "type": "AWS Local Zone",
+    "label": "Chile (Santiago)",
+    "continent": "South America"
+  },
+  "US West (Denver)": {
+    "name": "US West (Denver)",
+    "code": "us-west-2-den-1",
+    "type": "AWS Local Zone",
+    "label": "US West (Denver)",
+    "continent": "North America"
+  },
+  "US West (Honolulu)": {
+    "name": "US West (Honolulu)",
+    "code": "us-west-2-hnl-1",
+    "type": "AWS Local Zone",
+    "label": "US West (Honolulu)",
+    "continent": "North America"
+  },
+  "US West (Las Vegas)": {
+    "name": "US West (Las Vegas)",
+    "code": "us-west-2-las-1",
+    "type": "AWS Local Zone",
+    "label": "US West (Las Vegas)",
+    "continent": "North America"
+  },
+  "US West (Los Angeles)": {
+    "name": "US West (Los Angeles)",
+    "code": "us-west-2-lax-1",
+    "type": "AWS Local Zone",
+    "label": "US West (Los Angeles)",
+    "continent": "North America"
+  },
+  "US West (Portland)": {
+    "name": "US West (Portland)",
+    "code": "us-west-2-pdx-1",
+    "type": "AWS Local Zone",
+    "label": "US West (Portland)",
+    "continent": "North America"
+  },
+  "US West (Phoenix)": {
+    "name": "US West (Phoenix)",
+    "code": "us-west-2-phx-1",
+    "type": "AWS Local Zone",
+    "label": "US West (Phoenix)",
+    "continent": "North America"
+  },
+  "US West (Seattle)": {
+    "name": "US West (Seattle)",
+    "code": "us-west-2-sea-1",
+    "type": "AWS Local Zone",
+    "label": "US West (Seattle)",
+    "continent": "North America"
+  }
+}

@@ -19,7 +19,12 @@
     "build": "next build",
     "export": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch:locations": "tsx scripts/fetch-locations.ts",
+    "fetch:pricing": "tsx scripts/fetch-pricing.ts",
+    "fetch:all": "pnpm fetch:locations && pnpm fetch:pricing",
+    "transform:pricing": "tsx scripts/transform-pricing.ts",
+    "prebuild": "pnpm fetch:all && pnpm transform:pricing"
   },
   "dependencies": {
     "react": "19.2.0",
@@ -34,7 +39,8 @@
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "16.0.1"
+    "eslint-config-next": "16.0.1",
+    "tsx": "^4.7.0"
   },
   "packageManager": "pnpm@10.17.0+sha512.fce8a3dd29a4ed2ec566fb53efbb04d8c44a0f05bc6f24a73046910fb9c3ce7afa35a0980500668fa3573345bd644644fa98338fa168235c80f4aa17aa17fbef"
 }

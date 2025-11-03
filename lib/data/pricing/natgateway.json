@@ -1,0 +1,1111 @@
+{
+  "manifest": {
+    "serviceId": "ec2",
+    "accessType": "publish",
+    "esIndex": "plc-ec2-usd-20251028175455",
+    "hawkFilePublicationDate": "2025-10-28T17:54:55Z",
+    "ETLIngestionTriggerDate": "2025-10-28T17:54:55Z",
+    "currencyCode": "USD",
+    "source": "natgateway",
+    "isMapped": "true"
+  },
+  "sets": {},
+  "regions": {
+    "US West (Phoenix)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "ZV5J73H92KPC8CBK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "XJHDA8PNXTFTRTTV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "S3BXW4H2QTTD4S6H.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "KM6CKN2HPWGUXV4A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.2912000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "ZV5J73H92KPC8CBK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "XJHDA8PNXTFTRTTV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "S3BXW4H2QTTD4S6H.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "KM6CKN2HPWGUXV4A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.2912000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "US West (Oregon)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "8343CZA99BSCRAXK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "9AXD6XJT8GZWPQED.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "44T683R45QPT8RYQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "ZFN34ETJUDYPEZAD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0760000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "8343CZA99BSCRAXK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "9AXD6XJT8GZWPQED.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "44T683R45QPT8RYQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "ZFN34ETJUDYPEZAD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0760000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "US West (N. California)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "VC226SS922EZAGCX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "C2TJK7MGWYNZ7Q7J.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "C8JU5MW5DN6ZHDX4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "MHCKSAYKG8PM3PR6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.1400000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "VC226SS922EZAGCX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "C2TJK7MGWYNZ7Q7J.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "C8JU5MW5DN6ZHDX4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "MHCKSAYKG8PM3PR6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.1400000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "US West (Los Angeles)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "VYXFGXQAZ4WZRYD4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "ECNY4DSHKVRREZDF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "GZ6G6CNCWV3TJSMJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "4ZJF66UC9375V3CX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.2912000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "VYXFGXQAZ4WZRYD4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "ECNY4DSHKVRREZDF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "GZ6G6CNCWV3TJSMJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "4ZJF66UC9375V3CX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.2912000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "US East (Ohio)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "G4MQY9GDKJ9HD52T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "SRB9S9CM9RDPW97X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "G4MQY9GDKJ9HD52T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "SRB9S9CM9RDPW97X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "US East (N. Virginia)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "PF95WR6DG26CSW2U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "59S5R83GFPUAGVR5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "M2YSHUBETB3JX4M4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "2QF2GD6XUCJHFMKF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0760000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "PF95WR6DG26CSW2U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "59S5R83GFPUAGVR5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "M2YSHUBETB3JX4M4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0450000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "2QF2GD6XUCJHFMKF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0760000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "South America (Sao Paulo)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "SCEJ72FQAGUB53MY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0930000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "N3JNXFX89DVACZ9Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0930000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "SCEJ72FQAGUB53MY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0930000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "N3JNXFX89DVACZ9Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0930000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Middle East (UAE)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "DCQP8YTA6DNH6HPX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "THEZ6SPJPRP4HAM3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0528000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "8TSW9TTTWBARJHVK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0528000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "7BHRKAEPYEMZAA36.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.2804000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "DCQP8YTA6DNH6HPX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "THEZ6SPJPRP4HAM3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0528000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "8TSW9TTTWBARJHVK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0528000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "7BHRKAEPYEMZAA36.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.2804000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "Middle East (Bahrain)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "B8P88RJ7NDB6NRUN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "JYTAX4AZ3AFV6YWZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0528000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "2QPB2974E7UF6NGP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0528000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "3T5DWHWAQA3U9UAP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.2804000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "B8P88RJ7NDB6NRUN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "JYTAX4AZ3AFV6YWZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0528000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "2QPB2974E7UF6NGP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0528000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "3T5DWHWAQA3U9UAP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.2804000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "Mexico (Central)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "7J869XSZX5H8C52P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0472500000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "6WRB747KJCDYFREX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0472500000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "7J869XSZX5H8C52P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0472500000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "6WRB747KJCDYFREX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0472500000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Israel (Tel Aviv)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "GWY29GZUYMC5A2RK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0504000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "CV5ZUBAHD2XVMVJN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0504000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "GWY29GZUYMC5A2RK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0504000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "CV5ZUBAHD2XVMVJN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0504000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "EU (Zurich)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "W7QQ2SZQ6C32TVH9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "JTHQJZ34HRC9SBFY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0572000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "GRJ6H72PQZJ3YSVE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0572000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "SR6DQWUUWQQZNYUM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.3871000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "W7QQ2SZQ6C32TVH9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "JTHQJZ34HRC9SBFY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0572000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "GRJ6H72PQZJ3YSVE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0572000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "SR6DQWUUWQQZNYUM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.3871000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "EU (Stockholm)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "MCHRT5V97Y4SUYEQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "GRRDFYMQ5CUU37H4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0460000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "BYQ4CZQVRHZ225T7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0460000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "CMXJV2Q9BUHBADPU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.1060000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "MCHRT5V97Y4SUYEQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "GRRDFYMQ5CUU37H4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0460000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "BYQ4CZQVRHZ225T7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0460000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "CMXJV2Q9BUHBADPU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.1060000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "EU (Spain)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "58CJP4RMY3APN82B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "5MACN4CM6WEUTZU5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "J68CACDFX6JYYNVN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "P3ZJ9EANPF5RERQS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.1640000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "58CJP4RMY3APN82B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "5MACN4CM6WEUTZU5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "J68CACDFX6JYYNVN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "P3ZJ9EANPF5RERQS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.1640000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "EU (Paris)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "QBM2FSFWP6GWWHMU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "XZT57E2HU6XVM9V7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "QBM2FSFWP6GWWHMU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "XZT57E2HU6XVM9V7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "EU (Milan)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "7KKD79UEKJ5HJA4W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "WG84FT8RNBC9QM3A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "7KKD79UEKJ5HJA4W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "WG84FT8RNBC9QM3A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "EU (London)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "ZECE57EY4F96YNAQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "D8BXG95NJW6MV3B3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "ZECE57EY4F96YNAQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "D8BXG95NJW6MV3B3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "EU (Ireland)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "9F25CQRR8AA58QZS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "DTH8595YVPFXV226.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "KFNSSCHWD43WZK2R.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "AVQ7WERG9GYTK6BD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.1640000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "9F25CQRR8AA58QZS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "DTH8595YVPFXV226.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "KFNSSCHWD43WZK2R.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0480000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "AVQ7WERG9GYTK6BD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.1640000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "EU (Frankfurt)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "AKVNMYU8AXRDW7H6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0520000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "FY5BA3Q38RMNEMJS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0520000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "AKVNMYU8AXRDW7H6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0520000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "FY5BA3Q38RMNEMJS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0520000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Canada West (Calgary)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "Z6SCA82TJ4MD2AUQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "G4GGMT6CC5QZYQ99.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "Z6SCA82TJ4MD2AUQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "G4GGMT6CC5QZYQ99.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Canada (Central)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "E4JGN2UYVDEVWJNW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "N8T4EWFNU7QDZYSA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "E4JGN2UYVDEVWJNW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "N8T4EWFNU7QDZYSA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Tokyo)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "8N8CH4997XXBAFEA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "3Z2F4ZNXEMZB88ED.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0620000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "CA23TN2NAN47KGCF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0620000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "CD5J5DWQPKCWPBQJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.4810000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "8N8CH4997XXBAFEA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "3Z2F4ZNXEMZB88ED.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0620000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "CA23TN2NAN47KGCF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0620000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "CD5J5DWQPKCWPBQJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.4810000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "Asia Pacific (Thailand)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "CCH83FS7F9G3N7K2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0501500000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "HYJXCYSU85MWV42D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0501500000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "CCH83FS7F9G3N7K2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0501500000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "HYJXCYSU85MWV42D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0501500000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Taipei)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "WRUNMVVQSGPD6D9M.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0558000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "MFKWZVS8E9GW6SXH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0558000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "WRUNMVVQSGPD6D9M.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0558000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "MFKWZVS8E9GW6SXH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0558000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Sydney)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "KSHYFCUNWFSUXCAV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "NUKV5QPTHVFBW7DE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "KSHYFCUNWFSUXCAV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "NUKV5QPTHVFBW7DE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Singapore)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "E9U985ZGMWKXKT47.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "98TA3WPUP3A4AH4Y.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "E9U985ZGMWKXKT47.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "98TA3WPUP3A4AH4Y.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Seoul)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "HC3MBQKUG7PB4BYX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "P63FHTYZXQBC6HX5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "HC3MBQKUG7PB4BYX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "P63FHTYZXQBC6HX5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Osaka)": {
+      "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0": {
+        "rateCode": "TQJR5V6ZW8RWKJ83.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "UTAE4P7WR62FNFJR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0620000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "GGHWBY8R4JW7BEEP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0620000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI": {
+        "rateCode": "J36PE7FHB4UBW6WQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.4810000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      },
+      "Charge for per GB data processed by NAT Gateways with provisioned bandwidth": {
+        "rateCode": "TQJR5V6ZW8RWKJ83.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "uGWpZ7y3CsXGvXrdapCnU9L087i-K0ybFSr5m_l7LK0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "UTAE4P7WR62FNFJR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0620000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "GGHWBY8R4JW7BEEP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0620000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Per hour and per Gbps charge for NAT Gateways with provisioned bandwidth": {
+        "rateCode": "J36PE7FHB4UBW6WQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.4810000000",
+        "RegionlessRateCode": "TAP9pi8NpldVB-9Gz1WNTqjd4rFkvfdj8BhYSs598aI"
+      }
+    },
+    "Asia Pacific (New Zealand)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "38XB333ZY8BZKC8G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0619500000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "2PFZ4MCDBJZ7HTDH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0619500000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "38XB333ZY8BZKC8G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0619500000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "2PFZ4MCDBJZ7HTDH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0619500000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Mumbai)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "U3B5F5D6AU5THP8V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0560000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "DJ4GYZ29AWV3WFQX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0560000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "U3B5F5D6AU5THP8V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0560000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "DJ4GYZ29AWV3WFQX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0560000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Melbourne)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "5848FANSTXHTTXHB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "JNJ44S5GFES2PFZJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "5848FANSTXHTTXHB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "JNJ44S5GFES2PFZJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Malaysia)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "WBYFK8W4KH6B9RDP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0501500000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "QNPCMTAYHQRPKG63.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0501500000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "WBYFK8W4KH6B9RDP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0501500000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "QNPCMTAYHQRPKG63.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0501500000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Jakarta)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "8RJTD2X5KSJZEYA6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "D7FW9FUMBXT4WRX6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "8RJTD2X5KSJZEYA6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "D7FW9FUMBXT4WRX6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0590000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Hyderabad)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "HHBJ6944Y8CZ9QXQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0560000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "ESWE55Y6N5NZHMEQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0560000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "HHBJ6944Y8CZ9QXQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0560000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "ESWE55Y6N5NZHMEQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0560000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Asia Pacific (Hong Kong)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "PUKH5BJ5CXF4K4RB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0650000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "GQ7R6TRHK9W2PM5V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0650000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "PUKH5BJ5CXF4K4RB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0650000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "GQ7R6TRHK9W2PM5V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0650000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "Africa (Cape Town)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "VJUNJK7THUCUPZ5C.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0570000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "U73HRB9YKHATEZNY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0570000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "VJUNJK7THUCUPZ5C.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0570000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "U73HRB9YKHATEZNY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0570000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "AWS GovCloud (US-East)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "TGCSQKR4S9FYZCJ3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "SF65JYCN379A4692.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "TGCSQKR4S9FYZCJ3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "SF65JYCN379A4692.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    },
+    "AWS GovCloud (US)": {
+      "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg": {
+        "rateCode": "FGQXX38E89Y99JZA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0": {
+        "rateCode": "XU9VM5UP9XUHN4T4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      },
+      "Charge for per GB data processed by NatGateways": {
+        "rateCode": "FGQXX38E89Y99JZA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "rppgazyNQmDj3OFozY5oD9FqprGP-0ZMaUVUheBF4Gg"
+      },
+      "Hourly charge for NAT Gateways": {
+        "rateCode": "XU9VM5UP9XUHN4T4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0540000000",
+        "RegionlessRateCode": "iqjApSEPEtLs5ZMoe8h2BUQ3Nq2JPdQ6S6kgTyMPLO0"
+      }
+    }
+  }
+}

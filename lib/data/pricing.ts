@@ -1,92 +1,17 @@
-import type { PricingEntry, EC2PricingAttributes, S3PricingAttributes, VPCPricingAttributes } from '../types';
+import type { PricingEntry } from '../types';
+// Import from new pricing structure
+import {
+  getPricingByServiceId as getPricingByServiceIdFromIndex,
+  filterPricingByRegion as filterPricingByRegionFromIndex,
+  getUniqueRegions as getUniqueRegionsFromIndex,
+  ec2Pricing,
+} from './pricing/index';
 
-export const ec2Pricing: PricingEntry[] = [
-  {
-    serviceId: 'ec2',
-    region: 'us-east-1',
-    attributes: {
-      instanceType: 't3.micro',
-      vcpu: '2',
-      memory: '1 GB',
-      operatingSystem: 'Linux',
-    },
-    pricePerUnit: '0.0104',
-    unit: 'USD per hour',
-  },
-  {
-    serviceId: 'ec2',
-    region: 'us-east-1',
-    attributes: {
-      instanceType: 't3.small',
-      vcpu: '2',
-      memory: '2 GB',
-      operatingSystem: 'Linux',
-    },
-    pricePerUnit: '0.0208',
-    unit: 'USD per hour',
-  },
-  {
-    serviceId: 'ec2',
-    region: 'us-east-1',
-    attributes: {
-      instanceType: 't3.medium',
-      vcpu: '2',
-      memory: '4 GB',
-      operatingSystem: 'Linux',
-    },
-    pricePerUnit: '0.0416',
-    unit: 'USD per hour',
-  },
-  {
-    serviceId: 'ec2',
-    region: 'us-west-2',
-    attributes: {
-      instanceType: 't3.micro',
-      vcpu: '2',
-      memory: '1 GB',
-      operatingSystem: 'Linux',
-    },
-    pricePerUnit: '0.0104',
-    unit: 'USD per hour',
-  },
-  {
-    serviceId: 'ec2',
-    region: 'ap-southeast-1',
-    attributes: {
-      instanceType: 't3.micro',
-      vcpu: '2',
-      memory: '1 GB',
-      operatingSystem: 'Linux',
-    },
-    pricePerUnit: '0.0117',
-    unit: 'USD per hour',
-  },
-  {
-    serviceId: 'ec2',
-    region: 'us-east-1',
-    attributes: {
-      instanceType: 'm5.large',
-      vcpu: '2',
-      memory: '8 GB',
-      operatingSystem: 'Linux',
-    },
-    pricePerUnit: '0.096',
-    unit: 'USD per hour',
-  },
-  {
-    serviceId: 'ec2',
-    region: 'us-east-1',
-    attributes: {
-      instanceType: 'm5.xlarge',
-      vcpu: '4',
-      memory: '16 GB',
-      operatingSystem: 'Linux',
-    },
-    pricePerUnit: '0.192',
-    unit: 'USD per hour',
-  },
-];
+// Re-export for backward compatibility
+export { ec2Pricing };
 
+// Legacy hardcoded data for services not yet migrated to file-based system
+// TODO: Remove after migrating all services to file-based pricing
 export const s3Pricing: PricingEntry[] = [
   {
     serviceId: 's3',
@@ -183,10 +108,15 @@ export const vpcPricing: PricingEntry[] = [
   },
 ];
 
+// Delegate to new pricing structure, with fallback for legacy services
 export function getPricingByServiceId(serviceId: string): PricingEntry[] {
+  const fromIndex = getPricingByServiceIdFromIndex(serviceId);
+  if (fromIndex.length > 0) {
+    return fromIndex;
+  }
+
+  // Fallback to legacy hardcoded data
   switch (serviceId) {
-    case 'ec2':
-      return ec2Pricing;
     case 's3':
       return s3Pricing;
     case 'vpc':
@@ -196,13 +126,7 @@ export function getPricingByServiceId(serviceId: string): PricingEntry[] {
   }
 }
 
-export function filterPricingByRegion(pricing: PricingEntry[], region?: string): PricingEntry[] {
-  if (!region) return pricing;
-  return pricing.filter((entry) => entry.region === region);
-}
-
-export function getUniqueRegions(pricing: PricingEntry[]): string[] {
-  const regions = pricing.map((entry) => entry.region);
-  return Array.from(new Set(regions)).sort();
-}
+// Re-export utility functions from new pricing structure
+export { filterPricingByRegionFromIndex as filterPricingByRegion };
+export { getUniqueRegionsFromIndex as getUniqueRegions };
 
