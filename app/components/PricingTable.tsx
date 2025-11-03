@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import type { PricingEntry } from '@/lib/types';
 import { formatPrice, formatMonthlyPrice } from '@/lib/utils/formatPrice';
 
@@ -12,20 +12,15 @@ interface PricingTableProps {
 type SortColumn = string | null;
 type SortDirection = 'asc' | 'desc';
 
-const ITEMS_PER_PAGE = 50;
+const DEFAULT_ITEMS_PER_PAGE = 50;
 
 export default function PricingTable({ pricing, serviceId }: Readonly<PricingTableProps>) {
   const [sortColumn, setSortColumn] = useState<SortColumn>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
   const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState<number>(DEFAULT_ITEMS_PER_PAGE);
 
-  if (pricing.length === 0) {
-    return (
-      <div className="rounded-lg border border-zinc-200 bg-white p-8 text-center dark:border-zinc-800 dark:bg-zinc-900">
-        <p className="text-zinc-600 dark:text-zinc-400">No pricing data available</p>
-      </div>
-    );
-  }
+  // Keep hooks order stable; handle empty state in render below
 
   const handleSort = (column: string) => {
     if (sortColumn === column) {
@@ -78,15 +73,11 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
   }, [pricing, sortColumn, sortDirection]);
 
   // Pagination calculations
-  const totalPages = Math.ceil(sortedPricing.length / ITEMS_PER_PAGE);
-  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const totalPages = Math.max(1, Math.ceil(sortedPricing.length / itemsPerPage));
+  const safeCurrentPage = Math.min(currentPage, totalPages);
+  const startIndex = (safeCurrentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
   const paginatedPricing = sortedPricing.slice(startIndex, endIndex);
-
-  // Reset to page 1 when pricing changes
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [pricing.length]);
 
   const getColumns = () => {
     if (serviceId === 'ec2') {
@@ -207,9 +198,15 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
   const columns = getColumns();
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
-      <table className="min-w-full divide-y divide-zinc-200 dark:divide-zinc-800">
-        <thead className="bg-zinc-50 dark:bg-zinc-800">
+    <div className="overflow-x-auto rounded-lg bg-surface border border-border">
+      {pricing.length === 0 ? (
+        <div className="p-8 text-center">
+          <p className="text-zinc-600 dark:text-zinc-400">No pricing data available</p>
+        </div>
+      ) : (
+        <>
+      <table className="min-w-full divide-y divide-border">
+        <thead className="sticky top-0 z-10 bg-overlay">
           <tr>
             {columns.map((column) => (
               <th
@@ -230,7 +227,7 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
             ))}
           </tr>
         </thead>
-        <tbody className="divide-y divide-zinc-200 bg-white dark:divide-zinc-800 dark:bg-zinc-900">
+        <tbody className="divide-y divide-border bg-surface">
           {paginatedPricing.map((entry, index) => {
             // Use unique key based on serviceId, region, and main attributes
             // Avoid JSON.stringify for performance
@@ -239,7 +236,7 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
             return (
             <tr
               key={uniqueKey}
-              className="hover:bg-zinc-50 dark:hover:bg-zinc-800"
+              className="hover:bg-zinc-50 dark:hover:bg-zinc-800 even:bg-zinc-50/40 dark:even:bg-zinc-800/60"
             >
               {columns.map((column) => {
                 let cellContent: string;
@@ -259,7 +256,9 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
                 return (
                   <td
                     key={column.key}
-                    className="whitespace-nowrap px-6 py-4 text-sm text-zinc-900 dark:text-zinc-50"
+                    className={`whitespace-nowrap px-6 py-4 text-sm text-zinc-900 dark:text-zinc-50 ${
+                      column.key === 'pricePerUnit' || column.key === 'pricePerMonth' ? 'text-right' : 'text-left'
+                    }`}
                   >
                     {cellContent}
                   </td>
@@ -280,7 +279,20 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
               <span className="font-medium">{Math.min(endIndex, sortedPricing.length)}</span> of{' '}
               <span className="font-medium">{sortedPricing.length}</span> results
             </div>
-            <div className="flex gap-2">
+            <div className="flex items-center gap-3">
+              <label className="text-sm text-zinc-600 dark:text-zinc-400">Rows per page</label>
+              <select
+                aria-label="Rows per page"
+                className="rounded-md border border-zinc-300 bg-white px-2 py-1 text-sm text-zinc-900 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50"
+                value={itemsPerPage}
+                onChange={(e) => { setItemsPerPage(Number(e.target.value)); setCurrentPage(1); }}
+              >
+                {[25, 50, 100].map((n) => (
+                  <option key={n} value={n}>{n}</option>
+                ))}
+              </select>
+              <div className="w-px self-stretch bg-zinc-200 dark:bg-zinc-700" />
+              <div className="flex gap-2">
               <button
                 onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
                 disabled={currentPage === 1}
@@ -323,9 +335,12 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
               >
                 Next
               </button>
+              </div>
             </div>
           </div>
         </div>
+      )}
+        </>
       )}
     </div>
   );

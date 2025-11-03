@@ -2,15 +2,15 @@ import Link from 'next/link';
 
 export default function NotFound() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-black">
+    <div className="flex min-h-screen items-center justify-center bg-bg text-text">
       <div className="text-center">
-        <h1 className="text-4xl font-bold text-zinc-900 dark:text-zinc-50">404</h1>
-        <p className="mt-4 text-zinc-600 dark:text-zinc-400">
+        <h1 className="text-4xl font-extrabold tracking-tight">404</h1>
+        <p className="mt-4 text-muted">
           Service not found
         </p>
         <Link
           href="/services"
-          className="mt-6 inline-block rounded-md bg-zinc-900 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-zinc-800 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-100"
+          className="mt-6 inline-block rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-black dark:text-[#1f2937] hover:bg-[var(--primary-hover)] focus-visible:outline-2 focus-visible:outline-accent/70 focus-visible:outline-offset-1"
         >
           Back to Services
         </Link>

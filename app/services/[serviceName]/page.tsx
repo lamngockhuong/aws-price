@@ -1,5 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Breadcrumb from '@/app/components/Breadcrumb';
+import InfoBanner from '@/app/components/InfoBanner';
 import ServiceDetailContent from './ServiceDetailContent';
 import { getServiceById, services } from '@/lib/data/services';
 import { getPricingByServiceId } from '@/lib/data/pricing';
@@ -25,15 +27,19 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
   const allPricing = getPricingByServiceId(serviceName);
 
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-black">
+    <div className="min-h-screen bg-bg text-text">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="mb-8">
-          <Link
-            href="/services"
-            className="text-sm text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50"
-          >
-            ← Back to Services
-          </Link>
+          <div className="mb-3">
+            <Breadcrumb
+              items={[
+                { label: 'Home', href: '/' },
+                { label: 'Services', href: '/services' },
+                { label: service.category, href: `/services` },
+                { label: service.name },
+              ]}
+            />
+          </div>
           <h1 className="mt-4 text-3xl font-bold text-zinc-900 dark:text-zinc-50">
             {service.name}
           </h1>
@@ -41,6 +47,9 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
           <span className="mt-3 inline-block rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">
             {service.category}
           </span>
+          <div className="mt-4">
+            <InfoBanner sourceUrl={`https://b0.p.awsstatic.com/pricing/`} />
+          </div>
         </div>
 
         <ServiceDetailContent serviceId={serviceName} allPricing={allPricing} />
