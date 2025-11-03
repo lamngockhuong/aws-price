@@ -18,6 +18,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "AWS Price Tracker",
   description: "View and compare pricing for AWS services",
+  // Next.js automatically handles icon.svg in app/ directory
+  // Custom icons can be added here if needed
 };
 
 export default function RootLayout({
