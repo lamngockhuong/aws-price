@@ -19,51 +19,65 @@ The system SHALL provide a service listing page at `/services` that displays AWS
 
 ### Requirement: Service Detail Page
 
-The system SHALL provide individual service detail pages at `/services/[serviceName]` that display pricing information in a table format. Pricing data SHALL be loaded from offline JSON files stored in `lib/data/pricing/` directory, with one file per service (e.g., `ec2.json`, `natgateway.json`).
-
-#### Scenario: View EC2 pricing
-
-- **WHEN** user navigates to `/services/ec2`
-- **THEN** they see a table with columns: Instance Type, vCPU, Memory, Price/hour, Price/month, Region
-- **AND** the table displays pricing data loaded from `lib/data/pricing/ec2.json`
-- **AND** pricing data is transformed from AWS API format to internal `PricingEntry[]` format
-- **AND** table columns are sortable
+The system SHALL provide individual service detail pages at `/services/[serviceName]` that display pricing information in a table format, supporting multiple AWS service types with service-specific column configurations.
 
 #### Scenario: View S3 pricing
 
 - **WHEN** user navigates to `/services/s3`
-- **THEN** they see a table with columns: Storage Tier, Price/GB, Request Type, Price/1000 requests, Region
-- **AND** the table displays pricing data loaded from `lib/data/pricing/s3.json`
-- **AND** pricing data is transformed from AWS API format to internal format
+- **THEN** they see a table with columns: Storage Class, Request Type, Price/GB or Price/1000 requests, Region
+- **AND** the table displays pricing data for different S3 storage classes (Standard, Standard-IA, Glacier, etc.)
 - **AND** table columns are sortable
+- **AND** pricing data is fetched from pre-transformed S3 pricing files
 
-#### Scenario: View VPC pricing
+#### Scenario: View RDS pricing
 
-- **WHEN** user navigates to `/services/vpc`
-- **THEN** they see a table with VPC-related pricing information
-- **AND** the table displays pricing data loaded from `lib/data/pricing/vpc.json`
-- **AND** the table displays relevant pricing metrics for VPC services
+- **WHEN** user navigates to `/services/rds`
+- **THEN** they see a table with columns: Instance Type, Engine, Multi-AZ, Price/hour, Region
+- **AND** the table displays pricing data for different RDS instance types and database engines
+- **AND** table columns are sortable
+- **AND** pricing data is fetched from pre-transformed RDS pricing files
 
-#### Scenario: Load pricing from per-service files
+#### Scenario: View Lambda pricing
 
-- **WHEN** a service detail page loads pricing data
-- **THEN** it uses `getPricingByServiceId()` function from `lib/data/pricing/index.ts`
-- **AND** the function dynamically loads from the appropriate service file in `lib/data/pricing/`
-- **AND** data is transformed from raw JSON to `PricingEntry[]` format
-- **AND** the page displays an error message if pricing data is unavailable
+- **WHEN** user navigates to `/services/lambda`
+- **THEN** they see a table with columns: Memory (MB), Requests, Compute Duration, Price/1M requests, Price/GB-second, Region
+- **AND** the table displays pricing data for different Lambda configurations
+- **AND** table columns are sortable
+- **AND** pricing data is fetched from pre-transformed Lambda pricing files
+
+#### Scenario: View CloudFront pricing
+
+- **WHEN** user navigates to `/services/cloudfront`
+- **THEN** they see a table with CloudFront-specific pricing columns
+- **AND** the table displays pricing data for data transfer and requests
+- **AND** table columns are sortable
+- **AND** pricing data is fetched from pre-transformed CloudFront pricing files
+
+#### Scenario: View additional services pricing
+
+- **WHEN** user navigates to a service detail page for any supported service (Translate, API Gateway, etc.)
+- **THEN** they see a table with service-specific columns relevant to that service's pricing structure
+- **AND** the table displays pricing data correctly
+- **AND** table columns are sortable
+- **AND** pricing data is fetched from pre-transformed pricing files
+
+#### Scenario: Service without pricing data
+
+- **WHEN** user navigates to a service detail page for a service without pricing API support
+- **THEN** they see a message indicating that pricing data is not available
+- **AND** the page still displays service information (name, description, category)
+- **AND** the page does not show an error or broken state
 
 ### Requirement: Region Filtering
-The system SHALL allow users to filter pricing data by AWS region.
 
-#### Scenario: Filter by region
-- **WHEN** user selects a region from the filter dropdown (e.g., "us-east-1")
-- **THEN** the pricing table updates to show only pricing for the selected region
-- **AND** the table displays "No data" if no pricing exists for that region
+The system SHALL allow users to filter pricing data by AWS region for all services with pricing data.
 
-#### Scenario: Clear region filter
-- **WHEN** user clears the region filter
-- **THEN** the pricing table shows all available regions
-- **AND** rows may be grouped or duplicated by region
+#### Scenario: Filter by region for any service
+
+- **WHEN** user selects a region from the filter dropdown for any service (EC2, S3, RDS, Lambda, etc.)
+- **THEN** the pricing table displays only pricing entries for that region
+- **AND** the filter works consistently across all service types
+- **AND** the filtered results maintain sortable columns
 
 ### Requirement: Service-Specific Filtering
 The system SHALL provide service-specific filters based on service type.
@@ -125,4 +139,33 @@ The system SHALL support dark mode for all service display pages.
 - **THEN** all pages display with dark theme
 - **AND** tables have appropriate contrast for readability
 - **AND** text and background colors follow dark mode palette
+
+### Requirement: Service-Specific Table Columns
+
+The system SHALL display service-specific columns in pricing tables based on the service type's pricing structure.
+
+#### Scenario: S3 shows storage and request columns
+
+- **WHEN** viewing S3 pricing
+- **THEN** the table shows columns specific to S3: Storage Class, Request Type, Price/GB, Price/1000 requests, Region
+- **AND** columns are relevant to S3's pricing model (storage + requests)
+
+#### Scenario: RDS shows database columns
+
+- **WHEN** viewing RDS pricing
+- **THEN** the table shows columns specific to RDS: Instance Type, Engine, Multi-AZ, Price/hour, Region
+- **AND** columns are relevant to RDS's pricing model (instances + engines)
+
+#### Scenario: Lambda shows compute columns
+
+- **WHEN** viewing Lambda pricing
+- **THEN** the table shows columns specific to Lambda: Memory (MB), Requests, Compute Duration, Price/1M requests, Price/GB-second, Region
+- **AND** columns are relevant to Lambda's pricing model (requests + compute)
+
+#### Scenario: Column configuration is extensible
+
+- **WHEN** a new service is added with pricing support
+- **THEN** column configuration can be added to `PricingTable` component
+- **AND** the new service's pricing displays with appropriate columns
+- **AND** existing services continue to work correctly
 
