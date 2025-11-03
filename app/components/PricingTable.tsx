@@ -104,12 +104,13 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
       return [
         { key: 'storageClass', label: 'Storage Tier' },
         { key: 'requestType', label: 'Request Type' },
+        { key: 'usageType', label: 'Usage Type' },
         { key: 'pricePerUnit', label: 'Price' },
         { key: 'unit', label: 'Unit' },
         { key: 'region', label: 'Region' },
       ];
     }
-    if (serviceId === 'vpc') {
+    if (serviceId === 'vpc' || serviceId === 'natgateway') {
       return [
         { key: 'feature', label: 'Feature' },
         { key: 'usageType', label: 'Usage Type' },
@@ -118,7 +119,89 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
         { key: 'region', label: 'Region' },
       ];
     }
-    return [];
+    if (serviceId === 'lambda') {
+      return [
+        { key: 'memory', label: 'Memory (MB)' },
+        { key: 'usageType', label: 'Usage Type' },
+        { key: 'requests', label: 'Requests' },
+        { key: 'computeDuration', label: 'Compute Duration' },
+        { key: 'pricePerUnit', label: 'Price' },
+        { key: 'unit', label: 'Unit' },
+        { key: 'region', label: 'Region' },
+      ];
+    }
+    if (serviceId === 'cloudfront') {
+      return [
+        { key: 'feature', label: 'Feature' },
+        { key: 'usageType', label: 'Usage Type' },
+        { key: 'dataTransferClass', label: 'Data Transfer Class' },
+        { key: 'pricePerUnit', label: 'Price' },
+        { key: 'unit', label: 'Unit' },
+        { key: 'region', label: 'Region' },
+      ];
+    }
+    if (serviceId === 'translate') {
+      return [
+        { key: 'feature', label: 'Feature' },
+        { key: 'usageType', label: 'Usage Type' },
+        { key: 'pricePerUnit', label: 'Price' },
+        { key: 'unit', label: 'Unit' },
+        { key: 'region', label: 'Region' },
+      ];
+    }
+    if (serviceId === 'apigateway') {
+      return [
+        { key: 'feature', label: 'Feature' },
+        { key: 'usageType', label: 'Usage Type' },
+        { key: 'pricePerUnit', label: 'Price' },
+        { key: 'unit', label: 'Unit' },
+        { key: 'region', label: 'Region' },
+      ];
+    }
+    if (serviceId === 'ecs' || serviceId === 'eks') {
+      return [
+        { key: 'feature', label: 'Feature' },
+        { key: 'usageType', label: 'Usage Type' },
+        { key: 'pricePerUnit', label: 'Price' },
+        { key: 'unit', label: 'Unit' },
+        { key: 'region', label: 'Region' },
+      ];
+    }
+    if (serviceId === 'redshift') {
+      return [
+        { key: 'feature', label: 'Feature' },
+        { key: 'usageType', label: 'Usage Type' },
+        { key: 'pricePerUnit', label: 'Price' },
+        { key: 'unit', label: 'Unit' },
+        { key: 'region', label: 'Region' },
+      ];
+    }
+    if (serviceId === 'dynamodb') {
+      return [
+        { key: 'feature', label: 'Feature' },
+        { key: 'usageType', label: 'Usage Type' },
+        { key: 'pricePerUnit', label: 'Price' },
+        { key: 'unit', label: 'Unit' },
+        { key: 'region', label: 'Region' },
+      ];
+    }
+    if (serviceId === 'sns') {
+      return [
+        { key: 'feature', label: 'Feature' },
+        { key: 'usageType', label: 'Usage Type' },
+        { key: 'pricePerUnit', label: 'Price' },
+        { key: 'unit', label: 'Unit' },
+        { key: 'region', label: 'Region' },
+      ];
+    }
+    // Generic fallback for services without specific column config
+    return [
+      { key: 'feature', label: 'Feature' },
+      { key: 'usageType', label: 'Usage Type' },
+      { key: 'pricePerUnit', label: 'Price' },
+      { key: 'unit', label: 'Unit' },
+      { key: 'region', label: 'Region' },
+    ];
   };
 
   const columns = getColumns();

@@ -3,7 +3,7 @@ import { services, getServicesByCategory } from '@/lib/data/services';
 import ServiceCard from '@/app/components/ServiceCard';
 import type { ServiceCategory } from '@/lib/types';
 
-const categories: ServiceCategory[] = ['Compute', 'Networking', 'Storage', 'Database'];
+const categories: ServiceCategory[] = ['Compute', 'Networking', 'Storage', 'Database', 'Other'];
 
 const popularServices = ['ec2', 's3', 'vpc'];
 
