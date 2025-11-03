@@ -15,7 +15,7 @@ Users struggle to scan and navigate pricing data. Key UX gaps: no autocomplete o
 - Visual/UI polish: AWS icons on service cards, category color accents, subtle hover animation
 - Typography update: adopt Inter or Manrope; ensure dark/light parity
 - Theme toggle (override system prefers-color-scheme)
-- Footer links: About, GitHub, Feedback, Data source
+- Footer links: About, Khuong Dev, Report issue, Data source
 
 ## Impact
 

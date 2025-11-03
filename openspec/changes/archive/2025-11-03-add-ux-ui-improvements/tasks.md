@@ -11,7 +11,7 @@
 - [x] 1.8 Add AWS icons and category color accents to `ServiceCard.tsx` with hover animation
 - [x] 1.9 Update typography to Inter or Manrope in `layout.tsx` and `globals.css`
 - [x] 1.10 Add theme toggle in `Header.tsx` and persist preference
-- [x] 1.11 Update `Footer.tsx` links: About, GitHub, Feedback, Data source
+- [x] 1.11 Update `Footer.tsx` links: About, Khuong Dev, Report issue, Data source
 - [ ] 1.12 Scaffold compare feature (flag-only): multi-select services and compare route/component (disabled by default)
 
 ## 2. QA & Accessibility

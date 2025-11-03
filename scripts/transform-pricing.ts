@@ -1,4 +1,5 @@
 import { join } from 'path';
+import { writeFileSync } from 'fs';
 import { transformEC2Pricing } from '../lib/data/pricing/ec2';
 import { transformNATGatewayPricing } from '../lib/data/pricing/natgateway';
 import { transformS3Pricing } from '../lib/data/pricing/s3';
@@ -63,6 +64,21 @@ async function transformPricing() {
   console.log(`\n✓ Transformed ${successCount} services successfully`);
   if (failCount > 0) {
     console.log(`⚠ ${failCount} services failed to transform`);
+  }
+
+  // Write/update metadata for last transform time
+  try {
+    const metadataPath = join(PRICING_DIR, 'metadata.json');
+    const nowIso = new Date().toISOString();
+    let metadata: any = {};
+    try {
+      metadata = require(metadataPath);
+    } catch {}
+    metadata.lastTransformAt = nowIso;
+    writeFileSync(metadataPath, JSON.stringify(metadata, null, 2), 'utf-8');
+    console.log(`\n🕒 Updated metadata: lastTransformAt=${nowIso}`);
+  } catch (e) {
+    console.warn('Could not write pricing metadata.json:', e);
   }
 }
 

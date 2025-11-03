@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Breadcrumb from '@/app/components/Breadcrumb';
-import InfoBanner from '@/app/components/InfoBanner';
+import PricingInfoBanner from '@/app/components/PricingInfoBanner';
 import ServiceDetailContent from './ServiceDetailContent';
 import { getServiceById, services } from '@/lib/data/services';
 import { getPricingByServiceId } from '@/lib/data/pricing';
@@ -47,7 +47,7 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
             {service.category}
           </span>
           <div className="mt-4">
-            <InfoBanner sourceUrl={`https://b0.p.awsstatic.com/pricing/`} />
+            <PricingInfoBanner />
           </div>
         </div>
 

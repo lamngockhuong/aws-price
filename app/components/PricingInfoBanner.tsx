@@ -1,0 +1,18 @@
+"use client";
+
+import InfoBanner from '@/app/components/InfoBanner';
+import pricingMetadata from '@/lib/data/pricing/metadata.json';
+
+export default function PricingInfoBanner() {
+  const iso = (pricingMetadata as { lastPricingFetchAt?: string; lastTransformAt?: string }).lastTransformAt
+    ?? (pricingMetadata as { lastPricingFetchAt?: string }).lastPricingFetchAt;
+  const updatedAt = iso
+    ? new Date(iso).toLocaleString(undefined, {
+        dateStyle: 'short',
+        timeStyle: 'short',
+      })
+    : undefined;
+  return <InfoBanner updatedAt={updatedAt} />;
+}
+
+
