@@ -7,7 +7,7 @@ import SearchBar from '@/app/components/SearchBar';
 import { services, getServicesByCategory } from '@/lib/data/services';
 import type { ServiceCategory } from '@/lib/types';
 
-const categories: ServiceCategory[] = ['Compute', 'Networking', 'Storage', 'Database'];
+const categories: ServiceCategory[] = ['Compute', 'Networking', 'Storage', 'Database', 'Other'];
 
 function ServicesContentInner() {
   const searchParams = useSearchParams();

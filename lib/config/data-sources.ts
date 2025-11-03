@@ -16,6 +16,8 @@ export const locationsSource: DataSourceConfig = {
 };
 
 // Pricing data sources - one per service
+// Validated services with pricing API support:
+// s3, lambda, cloudfront, translate, apigateway, ecs, eks, redshift, dynamodb, sns
 export const pricingSources: DataSourceConfig[] = [
   {
     id: 'ec2-pricing',
@@ -54,6 +56,136 @@ export const pricingSources: DataSourceConfig[] = [
         'regions' in data
       );
     }
+  },
+  {
+    id: 's3-pricing',
+    name: 'S3 Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/s3/USD/current/s3.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'lambda-pricing',
+    name: 'Lambda Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/lambda/USD/current/lambda.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'cloudfront-pricing',
+    name: 'CloudFront Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/cloudfront/USD/current/cloudfront.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'translate-pricing',
+    name: 'Translate Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/translate/USD/current/translate.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'apigateway-pricing',
+    name: 'API Gateway Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/apigateway/USD/current/apigateway.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'ecs-pricing',
+    name: 'ECS Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/ecs/USD/current/ecs.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'eks-pricing',
+    name: 'EKS Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/eks/USD/current/eks.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'redshift-pricing',
+    name: 'Redshift Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/redshift/USD/current/redshift.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'dynamodb-pricing',
+    name: 'DynamoDB Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/dynamodb/USD/current/dynamodb.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
+  },
+  {
+    id: 'sns-pricing',
+    name: 'SNS Pricing',
+    url: 'https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/sns/USD/current/sns.json',
+    type: 'pricing',
+    transform: (data: any) => data,
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    )
   }
 ];
 
