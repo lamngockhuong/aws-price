@@ -1,18 +1,24 @@
 # service-display Specification
 
 ## Purpose
+
 TBD - created by archiving change add-services-pricing-display. Update Purpose after archive.
+
 ## Requirements
+
 ### Requirement: Service Listing Page
+
 The system SHALL provide a service listing page at `/services` that displays AWS services organized by categories (Compute, Networking, Storage, Database).
 
 #### Scenario: View service categories
+
 - **WHEN** user navigates to `/services`
 - **THEN** they see services grouped by category
 - **AND** each service is displayed as a card with name and icon
 - **AND** clicking a service card navigates to the service detail page
 
 #### Scenario: Navigate to service detail
+
 - **WHEN** user clicks on a service card (e.g., EC2)
 - **THEN** they are navigated to `/services/ec2`
 - **AND** the service detail page displays pricing information
@@ -80,14 +86,17 @@ The system SHALL allow users to filter pricing data by AWS region for all servic
 - **AND** the filtered results maintain sortable columns
 
 ### Requirement: Service-Specific Filtering
+
 The system SHALL provide service-specific filters based on service type.
 
 #### Scenario: Filter EC2 by instance type
+
 - **WHEN** user is on `/services/ec2`
 - **THEN** they see an instance type filter
 - **AND** when they select an instance family (e.g., "t3", "m5"), the table shows only matching instances
 
 #### Scenario: Filter S3 by storage class
+
 - **WHEN** user is on `/services/s3`
 - **THEN** they see a storage class filter
 - **AND** when they select a storage class (e.g., "Standard", "Standard-IA"), the table shows only matching storage tiers
@@ -105,9 +114,11 @@ The system SHALL provide a search bar to find services by name, with optional su
 - **AND** if suggestions are visible, selecting one navigates or filters accordingly
 
 ### Requirement: Homepage Overview
+
 The system SHALL provide a homepage that displays an overview of AWS service categories and popular services.
 
 #### Scenario: View homepage
+
 - **WHEN** user navigates to `/`
 - **THEN** they see a hero section with application title
 - **AND** they see a grid of service categories (Compute, Networking, Storage, Database)
@@ -116,24 +127,29 @@ The system SHALL provide a homepage that displays an overview of AWS service cat
 - **AND** clicking a popular service navigates directly to its detail page
 
 ### Requirement: Responsive Design
+
 The system SHALL display pricing tables and navigation appropriately on mobile and desktop devices.
 
 #### Scenario: View on mobile
+
 - **WHEN** user views the application on a mobile device
 - **THEN** navigation uses a hamburger menu instead of sidebar
 - **AND** pricing tables have horizontal scroll capability
 - **AND** filters are displayed in an accordion/collapsible format
 
 #### Scenario: View on desktop
+
 - **WHEN** user views the application on a desktop device
 - **THEN** navigation sidebar is visible
 - **AND** pricing tables display all columns without horizontal scroll
 - **AND** filters are displayed in a sidebar or top bar
 
 ### Requirement: Dark Mode Support
+
 The system SHALL support dark mode for all service display pages.
 
 #### Scenario: View in dark mode
+
 - **WHEN** user's system prefers dark mode
 - **THEN** all pages display with dark theme
 - **AND** tables have appropriate contrast for readability
@@ -247,12 +263,12 @@ The system SHALL support combinable filters for EC2 pricing (Region, OS, Instanc
 
 ### Requirement: Data Source Context Banner
 
-The system SHALL show a banner with last updated timestamp and data source attribution.
+The system SHALL show a banner with last updated timestamp.
 
 #### Scenario: Show update info
 
 - **WHEN** a service detail page loads
-- **THEN** a banner displays “Pricing data updated on <YYYY-MM-DD> — Source: AWS Calculator API”
+- **THEN** a banner displays “Pricing data updated on <date>” where <date> is derived from pricing metadata and formatted in the user's locale/timezone.
 - **AND** the source text links to the official AWS pricing docs or API endpoint
 
 ### Requirement: Theme Toggle
@@ -277,12 +293,12 @@ The system SHALL enhance service cards with AWS icons, category accents, and sub
 
 ### Requirement: Footer Navigation Links
 
-The system SHALL add footer links for About, GitHub, Feedback, and Data source.
+The system SHALL add footer links for About, Khuong Dev, Report issue, and Data source.
 
 #### Scenario: Footer links available
 
 - **WHEN** the footer renders
-- **THEN** it shows links to About, GitHub repo, Feedback channel, and Data source attribution
+- **THEN** it shows links to About, Khuong Dev, Report issue, and Data source attribution
 
 ### Requirement: Compare Services (Feature-Flagged)
 
@@ -293,4 +309,3 @@ The system SHALL support selecting up to 3 services for side-by-side comparison 
 - **WHEN** the compare feature flag is ON and the user selects services
 - **THEN** selection is limited to 3 services
 - **AND** a compare action navigates to a compare view showing key pricing attributes side-by-side
-

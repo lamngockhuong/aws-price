@@ -21,7 +21,7 @@ A website to track and compare pricing for AWS services in a clear, organized fo
 - 📄 Pagination with range display; optional rows-per-page selector
 - ⚙️ EC2 filters: Region, Operating System, Instance Family (combinable)
 - 🌓 Theme toggle with persisted preference
-- 🔗 Footer links: About, GitHub, Feedback, Data source
+- 🔗 Footer links: About, Khuong Dev, Report issue, Data source
 
 ## Tech Stack
 
@@ -179,7 +179,7 @@ pnpm transform:pricing
 
 ### Data Source Context Banner
 
-Service detail pages show a banner: “Pricing data updated on YYYY-MM-DD — Source: AWS Calculator API”, linking to AWS pricing resources.
+Service detail pages show a banner: “Pricing data updated on <date>”. The date comes from lightweight pricing metadata (`lib/data/pricing/metadata.json`) written by scripts, formatted in the user's locale and timezone.
 
 ## Available Scripts
 

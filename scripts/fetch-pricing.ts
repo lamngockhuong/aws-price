@@ -1,4 +1,5 @@
 import { join } from 'path';
+import { writeFileSync } from 'fs';
 import { fetchMultiple } from '../lib/scripts/common/fetcher';
 import { saveData, consolidateResults, logResults } from '../lib/scripts/common/processor';
 import { getAllPricingSources } from '../lib/config/data-sources';
@@ -42,6 +43,19 @@ async function fetchPricing() {
   }
 
   console.log('\n💡 Tip: Run "pnpm transform:pricing" to pre-transform data for faster loading');
+
+  // Write/update metadata for last pricing fetch time
+  try {
+    const metadataPath = join(OUTPUT_DIR, 'metadata.json');
+    const nowIso = new Date().toISOString();
+    const metadata = {
+      lastPricingFetchAt: nowIso,
+    };
+    writeFileSync(metadataPath, JSON.stringify(metadata, null, 2), 'utf-8');
+    console.log(`\n🕒 Updated metadata: lastPricingFetchAt=${nowIso}`);
+  } catch (e) {
+    console.warn('Could not write pricing metadata.json:', e);
+  }
 }
 
 fetchPricing().catch((error) => {

@@ -109,12 +109,12 @@ The system SHALL enhance service cards with AWS icons, category accents, and sub
 
 ### Requirement: Footer Navigation Links
 
-The system SHALL add footer links for About, GitHub, Feedback, and Data source.
+The system SHALL add footer links for About, Khuong Dev, Report issue, and Data source.
 
 #### Scenario: Footer links available
 
 - **WHEN** the footer renders
-- **THEN** it shows links to About, GitHub repo, Feedback channel, and Data source attribution
+- **THEN** it shows links to About, Khuong Dev, Report issue, and Data source attribution
 
 ### Requirement: Compare Services (Feature-Flagged)
 

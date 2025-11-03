@@ -16,13 +16,14 @@ export default function Footer() {
           >
             About
           </a>
+
           <a
-            href="https://github.com/lamngockhuong/aws-price"
+            href="https://khuong.dev"
             target="_blank"
             rel="noreferrer"
             className="hover:text-text underline-offset-4 hover:underline"
           >
-            GitHub
+            Khuong Dev
           </a>
           <a
             href="https://github.com/lamngockhuong/aws-price/issues/new"
@@ -30,10 +31,10 @@ export default function Footer() {
             rel="noreferrer"
             className="hover:text-text underline-offset-4 hover:underline"
           >
-            Feedback
+            Report issue
           </a>
           <a
-            href="https://b0.p.awsstatic.com/pricing/"
+            href="https://calculator.aws/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-text underline-offset-4 hover:underline"
