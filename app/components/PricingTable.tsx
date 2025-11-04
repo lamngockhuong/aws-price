@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, type ReactNode } from 'react';
 import type { PricingEntry } from '@/lib/types';
 import { formatPrice, formatMonthlyPrice } from '@/lib/utils/formatPrice';
 
@@ -19,65 +19,17 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState<number>(DEFAULT_ITEMS_PER_PAGE);
+  const [query, setQuery] = useState('');
+  const [debouncedQuery, setDebouncedQuery] = useState('');
 
   // Keep hooks order stable; handle empty state in render below
-
-  const handleSort = (column: string) => {
-    if (sortColumn === column) {
-      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortColumn(column);
-      setSortDirection('asc');
-    }
-  };
-
-  // Memoize sorted pricing for performance
-  const sortedPricing = useMemo(() => {
-    const sorted = [...pricing].sort((a, b) => {
-      if (!sortColumn) return 0;
-
-      let aValue: string | number = a.attributes[sortColumn] || '';
-      let bValue: string | number = b.attributes[sortColumn] || '';
-
-      // Handle special cases for non-attribute columns
-      if (sortColumn === 'region') {
-        aValue = a.region;
-        bValue = b.region;
-      } else if (sortColumn === 'pricePerUnit') {
-        aValue = a.pricePerUnit;
-        bValue = b.pricePerUnit;
-      } else if (sortColumn === 'unit') {
-        aValue = a.unit;
-        bValue = b.unit;
-      }
-
-      // Convert to string for comparison
-      const aStr = String(aValue);
-      const bStr = String(bValue);
-
-      // Try to convert to number for proper sorting
-      const aNum = parseFloat(aStr);
-      const bNum = parseFloat(bStr);
-
-      if (!isNaN(aNum) && !isNaN(bNum)) {
-        const comparison = aNum - bNum;
-        return sortDirection === 'asc' ? comparison : -comparison;
-      }
-
-      // String comparison
-      const comparison = aStr.localeCompare(bStr);
-      return sortDirection === 'asc' ? comparison : -comparison;
-    });
-
-    return sorted;
-  }, [pricing, sortColumn, sortDirection]);
-
-  // Pagination calculations
-  const totalPages = Math.max(1, Math.ceil(sortedPricing.length / itemsPerPage));
-  const safeCurrentPage = Math.min(currentPage, totalPages);
-  const startIndex = (safeCurrentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const paginatedPricing = sortedPricing.slice(startIndex, endIndex);
+  useEffect(() => {
+    const handle = setTimeout(() => {
+      setDebouncedQuery(query.trim().toLowerCase());
+      setCurrentPage(1);
+    }, 250);
+    return () => clearTimeout(handle);
+  }, [query]);
 
   const getColumns = () => {
     if (serviceId === 'ec2') {
@@ -185,7 +137,6 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
         { key: 'region', label: 'Region' },
       ];
     }
-    // Generic fallback for services without specific column config
     return [
       { key: 'feature', label: 'Feature' },
       { key: 'usageType', label: 'Usage Type' },
@@ -197,6 +148,104 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
 
   const columns = getColumns();
 
+  const filteredPricing = useMemo(() => {
+    if (!debouncedQuery) return pricing;
+    const q = debouncedQuery;
+    return pricing.filter((entry) => {
+      for (const column of columns) {
+        let raw: string;
+        if (column.key === 'pricePerUnit') {
+          raw = String(entry.pricePerUnit);
+        } else if (column.key === 'pricePerMonth') {
+          raw = entry.unit.includes('hour') ? String(formatMonthlyPrice(entry.pricePerUnit)) : 'N/A';
+        } else if (column.key === 'unit') {
+          raw = entry.unit;
+        } else if (column.key === 'region') {
+          raw = entry.region;
+        } else {
+          raw = entry.attributes[column.key] || (entry[column.key as keyof PricingEntry]?.toString() ?? '');
+        }
+        if (raw && raw.toString().toLowerCase().includes(q)) {
+          return true;
+        }
+      }
+      return false;
+    });
+  }, [pricing, debouncedQuery, columns]);
+
+  const handleSort = (column: string) => {
+    if (sortColumn === column) {
+      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
+    } else {
+      setSortColumn(column);
+      setSortDirection('asc');
+    }
+  };
+
+  // Memoize sorted pricing for performance
+  const sortedPricing = useMemo(() => {
+    const sorted = [...filteredPricing].sort((a, b) => {
+      if (!sortColumn) return 0;
+
+      let aValue: string | number = a.attributes[sortColumn] || '';
+      let bValue: string | number = b.attributes[sortColumn] || '';
+
+      // Handle special cases for non-attribute columns
+      if (sortColumn === 'region') {
+        aValue = a.region;
+        bValue = b.region;
+      } else if (sortColumn === 'pricePerUnit') {
+        aValue = a.pricePerUnit;
+        bValue = b.pricePerUnit;
+      } else if (sortColumn === 'unit') {
+        aValue = a.unit;
+        bValue = b.unit;
+      }
+
+      // Convert to string for comparison
+      const aStr = String(aValue);
+      const bStr = String(bValue);
+
+      // Try to convert to number for proper sorting
+      const aNum = parseFloat(aStr);
+      const bNum = parseFloat(bStr);
+
+      if (!isNaN(aNum) && !isNaN(bNum)) {
+        const comparison = aNum - bNum;
+        return sortDirection === 'asc' ? comparison : -comparison;
+      }
+
+      // String comparison
+      const comparison = aStr.localeCompare(bStr);
+      return sortDirection === 'asc' ? comparison : -comparison;
+    });
+
+    return sorted;
+  }, [filteredPricing, sortColumn, sortDirection]);
+
+  // Pagination calculations
+  const totalPages = Math.max(1, Math.ceil(sortedPricing.length / itemsPerPage));
+  const safeCurrentPage = Math.min(currentPage, totalPages);
+  const startIndex = (safeCurrentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedPricing = sortedPricing.slice(startIndex, endIndex);
+  const highlightMatch = (text: string): ReactNode => {
+    if (!debouncedQuery || !text) return text;
+    const lower = text.toLowerCase();
+    const idx = lower.indexOf(debouncedQuery);
+    if (idx === -1) return text;
+    const before = text.slice(0, idx);
+    const match = text.slice(idx, idx + debouncedQuery.length);
+    const after = text.slice(idx + debouncedQuery.length);
+    return (
+      <>
+        {before}
+        <mark className="rounded bg-yellow-200/70 px-0.5 text-zinc-900 dark:bg-yellow-300/40 dark:text-zinc-900">{match}</mark>
+        {after}
+      </>
+    );
+  };
+
   return (
     <div className="overflow-x-auto rounded-lg bg-surface border border-border">
       {pricing.length === 0 ? (
@@ -205,6 +254,43 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
         </div>
       ) : (
         <>
+      <div className="flex flex-col gap-3 border-b border-border p-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center gap-2">
+          <label htmlFor="pricing-search" className="sr-only">Search pricing</label>
+          <input
+            id="pricing-search"
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search rows..."
+            className="w-full rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-500 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50 dark:placeholder-zinc-500"
+          />
+          {query && (
+            <button
+              aria-label="Clear search"
+              onClick={() => setQuery('')}
+              className="rounded-md border border-zinc-300 bg-white px-2 py-2 text-sm text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
+            >
+              Clear
+            </button>
+          )}
+        </div>
+        <div className="text-sm text-zinc-600 dark:text-zinc-400">
+          {debouncedQuery ? (
+            <span>
+              {filteredPricing.length} match{filteredPricing.length === 1 ? '' : 'es'}
+            </span>
+          ) : (
+            <span>{pricing.length} total rows</span>
+          )}
+        </div>
+      </div>
+      {filteredPricing.length === 0 ? (
+        <div className="p-8 text-center text-sm text-zinc-600 dark:text-zinc-400">
+          No matching results
+        </div>
+      ) : (
+      <>
       <table className="min-w-full divide-y divide-border">
         <thead className="sticky top-0 z-10 bg-overlay">
           <tr>
@@ -260,7 +346,7 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
                       column.key === 'pricePerUnit' || column.key === 'pricePerMonth' ? 'text-right' : 'text-left'
                     }`}
                   >
-                    {cellContent}
+                    {typeof cellContent === 'string' ? highlightMatch(cellContent) : cellContent}
                   </td>
                 );
               })}
@@ -339,6 +425,8 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
             </div>
           </div>
         </div>
+      )}
+      </>
       )}
         </>
       )}
