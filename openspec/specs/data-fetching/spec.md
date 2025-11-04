@@ -1,8 +1,11 @@
 # data-fetching Specification
 
 ## Purpose
+
 TBD - created by archiving change add-offline-data-fetching. Update Purpose after archive.
+
 ## Requirements
+
 ### Requirement: Fetch AWS Locations Data
 
 The system SHALL fetch AWS locations data from the official AWS API and store it offline.
@@ -190,4 +193,3 @@ The data pipeline MUST skip fetch/transform for services without a valid endpoin
 - **WHEN** a service has no pricing availability
 - **THEN** transform step is skipped and the catalog shows “No pricing data”
 - **AND** the application build succeeds
-

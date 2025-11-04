@@ -40,10 +40,11 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2 font-medium text-neutral-900 dark:text-neutral-100">
             <Image
               src="/icon.svg"
-              alt="AWS Price Tracker"
+              alt=""
               width={24}
               height={24}
               className="flex-shrink-0"
+              aria-hidden
               unoptimized
             />
             <span>AWS Price Tracker</span>

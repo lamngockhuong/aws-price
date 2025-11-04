@@ -97,18 +97,21 @@ function ServicesContentInner() {
       </div>
 
       <div className="mb-6">
-        <div className="inline-flex items-center gap-1 rounded-full border p-1" style={{ backgroundColor: 'var(--overlay)', borderColor: 'var(--border)' }}>
+        <div className="flex flex-wrap items-center gap-2">
           {(['All' as const, ...(categories as ServiceCategory[])] as ('All' | ServiceCategory)[]).map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`px-3 py-1.5 rounded-full text-sm focus-visible:outline-2 focus-visible:outline-accent/70 focus-visible:outline-offset-1 transition-colors ${
+              className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-200 focus-visible:outline-2 focus-visible:outline-accent/70 focus-visible:outline-offset-2 ${
                 selectedCategory === category
-                  ? 'bg-surface shadow-soft'
-                  : 'hover:bg-surface/40'
+                  ? 'bg-blue-600 text-white shadow-md hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600'
+                  : 'bg-white text-zinc-700 border border-zinc-200 hover:bg-zinc-50 hover:border-zinc-300 dark:bg-zinc-800 dark:text-zinc-300 dark:border-zinc-700 dark:hover:bg-zinc-700 dark:hover:border-zinc-600'
               }`}
             >
-              {category} ({category === 'All' ? searchFilteredServices.length : countsByCategory[category] ?? 0})
+              <span className="font-semibold">{category}</span>
+              <span className={`ml-1.5 ${selectedCategory === category ? 'text-blue-100' : 'text-zinc-500 dark:text-zinc-400'}`}>
+                ({category === 'All' ? searchFilteredServices.length : countsByCategory[category] ?? 0})
+              </span>
             </button>
           ))}
         </div>
