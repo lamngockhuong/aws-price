@@ -358,14 +358,15 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
 
       {/* Pagination */}
       {totalPages > 1 && (
-        <div className="border-t border-zinc-200 bg-white px-4 py-3 dark:border-zinc-800 dark:bg-zinc-900 sm:px-6">
+        <>
+        <div className="sticky bottom-0 z-30 border-t border-zinc-200 bg-white px-4 pt-3 pb-[calc(env(safe-area-inset-bottom)+1rem)] shadow-[0_-4px_8px_-4px_rgba(0,0,0,0.1)] dark:border-zinc-800 dark:bg-zinc-900 sm:px-6 sm:pb-3">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <div className="text-sm text-zinc-700 dark:text-zinc-300">
               Showing <span className="font-medium">{startIndex + 1}</span> to{' '}
               <span className="font-medium">{Math.min(endIndex, sortedPricing.length)}</span> of{' '}
               <span className="font-medium">{sortedPricing.length}</span> results
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex flex-col items-center gap-3 sm:flex-row">
               <label className="text-sm text-zinc-600 dark:text-zinc-400">Rows per page</label>
               <select
                 aria-label="Rows per page"
@@ -377,7 +378,7 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
                   <option key={n} value={n}>{n}</option>
                 ))}
               </select>
-              <div className="w-px self-stretch bg-zinc-200 dark:bg-zinc-700" />
+              <div className="hidden w-px self-stretch bg-zinc-200 dark:bg-zinc-700 sm:block" />
               <div className="flex gap-2">
               <button
                 onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
@@ -425,6 +426,8 @@ export default function PricingTable({ pricing, serviceId }: Readonly<PricingTab
             </div>
           </div>
         </div>
+        <div className="h-[calc(env(safe-area-inset-bottom)+12px)] sm:hidden" />
+        </>
       )}
       </>
       )}
