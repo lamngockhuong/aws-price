@@ -98,7 +98,7 @@ function ServicesContentInner() {
 
       <div className="mb-6">
         <div className="inline-flex items-center gap-1 rounded-full border p-1" style={{ backgroundColor: 'var(--overlay)', borderColor: 'var(--border)' }}>
-          {[('All' as const), ...categories].map((category: 'All' | ServiceCategory) => (
+          {(['All' as const, ...(categories as ServiceCategory[])] as ('All' | ServiceCategory)[]).map((category) => (
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
