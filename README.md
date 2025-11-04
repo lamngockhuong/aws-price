@@ -6,7 +6,8 @@ A website to track and compare pricing for AWS services in a clear, organized fo
 
 ## Features
 
-- 📊 View and compare AWS service pricing
+- 📊 View and compare AWS service pricing for **199 AWS services** across **14 categories**
+- 🎯 **76 services** with detailed pricing data available
 - 🔍 Search and filter services by category
 - 📱 Responsive design with dark mode support
 - 🚀 Static site generation for fast performance
@@ -177,6 +178,84 @@ pnpm transform:pricing
 
 **Note**: Transformed files are generated automatically during build. Run `pnpm transform:pricing` manually if you need to refresh transformed data.
 
+### Supported Services
+
+The catalog includes **199 AWS services** organized into **14 categories**:
+
+- **Compute** (15 services): EC2, Lambda, ECS, EKS, Fargate, Batch, Lightsail, and more
+- **Storage** (7 services): S3, EFS, FSx, Glacier, Backup, Snow Family, and more
+- **Database** (10 services): RDS, DynamoDB, Redshift, Neptune, ElastiCache, Timestream, and more
+- **Networking** (13 services): VPC, CloudFront, API Gateway, Route 53, Direct Connect, and more
+- **Security** (20 services): IAM, Cognito, KMS, WAF, Shield, GuardDuty, Macie, and more
+- **Analytics** (17 services): Athena, EMR, Kinesis, QuickSight, OpenSearch, Glue, and more
+- **ML/AI** (20 services): SageMaker, Bedrock, Comprehend, Rekognition, Translate, Lex, and more
+- **Media** (8 services): MediaConvert, MediaLive, MediaPackage, IVS, and more
+- **Management** (25 services): CloudFormation, CloudWatch, CloudTrail, Config, Systems Manager, and more
+- **Migration** (7 services): DMS, Server Migration Service, Application Migration Service, and more
+- **DevTools** (15 services): CodeCommit, CodeBuild, CodeDeploy, CodePipeline, Cloud9, X-Ray, and more
+- **IoT** (10 services): IoT Core, IoT Analytics, IoT Greengrass, IoT SiteWise, and more
+- **End-User Computing** (8 services): WorkSpaces, AppStream, WorkDocs, WorkMail, Chime, and more
+- **Other** (24 services): SNS, SQS, SES, Step Functions, EventBridge, Connect, and more
+
+**76 services** currently have detailed pricing data available through the AWS pricing API. Services without pricing data display a message directing users to the [AWS Pricing page](https://aws.amazon.com/pricing/).
+
+### Adding New Services
+
+To add pricing support for a new AWS service:
+
+1. **Validate the pricing endpoint:**
+
+   ```bash
+   npx tsx scripts/validate-pricing-apis.ts
+   ```
+
+   This will test all services in the catalog and identify which ones have valid pricing endpoints.
+
+2. **Add the service to the catalog** (if not already present):
+
+   - Edit `lib/data/services.ts`
+   - Add the service with appropriate category and description
+   - Set `pricingAvailable: false` initially
+
+3. **Add pricing data source:**
+
+   - Edit `lib/config/data-sources.ts`
+   - Add the service to the `createPricingSourceConfigs()` array or add manually
+
+4. **Create transform module:**
+
+   - Create `lib/data/pricing/{serviceId}.ts` using the generic transform pattern:
+
+   ```typescript
+   import { createGenericTransform } from './generic';
+   export const transform{ServiceName}Pricing = createGenericTransform('{serviceId}');
+   ```
+
+5. **Register in pricing registry:**
+
+   - Edit `lib/data/pricing/index.ts`
+   - Import the pricing module
+   - Add to the `pricingRegistry` object
+
+6. **Update transform script:**
+
+   - Edit `scripts/transform-pricing.ts`
+   - Import the transform function
+   - Add to the `serviceTransforms` array
+
+7. **Update pricing flag:**
+
+   - Set `pricingAvailable: true` in `lib/data/services.ts`
+
+8. **Fetch and transform:**
+
+   ```bash
+   pnpm fetch:pricing
+   pnpm transform:pricing
+   ```
+
+**Note:** For services using the generic transform pattern, you can manually create the transform module following the pattern in existing modules (e.g., `lib/data/pricing/translate.ts`), then manually update the pricing registry and transform script.
+
 ### Data Source Context Banner
 
 Service detail pages show a banner: “Pricing data updated on <date>”. The date comes from lightweight pricing metadata (`lib/data/pricing/metadata.json`) written by scripts, formatted in the user's locale and timezone.
@@ -192,6 +271,7 @@ Service detail pages show a banner: “Pricing data updated on <date>”. The da
 - `pnpm fetch:pricing` - Fetch AWS pricing data for all services
 - `pnpm fetch:all` - Fetch all data (locations + pricing)
 - `pnpm transform:pricing` - Transform pricing data to optimized format
+- `npx tsx scripts/validate-pricing-apis.ts` - Validate pricing API endpoints for all services in catalog
 
 ## License
 

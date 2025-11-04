@@ -1,0 +1,692 @@
+{
+  "manifest": {
+    "serviceId": "codeguru",
+    "accessType": "publish",
+    "esIndex": "plc-codeguru-usd-20250909194204",
+    "hawkFilePublicationDate": "2024-08-26T15:57:51Z",
+    "ETLIngestionTriggerDate": "2025-09-09T19:42:04Z",
+    "currencyCode": "USD",
+    "source": "codeguru",
+    "isMapped": "true"
+  },
+  "sets": {},
+  "regions": {
+    "US West (Oregon)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "JY2RQ43Y952N5RUB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "FD3DFMN8VS2TCWJC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "9S5BJ7FVBHYAGWWB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "6ZUN2C3NUCCTABFU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "86G29QUSZ8VEJ886.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "USBJYGH7MHHN33SU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "NZHMGDAK8U24JHB3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "JY2RQ43Y952N5RUB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "FD3DFMN8VS2TCWJC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "FD3DFMN8VS2TCWJC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "6ZUN2C3NUCCTABFU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "86G29QUSZ8VEJ886.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "USBJYGH7MHHN33SU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "US East (Ohio)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "BG9SU4KJEJU5VV6F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "3DR8K5YPAMSZRBHF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "Q2YP4F5ZYERRKWQ5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "JXAMYKDY7A2PEGD4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "TPD5BKN3F8ZQ286R.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "QPSWXZF549JGWHVC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "48TEEVBQCUPW2UZT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "BG9SU4KJEJU5VV6F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "3DR8K5YPAMSZRBHF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "3DR8K5YPAMSZRBHF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "JXAMYKDY7A2PEGD4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "TPD5BKN3F8ZQ286R.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "QPSWXZF549JGWHVC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "US East (N. Virginia)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "BD4UCJT7HTKHCKX9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "3PT2GM7EXQZ62NBF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "GSJNTS3JABW637D8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "GDV56EM2TG3F9TVC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "ZZEHBSDBTNJJHNHA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "AQZC7N33W4BCQK5Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "D7QBPMKS5QSJUYXV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "BD4UCJT7HTKHCKX9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "3PT2GM7EXQZ62NBF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "3PT2GM7EXQZ62NBF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "GDV56EM2TG3F9TVC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "ZZEHBSDBTNJJHNHA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "AQZC7N33W4BCQK5Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "EU (Stockholm)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "9U9SVREQFXRXHVUR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "GEC7MWPH74XAP98F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "UBVNV4UX3YE5D5WG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "RJR75RKXXF6J37CX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "RSHM8RMW9BHUU7EB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "GGDB2GQR8SMMUKHU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "H5YCTFSMGJUZ5SSJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "9U9SVREQFXRXHVUR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "GEC7MWPH74XAP98F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "GEC7MWPH74XAP98F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "RJR75RKXXF6J37CX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "RSHM8RMW9BHUU7EB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "GGDB2GQR8SMMUKHU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "EU (London)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "HBUKUF8VPX54FM4W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "Y6RW67KCJXDEH5R9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "ZTEBGS3SZFJ9XTUA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "43S8H3NEET7XBV9G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "8M58BHGXQ7C3YPXK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "5YC7HXHZ3MP92H9V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "QU2E2QEZEGA2DB9J.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "HBUKUF8VPX54FM4W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "Y6RW67KCJXDEH5R9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "Y6RW67KCJXDEH5R9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "43S8H3NEET7XBV9G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "8M58BHGXQ7C3YPXK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "5YC7HXHZ3MP92H9V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "EU (Ireland)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "Q3YD6FXEKPVNJ5KG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "J5RFQA8P58QDG3CA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "VFA2ZZCJFQMGETDW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "G5D8FE7ZE272XADN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "9GUEZN49S5STY2Q6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "HQETDZKETQNJWZAE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "KCN3T8MF4VDR4TBK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "Q3YD6FXEKPVNJ5KG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "J5RFQA8P58QDG3CA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "J5RFQA8P58QDG3CA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "G5D8FE7ZE272XADN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "9GUEZN49S5STY2Q6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "HQETDZKETQNJWZAE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "EU (Frankfurt)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "YMKNQRHQH42HE39W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "AJVBA63A54BBXXVS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "EEZ9GXSTQ4G74S3P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "GMRCB27KQPEC6FKK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "KZQSZSBDBCEH9FTT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "PT7J46X7BVSTQX33.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "F3TR8M22VNBS6DYA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "YMKNQRHQH42HE39W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "AJVBA63A54BBXXVS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "AJVBA63A54BBXXVS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "GMRCB27KQPEC6FKK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "KZQSZSBDBCEH9FTT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "PT7J46X7BVSTQX33.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "Asia Pacific (Tokyo)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "Q9NHG68FQ68XF66G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "NYKH7AJ3N7E22SUQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "UM9YWVUAMYZPKWNR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "QJVUCDY3R9S9J3CJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "VUETRQQWYB4E57NA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "TTG4ZGEXA7MAPSCQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "6SG9APBQSWYWR8VJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "Q9NHG68FQ68XF66G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "NYKH7AJ3N7E22SUQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "NYKH7AJ3N7E22SUQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "QJVUCDY3R9S9J3CJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "VUETRQQWYB4E57NA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "TTG4ZGEXA7MAPSCQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "Asia Pacific (Sydney)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "5HKNUN4BWJ8QQDRJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "9VAM2FNNHFMM4VTU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "R26M67GDJRPB5GT5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "WS7SRHABBVMSTQ9P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "SEFRYKBFUFKNDHEV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "BGTKZQPK6MQM2JHZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "DZUK3Z7AEW8HFCFD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "5HKNUN4BWJ8QQDRJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "9VAM2FNNHFMM4VTU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "9VAM2FNNHFMM4VTU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "WS7SRHABBVMSTQ9P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "SEFRYKBFUFKNDHEV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "BGTKZQPK6MQM2JHZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "Asia Pacific (Singapore)": {
+      "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q": {
+        "rateCode": "P499WGGDU8CXX9ZH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk": {
+        "rateCode": "JA44GF7SRCNJZYT2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo": {
+        "rateCode": "H256E88NZDJ23WRU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "RT6yqmBlCNR7zlBCTzhAQq7awWpBFWFef7o0K4a4Kbo"
+      },
+      "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU": {
+        "rateCode": "2QCN3648YR45KS3C.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA": {
+        "rateCode": "2266EUVJVB36FSSM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA": {
+        "rateCode": "NGCCW89RKMSUZCGY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      },
+      "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ": {
+        "rateCode": "VXMFV8FGEX72DR8H.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "y0-_OLiBQdrq1qFWQ0Q_1OFZ14jHFHNXC7ZlVSoeHTQ"
+      },
+      "CodeGuru MachineLearningRepositorySizeHighPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "P499WGGDU8CXX9ZH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "30.0000000000",
+        "RegionlessRateCode": "84L0V6LHpMjLZPBZbIeGXFHXCzfm2oZF5_U8oONm5_Q"
+      },
+      "CodeGuru per hours": {
+        "rateCode": "JA44GF7SRCNJZYT2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningBuildModels for 0 to Inf per hours": {
+        "rateCode": "JA44GF7SRCNJZYT2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "EvNtaFIm-7vdiqeACp9XwOpwMVhcsYhJw9tKImtTKwk"
+      },
+      "CodeGuru MachineLearningRepositorySizeLowPriceTierBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "2QCN3648YR45KS3C.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "bT14WvM2Pa4sBt_i7CwtCRxRQSQIVDBxpcibLJk_6KU"
+      },
+      "CodeGuru MachineLearningLambdaBuildModels for 0 to Inf per hours": {
+        "rateCode": "2266EUVJVB36FSSM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0050000000",
+        "RegionlessRateCode": "sagnCX1uarT_itRhAy4DR6lVOFobNOWfoXjXdDPmauA"
+      },
+      "CodeGuru MachineLearningRepositorySizeAboveThresholdsBuildModels for 0 to Inf per 100K-LinesofCode": {
+        "rateCode": "NGCCW89RKMSUZCGY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "uJk18dqWM0AyiLVlUgvhhXfjMtk9QhCcCThPbFr75HA"
+      }
+    },
+    "Any": {
+      "25s-SjDQCP-bmd0mOvLc-7-bYk-Y4rjuyrAIck2ve2U": {
+        "rateCode": "DR62NU959EYFA25A.A429C66SYZ.C2QCTD4VXQ",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "25s-SjDQCP-bmd0mOvLc-7-bYk-Y4rjuyrAIck2ve2U"
+      }
+    }
+  }
+}

@@ -4,14 +4,14 @@ import { useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import ServiceCard from '@/app/components/ServiceCard';
 import SearchBar from '@/app/components/SearchBar';
-import { services, getServicesByCategory } from '@/lib/data/services';
+import { services, getServicesByCategory, getAllCategories } from '@/lib/data/services';
 import type { ServiceCategory } from '@/lib/types';
-
-const categories: ServiceCategory[] = ['Compute', 'Networking', 'Storage', 'Database', 'Other'];
 
 function ServicesContentInner() {
   const searchParams = useSearchParams();
   const categoryParam = searchParams.get('category');
+
+  const categories = useMemo(() => getAllCategories(), []);
 
   const getInitialCategory = (): ServiceCategory | 'All' => {
     if (categoryParam) {
@@ -79,7 +79,9 @@ function ServicesContentInner() {
   }, [filteredServices]);
 
   const countsByCategory = useMemo(() => {
-    const counts: Record<string, number> = { Compute: 0, Networking: 0, Storage: 0, Database: 0, Other: 0 };
+    const counts: Record<string, number> = {};
+    const allCategories = getAllCategories();
+    allCategories.forEach((cat) => { counts[cat] = 0; });
     searchFilteredServices.forEach((s) => { counts[s.category] = (counts[s.category] || 0) + 1; });
     return counts;
   }, [searchFilteredServices]);

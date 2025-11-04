@@ -1,12 +1,11 @@
 // (Link no longer used here; kept for potential future sections)
-import { services, getServicesByCategory } from '@/lib/data/services';
+import { services, getServicesByCategory, getAllCategories } from '@/lib/data/services';
 import ServiceCard from '@/app/components/ServiceCard';
-import type { ServiceCategory } from '@/lib/types';
 import { LinkButtonPrimary } from '@/app/components/ui/Button';
 import { SectionHeader } from '@/app/components/ui/SectionHeader';
 import { CategoryCard } from '@/app/components/ui/CategoryCard';
 
-const categories: ServiceCategory[] = ['Compute', 'Networking', 'Storage', 'Database', 'Other'];
+const categories = getAllCategories();
 
 const popularServices = ['ec2', 's3', 'vpc'];
 

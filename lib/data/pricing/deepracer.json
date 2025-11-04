@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "serviceId": "deepracer",
+    "accessType": "publish",
+    "esIndex": "plc-deepracer-usd-20250909195949",
+    "hawkFilePublicationDate": "2024-08-26T16:08:15Z",
+    "ETLIngestionTriggerDate": "2025-09-09T19:59:49Z",
+    "currencyCode": "USD",
+    "source": "deepracer",
+    "isMapped": "true"
+  },
+  "sets": {},
+  "regions": {
+    "US East (N. Virginia)": {
+      "EUHtXGIGgrszc7Bnj_HeU5_eP8JQuAxo6E2Dt9cDjvM": {
+        "rateCode": "C299PY32CPZJ976X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.5000000000",
+        "RegionlessRateCode": "EUHtXGIGgrszc7Bnj_HeU5_eP8JQuAxo6E2Dt9cDjvM"
+      },
+      "ZbTW-5RCBYvmZMF_SOpYFLQt16VyoOEhP4l4sBRfF_E": {
+        "rateCode": "VCVETB63RUSNP2ZY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0230000000",
+        "RegionlessRateCode": "ZbTW-5RCBYvmZMF_SOpYFLQt16VyoOEhP4l4sBRfF_E"
+      },
+      "RL Service Jobs - Standard": {
+        "rateCode": "C299PY32CPZJ976X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.5000000000",
+        "RegionlessRateCode": "EUHtXGIGgrszc7Bnj_HeU5_eP8JQuAxo6E2Dt9cDjvM"
+      },
+      "Storage Service - TimedStorage": {
+        "rateCode": "VCVETB63RUSNP2ZY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0230000000",
+        "RegionlessRateCode": "ZbTW-5RCBYvmZMF_SOpYFLQt16VyoOEhP4l4sBRfF_E"
+      }
+    }
+  }
+}

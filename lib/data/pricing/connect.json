@@ -1,0 +1,154 @@
+{
+  "manifest": {
+    "serviceId": "connect",
+    "accessType": "publish",
+    "esIndex": "plc-connect-usd-20210304163022",
+    "hawkFilePublicationDate": "2021-03-04T16:30:22Z",
+    "ETLIngestionTriggerDate": "2021-03-04T16:30:22Z",
+    "currencyCode": "USD",
+    "source": "connect"
+  },
+  "sets": {},
+  "regions": {
+    "AWS GovCloud (US)": {
+      "Connect per Count": {
+        "rateCode": "DWPQ9P458MED4D7F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0180000000"
+      },
+      "Connect per Messages": {
+        "rateCode": "UWSSGVE3FXAHZ27S.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "5MKRN64M33PWVX4C.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "Asia Pacific (Mumbai)": {
+      "Connect per Messages": {
+        "rateCode": "N6PFEZVQKQ3VR4ZB.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minute": {
+        "rateCode": "GWH2CHHQZRMRJUMY.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "58NMZJR4VKMGMKGF.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "Asia Pacific (Singapore)": {
+      "Connect per Messages": {
+        "rateCode": "G658ZG7GRCY2ZX9Q.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minute": {
+        "rateCode": "NP8AZMWECA757XFX.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "QM4BQM9SNENHYQAB.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "Asia Pacific (Sydney)": {
+      "Connect per Messages": {
+        "rateCode": "5BC2MDKSAGDDVR3M.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minutes": {
+        "rateCode": "EAQNWGKNUYJPNMHA.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "5UQZJDW7NF7WBWDT.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "Asia Pacific (Tokyo)": {
+      "Connect per Messages": {
+        "rateCode": "R6V347DJH2HU7BWV.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minutes": {
+        "rateCode": "CVE32ZGEF7Z3SKPT.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "FTJZ2FNRFQQP9UP7.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "Canada (Central)": {
+      "Connect per Messages": {
+        "rateCode": "N8ZK85UXY9K7QQ4M.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minute": {
+        "rateCode": "J7E3QQBBT6E39TF9.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "GP2UAU58ZYXFJNPJ.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "EU (Frankfurt)": {
+      "Connect per Messages": {
+        "rateCode": "7JAYR47JNKSNBH7Z.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minutes": {
+        "rateCode": "PH694ZYC5NGG2FJH.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "2TTSNA6R6D792FCP.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "EU (London)": {
+      "Connect per Messages": {
+        "rateCode": "P8XMD5Z268V6P9DM.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minute": {
+        "rateCode": "PAMPCP956VDVTB9M.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "QV9F7X7B3PCPXQZA.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "US East (N. Virginia)": {
+      "Connect per Messages": {
+        "rateCode": "42P3XU37BVQ7UBTH.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minutes": {
+        "rateCode": "2QMRU5HRAQNQACG7.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "VYRN2B4A3Q84G9FY.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    },
+    "US West (Oregon)": {
+      "Connect per Messages": {
+        "rateCode": "W8KFKMZZUZWFFFQH.JRTCKXETXF.TAV9HKW45C",
+        "price": "0.0040000000"
+      },
+      "Connect per Minutes": {
+        "rateCode": "8F6NEWP6DJCKFQVS.JRTCKXETXF.XUVT8UVDUW",
+        "price": "0.0180000000"
+      },
+      "Connect per Tasks": {
+        "rateCode": "KT37QH4QCT5W72F8.JRTCKXETXF.JBQRCS5NHT",
+        "price": "0.0400000000"
+      }
+    }
+  }
+}

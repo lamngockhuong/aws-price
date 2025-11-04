@@ -1,0 +1,2259 @@
+{
+  "manifest": {
+    "serviceId": "kms",
+    "accessType": "publish",
+    "esIndex": "plc-kms-usd-20250909205248",
+    "hawkFilePublicationDate": "2025-08-28T15:39:13Z",
+    "ETLIngestionTriggerDate": "2025-09-09T20:52:48Z",
+    "currencyCode": "USD",
+    "source": "kms",
+    "isMapped": "true"
+  },
+  "sets": {},
+  "regions": {
+    "US West (Oregon)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "F8P797PZWGZT7UQF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "SE9KXT6M6JTP7E4W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "2U43T67WT4D7CUZN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "3QADUM6UMHW7P6QT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "S8HBXBVJKWKDP9AS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "689U9RAXR4D5NJBW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "F8P797PZWGZT7UQF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "SE9KXT6M6JTP7E4W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "2U43T67WT4D7CUZN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "3QADUM6UMHW7P6QT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "S8HBXBVJKWKDP9AS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "689U9RAXR4D5NJBW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "US West (N. California)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "YCFKGXXHWZME7BX3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "H4VQ25AJP5STBY2V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "Z9B9QUJQZ4W7G3CE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "HKKQKARSDUF3CAHX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "NUYE54EYMNVW49QE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "EDTAX84PX32AN2W9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "YCFKGXXHWZME7BX3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "H4VQ25AJP5STBY2V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "Z9B9QUJQZ4W7G3CE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "HKKQKARSDUF3CAHX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "NUYE54EYMNVW49QE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "EDTAX84PX32AN2W9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "US East (Ohio)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "AYQAHVFSSYFNSWHZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "9XXHSZC4PS7S6AY2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "4BRYVGW5AJRJTEX9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "SAWFH88S39A5ARYY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "FEMX7ZQ4DJ6QE2KP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "5PJJDDVH775CRBC6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "AYQAHVFSSYFNSWHZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "9XXHSZC4PS7S6AY2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "4BRYVGW5AJRJTEX9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "SAWFH88S39A5ARYY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "FEMX7ZQ4DJ6QE2KP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "5PJJDDVH775CRBC6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "US East (N. Virginia)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "NNYDKMC6UDJC5BNA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "MFEBZPX8NHM5FY7Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "D2442XTM4G9ABTHW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "K6RTGXAZD26D3JJQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "U553K98XGDXCYHWS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "MS4387UGYYR785BJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "NNYDKMC6UDJC5BNA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "MFEBZPX8NHM5FY7Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "D2442XTM4G9ABTHW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "K6RTGXAZD26D3JJQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "U553K98XGDXCYHWS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "MS4387UGYYR785BJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "South America (Sao Paulo)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "8U839A8WUFAJN2YG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "22NGFM2U7FQGBC49.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "YT3QZ3EJU2U6NSVY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "PUMECB6DFBGEG6E6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "9B5S58AREHXQG62F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "QSASSKEQHWBX7D86.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "8U839A8WUFAJN2YG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "22NGFM2U7FQGBC49.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "YT3QZ3EJU2U6NSVY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "PUMECB6DFBGEG6E6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "9B5S58AREHXQG62F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "QSASSKEQHWBX7D86.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Middle East (UAE)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "ASGET9CYFVM6X5FW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "ERNZKT7S85V564AK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "EMXNNNF57NGV3W5Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "8PCZ649T9P78YRX7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "ZQMWZDKPWHZGJHJD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "4W7JDBMV67HDUND6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "ASGET9CYFVM6X5FW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "ERNZKT7S85V564AK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "EMXNNNF57NGV3W5Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "8PCZ649T9P78YRX7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "ZQMWZDKPWHZGJHJD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "4W7JDBMV67HDUND6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Middle East (Bahrain)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "NXE8354SQJEZBP89.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "KHS2JMB7WKYW8C7Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "2U3AS6WMC5QHFCPR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "PH6S8HKX9GJYG73V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "FKVREDNPBPUQ59ZM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "645HNAYECWMWPKBW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "NXE8354SQJEZBP89.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "KHS2JMB7WKYW8C7Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "2U3AS6WMC5QHFCPR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "PH6S8HKX9GJYG73V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "FKVREDNPBPUQ59ZM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "645HNAYECWMWPKBW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Mexico (Central)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "99FFAKYC4RE9HSRN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "SN4PUPSHPREACEHV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "XRMWWZNSX2BTQKWB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "Y8MGZB6AAQE6FHHG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "MWFW6DKA9DZMJ8C9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "UG592VBM68SPMDVT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "99FFAKYC4RE9HSRN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "SN4PUPSHPREACEHV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "XRMWWZNSX2BTQKWB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "Y8MGZB6AAQE6FHHG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "MWFW6DKA9DZMJ8C9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "UG592VBM68SPMDVT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Israel (Tel Aviv)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "6SHQMD5EABKE33FT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "GKZE5RA8VKSV68NC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "FGR36ZJVBPA6PP5D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "XFVMTB67X7K7E23V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "YV7729SUY8GKWMEE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "X443BEERWW9VQ5AU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "6SHQMD5EABKE33FT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "GKZE5RA8VKSV68NC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "FGR36ZJVBPA6PP5D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "XFVMTB67X7K7E23V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "YV7729SUY8GKWMEE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "X443BEERWW9VQ5AU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "EU (Zurich)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "GVUZUWHUUFU4Z88Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "UBKP744W7HW7MT76.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "T22XTYT8P6CWKQ2G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "57W6CT476K3Y8RNZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "J6HNWABF5248EPWW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "SKXKP3GJCHY2MBPB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "GVUZUWHUUFU4Z88Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "UBKP744W7HW7MT76.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "T22XTYT8P6CWKQ2G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "57W6CT476K3Y8RNZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "J6HNWABF5248EPWW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "SKXKP3GJCHY2MBPB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "EU (Stockholm)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "4NJ7J7FADNAWCEBG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "2S77H5MZU5BVWEXS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "MY4BCFMWP73MMBMD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "F96RYEA5H3P4WYZS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "FJZGZWXK3EGTGQXE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "CHBY25PYMJW4KRZX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "4NJ7J7FADNAWCEBG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "2S77H5MZU5BVWEXS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "MY4BCFMWP73MMBMD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "F96RYEA5H3P4WYZS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "FJZGZWXK3EGTGQXE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "CHBY25PYMJW4KRZX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "EU (Spain)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "ANB34B9KQ7EPWEDB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "MG69RRR3V9FG2YMF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "HBZDTXBSHZHZ96ZM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "KSEPK94ZM8N9TP4P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "ZPG7NY487K7SFHVY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "DQD8YCRNV3MPTARH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "ANB34B9KQ7EPWEDB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "MG69RRR3V9FG2YMF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "HBZDTXBSHZHZ96ZM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "KSEPK94ZM8N9TP4P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "ZPG7NY487K7SFHVY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "DQD8YCRNV3MPTARH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "EU (Paris)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "NAJ2VV2SM9W8KDJ7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "QCRBRVP4WHFE4RN9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "UCK9ZEJ2K5JRHSNA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "M5MTBWHDW42CB4BP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "G6KAA982ZNRYXTGR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "VFVKGRH6SRRZTA2G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "NAJ2VV2SM9W8KDJ7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "QCRBRVP4WHFE4RN9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "UCK9ZEJ2K5JRHSNA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "M5MTBWHDW42CB4BP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "G6KAA982ZNRYXTGR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "VFVKGRH6SRRZTA2G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "EU (Milan)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "JCFWJ2UBNX2WB9HR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "3QRVDNCQFVZRB88M.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "W88TM3YK5V76FYPB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "GH49GM6UNMUA3WZJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "ZHJ5UHSHSMH8TZP8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "43T6RQMBPUKPFYVN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "JCFWJ2UBNX2WB9HR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "3QRVDNCQFVZRB88M.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "W88TM3YK5V76FYPB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "GH49GM6UNMUA3WZJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "ZHJ5UHSHSMH8TZP8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "43T6RQMBPUKPFYVN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "EU (London)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "U4X6FTN9ANZ2AAPE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "Y2YQ2HC2B26TT67Y.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "CJZQC3BWQ4FN64FQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "TR9DH69CEWJEZP92.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "AEV6J33PEDP33ZNG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "FPUDQXU4CHYJGAJ5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "U4X6FTN9ANZ2AAPE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "Y2YQ2HC2B26TT67Y.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "CJZQC3BWQ4FN64FQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "TR9DH69CEWJEZP92.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "AEV6J33PEDP33ZNG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "FPUDQXU4CHYJGAJ5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "EU (Ireland)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "5VMB3GDJK8EVFSDB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "EVSMZX4D7HGSBAQF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "SQRX9FJCBSMCSJ62.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "FTZBUM5QNB538DP8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "GD24Q3NRUQ5AFYNR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "EYQY7XGVYUVXDM4F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "5VMB3GDJK8EVFSDB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "EVSMZX4D7HGSBAQF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "SQRX9FJCBSMCSJ62.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "FTZBUM5QNB538DP8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "GD24Q3NRUQ5AFYNR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "EYQY7XGVYUVXDM4F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "EU (Frankfurt)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "FW4GYN29JYDEZHKE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "4H6XVYZMMD8MKVZD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "Q68V8FYNYP7MEHNC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "3EY3XUVWN97SUUTN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "PK7D6SUW8TP3XWZU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "JWWY6X4APYNPTXNX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "FW4GYN29JYDEZHKE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "4H6XVYZMMD8MKVZD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "Q68V8FYNYP7MEHNC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "3EY3XUVWN97SUUTN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "PK7D6SUW8TP3XWZU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "JWWY6X4APYNPTXNX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Canada West (Calgary)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "YYCVANADZD7M6M3Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "8XH9DBV4329CDSSS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "PYYVDX3KTFC794YA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "UQEEXAXXZ8E8H3UZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "NPXGPC7JZP9BAPYK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "2D5V6KGMXHS4G8SK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "YYCVANADZD7M6M3Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "8XH9DBV4329CDSSS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "PYYVDX3KTFC794YA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "UQEEXAXXZ8E8H3UZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "NPXGPC7JZP9BAPYK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "2D5V6KGMXHS4G8SK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Canada (Central)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "HTDMPQ4QBQEGE3GY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "5Y7QS22JD2KZBNBG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "HJW33JNQQTMXT22P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "EDZ2TU9U8EEDGFCS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "4ZXH7PCQQMMPNVS7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "QPNB8ZDV5XDJC95A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "HTDMPQ4QBQEGE3GY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "5Y7QS22JD2KZBNBG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "HJW33JNQQTMXT22P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "EDZ2TU9U8EEDGFCS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "4ZXH7PCQQMMPNVS7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "QPNB8ZDV5XDJC95A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Tokyo)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "N8BUJG9DJJEJWAKG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "ZXP6ZS4WWG9FNXHG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "7GQ3EMEAP2U5KT22.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "9TTBZ6EPKQEFQ4SK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "VJNSHSJEC3XAPATF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "7D2WD6EVZZWEUUVU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "N8BUJG9DJJEJWAKG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "ZXP6ZS4WWG9FNXHG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "7GQ3EMEAP2U5KT22.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "9TTBZ6EPKQEFQ4SK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "VJNSHSJEC3XAPATF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "7D2WD6EVZZWEUUVU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Thailand)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "HNTGH5NYJJ8S866E.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "GKJ2WA9PUPY889NV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "S24MWVC5WW9FYRBJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "UPXNCPVGQNNN6NKV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "5EAEDKTA7HBSBAAE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "RTETCQS5Q8WYM966.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "HNTGH5NYJJ8S866E.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "GKJ2WA9PUPY889NV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "S24MWVC5WW9FYRBJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "UPXNCPVGQNNN6NKV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "5EAEDKTA7HBSBAAE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "RTETCQS5Q8WYM966.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Taipei)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "3937G96NQKMNJT8U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "MPVASE9XEU8AVWM6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "VH9VC7PK5TSWDET9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "D3PF4Z4NCNCDRW3X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "YV5VA6B2QSQMXHXS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "HH862X6F9F5K93KX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "3937G96NQKMNJT8U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "MPVASE9XEU8AVWM6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "VH9VC7PK5TSWDET9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "D3PF4Z4NCNCDRW3X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "YV5VA6B2QSQMXHXS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "HH862X6F9F5K93KX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Sydney)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "HQX3E8XFFPZ9U2Y6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "2V8H8RKD5G49TF84.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "WFWWCZDRKE7M8585.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "V2RD7HCM4HHH2G6T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "YPEURHYNRECJHEAD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "SCVYU36DZ7VNBYSN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "HQX3E8XFFPZ9U2Y6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "2V8H8RKD5G49TF84.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "WFWWCZDRKE7M8585.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "V2RD7HCM4HHH2G6T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "YPEURHYNRECJHEAD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "SCVYU36DZ7VNBYSN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Singapore)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "5SNBYMV9DRA8CA87.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "7AVHXGCZK6D9ARBK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "NR343AV4H543ZXG3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "AJHCKGBJKYU4VAD6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "R8AEZWXXE7G5EHRZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "GR8A68CZMABU6AYN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "5SNBYMV9DRA8CA87.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "7AVHXGCZK6D9ARBK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "NR343AV4H543ZXG3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "AJHCKGBJKYU4VAD6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "R8AEZWXXE7G5EHRZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "GR8A68CZMABU6AYN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Seoul)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "V97WSHEFGG7RDFNM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "A3247YR2SJRYKDEX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "XCEPZSUGTFG5EFRA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "4RFQMMJ3RT76W2MF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "6A8VB4MVVE4M8M69.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "GQCQGPE5Q6JFPY6X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "V97WSHEFGG7RDFNM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "A3247YR2SJRYKDEX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "XCEPZSUGTFG5EFRA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "4RFQMMJ3RT76W2MF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "6A8VB4MVVE4M8M69.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "GQCQGPE5Q6JFPY6X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Osaka)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "TRKSKTVVQ6ZB77RF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "WCDV7H2SEWSQDPHE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "5KTAXCA3CGS4ZJ6N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "A29G58SBVSWCWTVD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "Z6ZQ2YST5YY3RFRX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "KWZ8BB2XEU92WS5F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "TRKSKTVVQ6ZB77RF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "WCDV7H2SEWSQDPHE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "5KTAXCA3CGS4ZJ6N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "A29G58SBVSWCWTVD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "Z6ZQ2YST5YY3RFRX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "KWZ8BB2XEU92WS5F.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (New Zealand)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "AHSC96WKXBYW29E5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "UM499D63PU3S76VD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "UBRR2V8GA5ESZQ9Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "A8QMPQF9MNNPTNRA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "7JMPPCZGUF555GCF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "267HV7HU8WDSG42D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "AHSC96WKXBYW29E5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "UM499D63PU3S76VD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "UBRR2V8GA5ESZQ9Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "A8QMPQF9MNNPTNRA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "7JMPPCZGUF555GCF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "267HV7HU8WDSG42D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Mumbai)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "PT52VJC4BAYZU6CN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "GAG46BCKTJNCPRCD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "7KGYDE5YTPE5DCZV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "URVETMTS8BMP4BHB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "C7JZRTSGCPF9VEGG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "JHVV2VEST6BVP4VV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "PT52VJC4BAYZU6CN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "GAG46BCKTJNCPRCD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "7KGYDE5YTPE5DCZV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "URVETMTS8BMP4BHB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "C7JZRTSGCPF9VEGG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "JHVV2VEST6BVP4VV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Melbourne)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "9GP6R65MMZRURHD7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "HZSWET2JVDK3QKYM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "DB5FCBW2G5EWRWGX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "A2TA3QA5TDG8QUYT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "8PFZ8YADG7XHKWGE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "K5Z3YS3U8SPBDUPB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "9GP6R65MMZRURHD7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "HZSWET2JVDK3QKYM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "DB5FCBW2G5EWRWGX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "A2TA3QA5TDG8QUYT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "8PFZ8YADG7XHKWGE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "K5Z3YS3U8SPBDUPB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Malaysia)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "G85XMEHEXR4N2TRZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "XV5CERB5VJ728MSB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "YEYE4YCV77GT49RT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "FVDE3UX8XPVYKQJ6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "4Y83K9V68QG8W5U3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "9ZDY8SVN8CHJVRE6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "G85XMEHEXR4N2TRZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "XV5CERB5VJ728MSB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "YEYE4YCV77GT49RT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "FVDE3UX8XPVYKQJ6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "4Y83K9V68QG8W5U3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "9ZDY8SVN8CHJVRE6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Jakarta)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "NZ4WFGJ3B4YCAFEQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "23PVFMNC6R4J3AB6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "WAPNBYP62NTCEAGQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "G4798MTC4R9UGFYJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "YRP8RW34DXJKXJGC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "MH3MP6B8C42HMY3N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "NZ4WFGJ3B4YCAFEQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "23PVFMNC6R4J3AB6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "WAPNBYP62NTCEAGQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "G4798MTC4R9UGFYJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "YRP8RW34DXJKXJGC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "MH3MP6B8C42HMY3N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Hyderabad)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "PTSX694DQY3ZDP6T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "EZCZH4NG992U5FTR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "7SHRD3PHZA5YNTNH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "RGEEB5DEEWWJSYS6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "S5B9SZ8YXV74GJYV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "U2FFBRN92MVVYFZF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "PTSX694DQY3ZDP6T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "EZCZH4NG992U5FTR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "7SHRD3PHZA5YNTNH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "RGEEB5DEEWWJSYS6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "S5B9SZ8YXV74GJYV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "U2FFBRN92MVVYFZF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Asia Pacific (Hong Kong)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "VV4MAYEXHSJEFDHJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "49JKURJSSQHXXAKH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "8Z5U7Q5ZBFRRHY6K.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "8YJJADUDQGESFKZE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "WRQTQPSS8RFH828K.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "2XVSGNA5CX4VNFVR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "VV4MAYEXHSJEFDHJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "49JKURJSSQHXXAKH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "8Z5U7Q5ZBFRRHY6K.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "8YJJADUDQGESFKZE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "WRQTQPSS8RFH828K.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "2XVSGNA5CX4VNFVR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "Africa (Cape Town)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "T3ZCX62UZP3XXU2N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "H9GF6XQC7UBUWPRJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "EU4JRZRVKHX772TZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "H95AR6U2QSSMDBND.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "6DV5YVK8MHSE4N32.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "HZM4DWCUK99FDZF9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "T3ZCX62UZP3XXU2N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "H9GF6XQC7UBUWPRJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "EU4JRZRVKHX772TZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000030000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "H95AR6U2QSSMDBND.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "6DV5YVK8MHSE4N32.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "HZM4DWCUK99FDZF9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "AWS GovCloud (US-East)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "EV27Q86SEKWH2HAR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "GNYCWMXMCTZC5JHT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000040000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "DUM6MGDTVN4KJZA6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000040000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "ZNFJFEJWD9JK423B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "EUZ2ZATHYDUB5GUY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "V23TJP6R5HRQTJP4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "EV27Q86SEKWH2HAR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "GNYCWMXMCTZC5JHT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000040000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "DUM6MGDTVN4KJZA6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000040000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "ZNFJFEJWD9JK423B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "EUZ2ZATHYDUB5GUY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "V23TJP6R5HRQTJP4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "AWS GovCloud (US)": {
+      "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I": {
+        "rateCode": "QVMNR8MP96G6NJ59.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0": {
+        "rateCode": "74AFRTWKY4BVPBF7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000040000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ": {
+        "rateCode": "MTQ53C6Q4WQJY2QH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000040000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I": {
+        "rateCode": "UA9RMDCBAC7J4WHH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE": {
+        "rateCode": "F2Z923FZD5YUWJ9A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM": {
+        "rateCode": "DGFY8W8FY5WM8NTT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      },
+      "API Requests GenerateDatakeyPair ECC": {
+        "rateCode": "QVMNR8MP96G6NJ59.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000100000",
+        "RegionlessRateCode": "5IqyKzqZftmKSk_fiDfbuWXaObx-Wav6Zw9jM6bP60I"
+      },
+      "API request - Non Free Tier": {
+        "rateCode": "74AFRTWKY4BVPBF7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000040000",
+        "RegionlessRateCode": "AehbwdZ2wJbghfli5PCt0qPfL9ft9pp5N-7IKDNjE_0"
+      },
+      "Asymmetric Requests RSA_2048": {
+        "rateCode": "MTQ53C6Q4WQJY2QH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000040000",
+        "RegionlessRateCode": "FuqvoiIWG8-vFTrIMRP_OFy6-Y2Y4DlK3LGLCDXGswQ"
+      },
+      "API Requests GenerateDatakeyPair RSA": {
+        "rateCode": "UA9RMDCBAC7J4WHH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0012000000",
+        "RegionlessRateCode": "GsTBDs2yeNAemKsaI_CFNL0o5WxlXxDocDKJnXLYt_I"
+      },
+      "Encryption Key": {
+        "rateCode": "F2Z923FZD5YUWJ9A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "VxNeiscDXVHq7KDpC1Pr3KF8ehe7tmdxGHWo8_nPGKE"
+      },
+      "Asymmetric Requests except RSA_2048API": {
+        "rateCode": "DGFY8W8FY5WM8NTT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000150000",
+        "RegionlessRateCode": "xc51go_fXgTZZKU7maTWYEADXkoa7CFQiXIWTMc1etM"
+      }
+    },
+    "": {
+      "vd3xP_rcA-tBsxWTlf7vxhAQSJpG5w7spfsYhGA0ZXM": {
+        "rateCode": "VTFSAGP364M6QE4A.A429C66SYZ.7K6Z2V4Y4Q",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "vd3xP_rcA-tBsxWTlf7vxhAQSJpG5w7spfsYhGA0ZXM"
+      },
+      "Bundle": {
+        "rateCode": "VTFSAGP364M6QE4A.A429C66SYZ.7K6Z2V4Y4Q",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "vd3xP_rcA-tBsxWTlf7vxhAQSJpG5w7spfsYhGA0ZXM"
+      }
+    }
+  }
+}
