@@ -1,0 +1,57 @@
+{
+  "manifest": {
+    "serviceId": "budgets",
+    "accessType": "publish",
+    "esIndex": "plc-budgets-usd-20250909185005",
+    "hawkFilePublicationDate": "2024-08-26T15:49:00Z",
+    "ETLIngestionTriggerDate": "2025-09-09T18:50:05Z",
+    "currencyCode": "USD",
+    "source": "budgets",
+    "isMapped": "true"
+  },
+  "sets": {},
+  "regions": {
+    "Any": {
+      "9EPrM1eu8fQeL9hUWEVEbic6TTnbl4ZmPtsPJYydI_s": {
+        "rateCode": "H8ZKA3NDUDG5HWHM.JRTCKXETXF.THDP7WDETG",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "9EPrM1eu8fQeL9hUWEVEbic6TTnbl4ZmPtsPJYydI_s"
+      },
+      "TE-qzNb7jZNnr3INh17fxgoRjHWILwbNhnc4xe_fbn0": {
+        "rateCode": "65GKVXQ58KMKSXD8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0100000000",
+        "RegionlessRateCode": "TE-qzNb7jZNnr3INh17fxgoRjHWILwbNhnc4xe_fbn0"
+      },
+      "b2XLi0sobUYyPSusIoub_QjrZxUNqZooNU1PkiVJl3E": {
+        "rateCode": "T2UVJ9XYT52FBFAF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "b2XLi0sobUYyPSusIoub_QjrZxUNqZooNU1PkiVJl3E"
+      },
+      "xkON7oXNXwlsX3iKAu6VcF50YxG8bukF_ftjjPW3_cY": {
+        "rateCode": "H8ZKA3NDUDG5HWHM.JRTCKXETXF.SKU64ZHHQB",
+        "price": "0.1000000000",
+        "RegionlessRateCode": "xkON7oXNXwlsX3iKAu6VcF50YxG8bukF_ftjjPW3_cY"
+      },
+      "Budget Actions Free Tier per day": {
+        "rateCode": "H8ZKA3NDUDG5HWHM.JRTCKXETXF.THDP7WDETG",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "9EPrM1eu8fQeL9hUWEVEbic6TTnbl4ZmPtsPJYydI_s"
+      },
+      "Budgets Reports Distribution Inf per Message": {
+        "rateCode": "65GKVXQ58KMKSXD8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0100000000",
+        "RegionlessRateCode": "TE-qzNb7jZNnr3INh17fxgoRjHWILwbNhnc4xe_fbn0"
+      },
+      "Budget Notifications Inf per day": {
+        "rateCode": "T2UVJ9XYT52FBFAF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "b2XLi0sobUYyPSusIoub_QjrZxUNqZooNU1PkiVJl3E"
+      },
+      "Budget Actions Inf per day": {
+        "rateCode": "H8ZKA3NDUDG5HWHM.JRTCKXETXF.SKU64ZHHQB",
+        "price": "0.1000000000",
+        "RegionlessRateCode": "xkON7oXNXwlsX3iKAu6VcF50YxG8bukF_ftjjPW3_cY"
+      }
+    }
+  }
+}

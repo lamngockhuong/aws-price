@@ -1,0 +1,2589 @@
+{
+  "manifest": {
+    "serviceId": "quicksight",
+    "accessType": "publish",
+    "esIndex": "plc-quicksight-usd-20251009175305",
+    "hawkFilePublicationDate": "2025-10-09T17:53:05Z",
+    "ETLIngestionTriggerDate": "2025-10-09T17:53:05Z",
+    "currencyCode": "USD",
+    "source": "quicksight",
+    "isMapped": "true"
+  },
+  "sets": {},
+  "regions": {
+    "US West (Oregon)": {
+      "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE": {
+        "rateCode": "MK9HCQNVE5UJQB5W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "TBA2FJRJGHCRC5R6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "E8CUK4U2TTR9X7RH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "4QKPUTQJUJU5FY8Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "RZBWF6M84TCY3VR2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "3CXCGVG6DDPXE9AX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "JBJZ4M3ZB9KQ7QQ6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "8SGX62U3CNQPU6BE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "RDXCMHDETRBGP649.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "5P3XSR4NH5245U2U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "CW7RVAQTZ3XDSJ2K.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "4FYWF5M6VTH6HHJR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "PRYXFH4GAKN2Q7EJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "A3JUC3MC348WKTUN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM": {
+        "rateCode": "UF3BE277MFNZ8KBU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "PXAXF94DUTPWK5XE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Monthly per region fee with Q free trial per Month": {
+        "rateCode": "MK9HCQNVE5UJQB5W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "TBA2FJRJGHCRC5R6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "E8CUK4U2TTR9X7RH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "4QKPUTQJUJU5FY8Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "RZBWF6M84TCY3VR2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "3CXCGVG6DDPXE9AX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "JBJZ4M3ZB9KQ7QQ6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "8SGX62U3CNQPU6BE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "RDXCMHDETRBGP649.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "5P3XSR4NH5245U2U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "CW7RVAQTZ3XDSJ2K.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "4FYWF5M6VTH6HHJR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "PRYXFH4GAKN2Q7EJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "A3JUC3MC348WKTUN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Monthly per region fee with Q per Month": {
+        "rateCode": "UF3BE277MFNZ8KBU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "PXAXF94DUTPWK5XE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "US East (Ohio)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "M4W52KQ9FVFJ9CZN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "ZATET8TFJE4PK596.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "VQGEJS8MUMCPCRZZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "NVNPRNMFTNR8NTKM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "M4W52KQ9FVFJ9CZN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "ZATET8TFJE4PK596.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "VQGEJS8MUMCPCRZZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "NVNPRNMFTNR8NTKM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "US East (N. Virginia)": {
+      "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE": {
+        "rateCode": "R3ZAN9587A3TQTZC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "VF5J4R2GXB38SGR7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "SBUGB4C3KP7CDT4C.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "6B5DXN2GPARZZRH5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "UBY76EGTFHTEHQKE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "7PQVTTZGKYVJENSY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "TTN2WJDYC236NKSB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "R8PKSKFCHES8YSKK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "F3CRRKG85U8SJQD6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "CBK33VETENVNECW6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "T4GAEKP5WQQWCUD5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "YVR4TMSPWDQHPZH8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "2XE6QEX4JKTVDM2U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "B23WCNJ3RN5TAJRH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM": {
+        "rateCode": "FQ5XERETVK9SRJ8P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "NWBHWA6ZYWY3XSPZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Monthly per region fee with Q free trial per Month": {
+        "rateCode": "R3ZAN9587A3TQTZC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "VF5J4R2GXB38SGR7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "SBUGB4C3KP7CDT4C.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "6B5DXN2GPARZZRH5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "UBY76EGTFHTEHQKE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "7PQVTTZGKYVJENSY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "TTN2WJDYC236NKSB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "R8PKSKFCHES8YSKK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "F3CRRKG85U8SJQD6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "CBK33VETENVNECW6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "T4GAEKP5WQQWCUD5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "YVR4TMSPWDQHPZH8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "2XE6QEX4JKTVDM2U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "B23WCNJ3RN5TAJRH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Monthly per region fee with Q per Month": {
+        "rateCode": "FQ5XERETVK9SRJ8P.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "NWBHWA6ZYWY3XSPZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "South America (Sao Paulo)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "4KC8VGVA3NDFHD2K.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "V33Y6KYH3PR2GWGE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "6UAC7VE67FB63CDX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "XE25M5VKKJCQPJNE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "NF3EA39S5N3PFKY7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "YK8B5UMGA9K89T24.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "ZUNJRESA6MB8GAHQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "558GXQDHUP3HVU6B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "YZKAPM7VVXCJ6C2Y.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "HMWFNQGMWDWUXWJ5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "3BRAA36E3S7WP3NH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "D9VQNMEBP2NWXHXZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "3MHD5BSCRJ5D3HBC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "Q8F6CK2FN2YBCKBR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "4KC8VGVA3NDFHD2K.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "V33Y6KYH3PR2GWGE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "6UAC7VE67FB63CDX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "XE25M5VKKJCQPJNE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "NF3EA39S5N3PFKY7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "YK8B5UMGA9K89T24.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "ZUNJRESA6MB8GAHQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "558GXQDHUP3HVU6B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "YZKAPM7VVXCJ6C2Y.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "HMWFNQGMWDWUXWJ5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "3BRAA36E3S7WP3NH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "D9VQNMEBP2NWXHXZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "3MHD5BSCRJ5D3HBC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "Q8F6CK2FN2YBCKBR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "Middle East (UAE)": {
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "JBHKQ99UZ3PNC5VH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "4CBCXD6HVBYUMG45.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "JBHKQ99UZ3PNC5VH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "4CBCXD6HVBYUMG45.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      }
+    },
+    "Israel (Tel Aviv)": {
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "A495DRN6PVZAE64Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "Z9JCWDG3MYY8PNNN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "A495DRN6PVZAE64Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "Z9JCWDG3MYY8PNNN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      }
+    },
+    "EU (Zurich)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "XDPR5EJWKKZHDV28.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "FWB7RQHFPDRUMFXX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "4YDRMVCFWBPSBQYD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "RK6TG5662UCM5Y77.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "XDPR5EJWKKZHDV28.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "FWB7RQHFPDRUMFXX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "4YDRMVCFWBPSBQYD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "RK6TG5662UCM5Y77.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "EU (Stockholm)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "7XM4M52US8UBD5WB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "72WS22PW8ZX4UB4Y.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "3NN94HNNH8V7FF4N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "WG39JR3YTDB4WRKY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "7XM4M52US8UBD5WB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "72WS22PW8ZX4UB4Y.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "3NN94HNNH8V7FF4N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "WG39JR3YTDB4WRKY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "EU (Spain)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "66RXH262ME9T5M8W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "SCNBJT8JN83F8MDN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "27DVG47CSY362R75.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "78KZU86SPDXH5AE9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "66RXH262ME9T5M8W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "SCNBJT8JN83F8MDN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "27DVG47CSY362R75.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "78KZU86SPDXH5AE9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "EU (Paris)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "K9A2ADHEFTF9URGH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "U4546KZDNBE2WRX6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "NQDWYPGT6G4P557A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "F3CXF38SPG99XTHX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "K9A2ADHEFTF9URGH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "U4546KZDNBE2WRX6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "NQDWYPGT6G4P557A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "F3CXF38SPG99XTHX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "EU (Milan)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "CYCYW54VMQJ4B8A4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "8AFYE5C36KVBKFUJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "7XGWBPJ55SPPSURQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "KTU47TD287UK8R3R.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "CYCYW54VMQJ4B8A4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "8AFYE5C36KVBKFUJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "7XGWBPJ55SPPSURQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "KTU47TD287UK8R3R.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "EU (London)": {
+      "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE": {
+        "rateCode": "QUPUA8S9Q5Y8EEZB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "CJH24S5KQNPZ7WDP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "WDEFQDF3SR7RSSW9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "333FHMSFAYKW4RUC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "ANAS43VAZ3DW26D3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "E57FJXWZ26X249YV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "FEU4JV8FJTBF2C87.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "QJG3DP4QU527T3A3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "38X585GRJH8FPCM5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "HT4N76J7AWFCUEB2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "P92Z87R46N9HXF2B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "292X447UEFC3GURG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "AEGT553ZEMMGM5SG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "5SM735TUAQH39R2D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM": {
+        "rateCode": "E5CJA2FDRPNQX8EB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "3D8P2CCHD2ZENBTX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Monthly per region fee with Q free trial per Month": {
+        "rateCode": "QUPUA8S9Q5Y8EEZB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "CJH24S5KQNPZ7WDP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "WDEFQDF3SR7RSSW9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "333FHMSFAYKW4RUC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "ANAS43VAZ3DW26D3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "E57FJXWZ26X249YV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "FEU4JV8FJTBF2C87.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "QJG3DP4QU527T3A3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "38X585GRJH8FPCM5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "HT4N76J7AWFCUEB2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "P92Z87R46N9HXF2B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "292X447UEFC3GURG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "AEGT553ZEMMGM5SG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "5SM735TUAQH39R2D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Monthly per region fee with Q per Month": {
+        "rateCode": "E5CJA2FDRPNQX8EB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "3D8P2CCHD2ZENBTX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "EU (Ireland)": {
+      "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE": {
+        "rateCode": "4Y4M27SMKSFNZ6QF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "RKY749HKAFEPAHAY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "YZ5PGZN3JW79JSF5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "WZA6FXDUDAGW3E8D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "GFGJEA8UJZV37MXV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "2DP4KMUQCSCK3QTV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "MNN8QWNM27PDC75W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "NZ7Q6TBMPBKHKGDB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "EVEUSXHWA8FBBAKE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "MF8YVPA7336TCHXS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "G26TQGRFRVCT8359.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "7VV5XM5WTGMSZHDZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "ARZXZ9KB2TFXKFNR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "VG6NRJVZ886M4HFP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM": {
+        "rateCode": "HDJD46ZXMMM5TERQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "USHJKH83P9NRRPVW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Monthly per region fee with Q free trial per Month": {
+        "rateCode": "4Y4M27SMKSFNZ6QF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "RKY749HKAFEPAHAY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "YZ5PGZN3JW79JSF5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "WZA6FXDUDAGW3E8D.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "GFGJEA8UJZV37MXV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "2DP4KMUQCSCK3QTV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "MNN8QWNM27PDC75W.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "NZ7Q6TBMPBKHKGDB.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "EVEUSXHWA8FBBAKE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "MF8YVPA7336TCHXS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "G26TQGRFRVCT8359.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "7VV5XM5WTGMSZHDZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "ARZXZ9KB2TFXKFNR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "VG6NRJVZ886M4HFP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Monthly per region fee with Q per Month": {
+        "rateCode": "HDJD46ZXMMM5TERQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "USHJKH83P9NRRPVW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "EU (Frankfurt)": {
+      "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE": {
+        "rateCode": "ZXZCABZKGSQD3VGZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "PXCR7UY6WE8HYKSV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "G2WK6APR4SCTWYWW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "YWA4KWBCJNQCA2XT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "RN7EGZVNSTVNZWHC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "8WM6PBDAWWJV89DP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "Z68EAFPR8GKFPMVG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "UTWD2UF8CTAYDP6V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "2UNKY34Q2CFEQ2NG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "PYBGVQHJUNFCJXP5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "Z6KZMMAJX8FG88MF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "DSD6S634Q93AZ8YY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "ZQ8SGQHMJDUD4PNS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "5DGZ3ZR6VD2BC3ZA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM": {
+        "rateCode": "CCWMAP57VHQ72KWE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "ZJACFPR9YV8YFQKR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Monthly per region fee with Q free trial per Month": {
+        "rateCode": "ZXZCABZKGSQD3VGZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "PXCR7UY6WE8HYKSV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "G2WK6APR4SCTWYWW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "YWA4KWBCJNQCA2XT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "RN7EGZVNSTVNZWHC.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "8WM6PBDAWWJV89DP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "Z68EAFPR8GKFPMVG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "UTWD2UF8CTAYDP6V.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "2UNKY34Q2CFEQ2NG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "PYBGVQHJUNFCJXP5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "Z6KZMMAJX8FG88MF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "DSD6S634Q93AZ8YY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "ZQ8SGQHMJDUD4PNS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "5DGZ3ZR6VD2BC3ZA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Monthly per region fee with Q per Month": {
+        "rateCode": "CCWMAP57VHQ72KWE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "ZJACFPR9YV8YFQKR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "Canada (Central)": {
+      "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE": {
+        "rateCode": "EE2YKZ58NWH53QYS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "YEZ7YWTQUNRWA8VT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "WNS9K6V4Z6242JKS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "P2RDDPAUWMFRMHBY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "QGUH2QKXPXJ98KGH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "T7XJPRCNGN335W3H.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "68JEG3NSND2ZA3ER.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "KEDF8CFUT5V3NRC9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "SPFP9ZEX64XZG5ZX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "BFWEV39VQXUMP363.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "KH2BECP9HQ8FS53J.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "YHZ9K65DRTZ5BQ6X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "A997YQJQYEP3CV8Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "YPBXVC8TYUGXNVCM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM": {
+        "rateCode": "5TDAMHH53Q5F6HDZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "YMQK87KCRFNHKJNZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Monthly per region fee with Q free trial per Month": {
+        "rateCode": "EE2YKZ58NWH53QYS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "YEZ7YWTQUNRWA8VT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "WNS9K6V4Z6242JKS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "P2RDDPAUWMFRMHBY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "QGUH2QKXPXJ98KGH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "T7XJPRCNGN335W3H.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "68JEG3NSND2ZA3ER.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "KEDF8CFUT5V3NRC9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "SPFP9ZEX64XZG5ZX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "BFWEV39VQXUMP363.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "KH2BECP9HQ8FS53J.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "YHZ9K65DRTZ5BQ6X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "A997YQJQYEP3CV8Z.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "YPBXVC8TYUGXNVCM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Monthly per region fee with Q per Month": {
+        "rateCode": "5TDAMHH53Q5F6HDZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "YMQK87KCRFNHKJNZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "Asia Pacific (Tokyo)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "5X775MAU43UGJ5J7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "CA7W26TCNCQZPMYJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "YTUACH92QN7WWCQF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "P8A3GJWP7QXKPT83.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "5X775MAU43UGJ5J7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "CA7W26TCNCQZPMYJ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "YTUACH92QN7WWCQF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "P8A3GJWP7QXKPT83.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "Asia Pacific (Sydney)": {
+      "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE": {
+        "rateCode": "SXYT3WPRZGMBBAX9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "E4Q6HT4RR9ZYWRYK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "PFJQRQRM937U9QV9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "SQAX24RG4NZ6Z7CK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "PJRR4RSHCSTCXT62.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "PEMBJ7DKEXAMRDSD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "VE8JP6ZK22ACANGZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "F8P8SKCSNSABVRQK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "Z4U3VE36W64KMRMG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "JYGSQG5SXPP9B7W4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "C9M37288AVJCD2GQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "4XEX552SQARWSR9B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "JH4WYDTC59X99UR8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "JAVZQMXDKDWQN6DF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM": {
+        "rateCode": "JHD62A76WGJHTER9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "4FAH8CEMTW4TFC5H.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Monthly per region fee with Q free trial per Month": {
+        "rateCode": "SXYT3WPRZGMBBAX9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "E4Q6HT4RR9ZYWRYK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "PFJQRQRM937U9QV9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "SQAX24RG4NZ6Z7CK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "PJRR4RSHCSTCXT62.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "PEMBJ7DKEXAMRDSD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "VE8JP6ZK22ACANGZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "F8P8SKCSNSABVRQK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "Z4U3VE36W64KMRMG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "JYGSQG5SXPP9B7W4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "C9M37288AVJCD2GQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "4XEX552SQARWSR9B.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "JH4WYDTC59X99UR8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "JAVZQMXDKDWQN6DF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Monthly per region fee with Q per Month": {
+        "rateCode": "JHD62A76WGJHTER9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "4FAH8CEMTW4TFC5H.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "Asia Pacific (Singapore)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "JPNKXJ3UH6RJS99N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "V7QSEJSM2Q5JEYVX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "XZB7TG438GU8KGQF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "AD3844ZF87TZXN7X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "JPNKXJ3UH6RJS99N.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "V7QSEJSM2Q5JEYVX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "XZB7TG438GU8KGQF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "AD3844ZF87TZXN7X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "Asia Pacific (Seoul)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "GRFUTTAM5JDC5JCT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "2ZWH3FZY2JFGE55G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "E3JEADZU4FKWR6FV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "QMU36GRMQXH659D4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "GRFUTTAM5JDC5JCT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "2ZWH3FZY2JFGE55G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "E3JEADZU4FKWR6FV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "QMU36GRMQXH659D4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "Asia Pacific (Osaka)": {
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "RZBSM9WBFQ2RW9VV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "ZADB4DD3QR9Z3Y9X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "RZBSM9WBFQ2RW9VV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "ZADB4DD3QR9Z3Y9X.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      }
+    },
+    "Asia Pacific (Mumbai)": {
+      "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE": {
+        "rateCode": "NXF6B9MDYFP4HVGK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "HR4WGJ6G647T2CGZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw": {
+        "rateCode": "A8XU5H8Z524D9NPG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs": {
+        "rateCode": "F874TAMW4B27QRVV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA": {
+        "rateCode": "T93E76UMQH4E7MSG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc": {
+        "rateCode": "CX2HVEQRFQXZU79A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak": {
+        "rateCode": "B6DBD5CW2QP6DJ2M.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "M9XXFW4V4RAX9AFV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA": {
+        "rateCode": "88MRP4SSP8F6558U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI": {
+        "rateCode": "XK3AJDDJS68MDTVQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "D45ZAD5G9HKMUZAF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y": {
+        "rateCode": "TJXH2N3PXT3WN4WH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY": {
+        "rateCode": "FG6QY3DHDTUCD9TU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "D8WBRPBAAVNDYYY3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM": {
+        "rateCode": "DVHX6KG55BYHZD4Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw": {
+        "rateCode": "NRPEXQMFFK9QCAYW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      },
+      "Enterprise Monthly Monthly per region fee with Q free trial per Month": {
+        "rateCode": "NXF6B9MDYFP4HVGK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "3xs_DTI4V9nQry6td9cdXCO80NLz-enYYpaWZXfpDcE"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "HR4WGJ6G647T2CGZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions free trial per User": {
+        "rateCode": "A8XU5H8Z524D9NPG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4jD9UkWyQ6uH0iKiQeIXfvbIOjlUjyVtG1ifieXEFnw"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight free trial per Month": {
+        "rateCode": "F874TAMW4B27QRVV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AlXuZJW-6OPmm-edQt1mALtJsrRs5w96ow3C_jWLvSs"
+      },
+      "Enterprise Monthly Monthly fee for Amazon Q in QuickSight per Month": {
+        "rateCode": "T93E76UMQH4E7MSG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "HxBjm_i8ILwJkiPknGWzK7_gGVbB4k1gq_odwuRTRIA"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "CX2HVEQRFQXZU79A.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "NvpvhLdCY73xYcdv3NI1RbLt7lP0buQHwhNZnrE3rQc"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q per User": {
+        "rateCode": "B6DBD5CW2QP6DJ2M.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "Wg9seuNstofEewvAidJdvqCWbkClgkbQnHuIdZ3s3ak"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "M9XXFW4V4RAX9AFV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Enterprise Monthly Reader Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "88MRP4SSP8F6558U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "_YzHgGBmODWaOV8kRsRrqAcI7mgcALK2RWPPSoU57TA"
+      },
+      "Enterprise Monthly Author Pro subscriptions that include an entitlement to Amazon Q free trial per User": {
+        "rateCode": "XK3AJDDJS68MDTVQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "aVQCn7ONpZpLFMNQPfcsZGXSjpycCPNtlhTy4rNEfBI"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "D45ZAD5G9HKMUZAF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader Pro subscriptions per User": {
+        "rateCode": "TJXH2N3PXT3WN4WH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "20.0000000000",
+        "RegionlessRateCode": "gTW3i2vNM59sbhcRULanvk27gYbnU-Y2B56O9WxJb2Y"
+      },
+      "Enterprise Monthly Author Pro subscriptions free trial per User": {
+        "rateCode": "FG6QY3DHDTUCD9TU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "lG0_GxIM-6M5R3JbwIgUiRKDhcitHjSLcTiud6BKkeY"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "D8WBRPBAAVNDYYY3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Monthly per region fee with Q per Month": {
+        "rateCode": "DVHX6KG55BYHZD4Q.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "puyD6Y2j65eDGVr4hZO4g--mHu3Pwot60xKgyQBlQzM"
+      },
+      "Enterprise Monthly Author Pro subscriptions per User": {
+        "rateCode": "NRPEXQMFFK9QCAYW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "40.0000000000",
+        "RegionlessRateCode": "u8TevJXrKYu8N2aQZp36SeenZ27ZLRTU4FNXulFc5Fw"
+      }
+    },
+    "Asia Pacific (Melbourne)": {
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "K8KZH9C2G3Z5TA3J.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "PN5HCS3GHDARMSCN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "K8KZH9C2G3Z5TA3J.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "PN5HCS3GHDARMSCN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      }
+    },
+    "Asia Pacific (Jakarta)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "3D94J6F64FWDKKW2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "SUUD7NUXFB5ZNB9S.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "R22WXJKAQEJTPDR9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "TXT64XW5GM5W5FG4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "3D94J6F64FWDKKW2.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "SUUD7NUXFB5ZNB9S.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "R22WXJKAQEJTPDR9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "TXT64XW5GM5W5FG4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "Any": {
+      "-VDELAv1tVLC-QJQ7BCE5ufJ8Uoxr5qNoQSlQ755oj8": {
+        "rateCode": "RPCHPS89C2U6A7NP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "-VDELAv1tVLC-QJQ7BCE5ufJ8Uoxr5qNoQSlQ755oj8"
+      },
+      "0JC8WQNXV4-k3IRkkdPSJjS5O6GHoAkkXNEuCPk6f5g": {
+        "rateCode": "3CGKECGVV6SZRTSM.JRTCKXETXF.9CAT47X48E",
+        "price": "0.1000000000",
+        "RegionlessRateCode": "0JC8WQNXV4-k3IRkkdPSJjS5O6GHoAkkXNEuCPk6f5g"
+      },
+      "0Zy1_GExwfNGV3W4PMaNV3XItBp7pDN31vmxmMYw3TY": {
+        "rateCode": "PB8P3JVZJTUXZRHN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3000000000",
+        "RegionlessRateCode": "0Zy1_GExwfNGV3W4PMaNV3XItBp7pDN31vmxmMYw3TY"
+      },
+      "1S0rN4AEzLnoGlBGvrWSbf_X2nyVX-GsnpUnpTK5qGs": {
+        "rateCode": "YACAX6NAFSRM66H3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2000000000",
+        "RegionlessRateCode": "1S0rN4AEzLnoGlBGvrWSbf_X2nyVX-GsnpUnpTK5qGs"
+      },
+      "1jjj-83XMmvkc4qrolAuY29XDmFwG--0kftI_dBaOZk": {
+        "rateCode": "54XJM5WBSVREA9CS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "1jjj-83XMmvkc4qrolAuY29XDmFwG--0kftI_dBaOZk"
+      },
+      "1tzLNjVwVHast10bhA89gBVRZejAdN9xOKKgMUomcYA": {
+        "rateCode": "MMPV8XBRFHTASETG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "1tzLNjVwVHast10bhA89gBVRZejAdN9xOKKgMUomcYA"
+      },
+      "8LBksHXYEchbd2H0754maCbJo-vY5OVvJie-Qk8eGkE": {
+        "rateCode": "2HEM2283GQQR6VDM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "8LBksHXYEchbd2H0754maCbJo-vY5OVvJie-Qk8eGkE"
+      },
+      "8b4aQtIGYaYXBkZLzkvOSaUA_yXfIp-hHLYMRkz5RZM": {
+        "rateCode": "AE7GQAS8EY6U9XCK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3000000000",
+        "RegionlessRateCode": "8b4aQtIGYaYXBkZLzkvOSaUA_yXfIp-hHLYMRkz5RZM"
+      },
+      "A1yAC7XuND6smL2_HBcAh74tLkXRkSRXnWwEEj83wC8": {
+        "rateCode": "KKYHZZVZ6VGWNGKD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "A1yAC7XuND6smL2_HBcAh74tLkXRkSRXnWwEEj83wC8"
+      },
+      "AW8dEA4DEhCpCoObGr7hhkeVM3b9LyxxRiOda4qTLjE": {
+        "rateCode": "5W22Z5EHVJDCT2JT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AW8dEA4DEhCpCoObGr7hhkeVM3b9LyxxRiOda4qTLjE"
+      },
+      "Ap-tW2RaZ9kerV7URf45Z44CLnCBub9squORXMO4TqA": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.ESVXPS4YV2",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "Ap-tW2RaZ9kerV7URf45Z44CLnCBub9squORXMO4TqA"
+      },
+      "D1rizHf8LAnISuwxfdEIPBowc3dpUalvvJQwmd0BhNo": {
+        "rateCode": "PRTERWPFNK9T5GVK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "D1rizHf8LAnISuwxfdEIPBowc3dpUalvvJQwmd0BhNo"
+      },
+      "DsZq9L2N4ODkHgBaMJp2yf8c6g0tm_Yvj75upeMtndI": {
+        "rateCode": "KZBH6KNMU4G6T6UE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "DsZq9L2N4ODkHgBaMJp2yf8c6g0tm_Yvj75upeMtndI"
+      },
+      "E9LJj21RQm8NBffozRxldTNpgDx3qXadll7jUJZwu10": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.GX9X5FSU3J",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "E9LJj21RQm8NBffozRxldTNpgDx3qXadll7jUJZwu10"
+      },
+      "ELZ9RMruFtrSQwC_7DhonhsZYNuNe1eZWyBiKG1PMFY": {
+        "rateCode": "DBF9GHJCD6VP8889.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.4000000000",
+        "RegionlessRateCode": "ELZ9RMruFtrSQwC_7DhonhsZYNuNe1eZWyBiKG1PMFY"
+      },
+      "FMMHBQXCUI9NBQKRRAkUTqamNyF_rv6ryeDBcdFIYt8": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.KRYGZUJMYY",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "FMMHBQXCUI9NBQKRRAkUTqamNyF_rv6ryeDBcdFIYt8"
+      },
+      "G2NhaJoqiubW-BNM04B72r5Quj5POj9s02zRw6noXlY": {
+        "rateCode": "H2PYYX5WXDB7ZCSG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "G2NhaJoqiubW-BNM04B72r5Quj5POj9s02zRw6noXlY"
+      },
+      "Gaadl6fFeDf4fKnB0Y1Yx0ZV03pauWjPnbtF9hRUlTM": {
+        "rateCode": "ZBZYBFVUPDSBAXQR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "Gaadl6fFeDf4fKnB0Y1Yx0ZV03pauWjPnbtF9hRUlTM"
+      },
+      "HqaH8qd_z31Gid5VRBiJVYCLEZuy4p41gZJfEtPZIKg": {
+        "rateCode": "899DRXCTUCAR9MAZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "HqaH8qd_z31Gid5VRBiJVYCLEZuy4p41gZJfEtPZIKg"
+      },
+      "JdajUuicSNX0lpFzj37Np-1CvpOYLNciHLFPm3bl0i4": {
+        "rateCode": "XDQP2MNJ57UUT4FX.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "JdajUuicSNX0lpFzj37Np-1CvpOYLNciHLFPm3bl0i4"
+      },
+      "Kqd3e8TsYGcTPPltBySuWLDpeRFWfUNCEXfjOueImYw": {
+        "rateCode": "9E78J2E3E8CRGUBR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2000000000",
+        "RegionlessRateCode": "Kqd3e8TsYGcTPPltBySuWLDpeRFWfUNCEXfjOueImYw"
+      },
+      "N4fU3lx6X9p4clUt3bthJVUrDuoZApnhlbAxytniePQ": {
+        "rateCode": "422BVK3EA5EAVP5M.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1000000000",
+        "RegionlessRateCode": "N4fU3lx6X9p4clUt3bthJVUrDuoZApnhlbAxytniePQ"
+      },
+      "NXtbmLHDvwRsC6V5SfFBtFdvcHzCQH_7sTMpYmQ6N6Q": {
+        "rateCode": "3CGKECGVV6SZRTSM.JRTCKXETXF.FA59GSBSCH",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "NXtbmLHDvwRsC6V5SfFBtFdvcHzCQH_7sTMpYmQ6N6Q"
+      },
+      "PFHkunYXQT5oRWK8VUa5-gBtXfmZmcDpG3ODv62uEeI": {
+        "rateCode": "VEJHWGNQ4D4C7Y87.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2800000000",
+        "RegionlessRateCode": "PFHkunYXQT5oRWK8VUa5-gBtXfmZmcDpG3ODv62uEeI"
+      },
+      "PgYw1dNmbtCz1_Sr5EeLlRNSorj88VihO0FmiFrdgMM": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.6JXGNJYD8R",
+        "price": "0.1000000000",
+        "RegionlessRateCode": "PgYw1dNmbtCz1_Sr5EeLlRNSorj88VihO0FmiFrdgMM"
+      },
+      "QWd-V8p0W0ZTgctM9mLcSldv_0bty2zxSRmOZqKIKA0": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.C2QCTD4VXQ",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "QWd-V8p0W0ZTgctM9mLcSldv_0bty2zxSRmOZqKIKA0"
+      },
+      "QajTQeyJiOajM8tzKFHmGlEMG642aJho8RWl2Ud5was": {
+        "rateCode": "PX9ZJ8NFJN8RS8M4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3000000000",
+        "RegionlessRateCode": "QajTQeyJiOajM8tzKFHmGlEMG642aJho8RWl2Ud5was"
+      },
+      "Sizhw-C1cXPGTjI4gkwK7i7Wu2ENjQm6e0HoHAzraIo": {
+        "rateCode": "A6SHKWURHG36TVBZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2000000000",
+        "RegionlessRateCode": "Sizhw-C1cXPGTjI4gkwK7i7Wu2ENjQm6e0HoHAzraIo"
+      },
+      "VHrdi36sii0_-Ys7lO9P55c_RYCQ9yC72_z1IAs0FzI": {
+        "rateCode": "34HTKYK4GJNDEKHA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2025000000",
+        "RegionlessRateCode": "VHrdi36sii0_-Ys7lO9P55c_RYCQ9yC72_z1IAs0FzI"
+      },
+      "WSduSlyNtcI91Z4-0kMQ-v_z2Ydli_RjNidg1F06Wv4": {
+        "rateCode": "96CPD4MN7Q6WKPAM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "12.0000000000",
+        "RegionlessRateCode": "WSduSlyNtcI91Z4-0kMQ-v_z2Ydli_RjNidg1F06Wv4"
+      },
+      "XlxN-DY2oXG4pCdm7RUxfURxxX5SXSePuRUYSR-o_T0": {
+        "rateCode": "8QHQ3W79WQ6PJEQP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "XlxN-DY2oXG4pCdm7RUxfURxxX5SXSePuRUYSR-o_T0"
+      },
+      "_UEV5kvhk_gvM2is3SxsefV93ZAm4Z1D4SoK4BL9w6A": {
+        "rateCode": "76MVJ8GR6X4CGYSV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1612500000",
+        "RegionlessRateCode": "_UEV5kvhk_gvM2is3SxsefV93ZAm4Z1D4SoK4BL9w6A"
+      },
+      "c4PzOgJmfrmjkuV_pbwjalv0CkFOgkOTCFgiIq6B7wg": {
+        "rateCode": "3CGKECGVV6SZRTSM.JRTCKXETXF.FF8BMSDA2R",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "c4PzOgJmfrmjkuV_pbwjalv0CkFOgkOTCFgiIq6B7wg"
+      },
+      "c_Fh42S3U57vAnHdS6GWbRRPW8OvOBgeM45u1J23EZg": {
+        "rateCode": "W8FCAM8AYYC3AFTP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2000000000",
+        "RegionlessRateCode": "c_Fh42S3U57vAnHdS6GWbRRPW8OvOBgeM45u1J23EZg"
+      },
+      "e_0II4Cn4vHqbDgcTjGDeIpqOufCaoCx8NpiiGnJ39c": {
+        "rateCode": "FTP227AUWNMMYG63.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "e_0II4Cn4vHqbDgcTjGDeIpqOufCaoCx8NpiiGnJ39c"
+      },
+      "fRrbY0NFUAOYRoa_g5wmANkprTQKSRRFv1yOZ95XKB0": {
+        "rateCode": "XB37G5VQ9SUV266T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2400000000",
+        "RegionlessRateCode": "fRrbY0NFUAOYRoa_g5wmANkprTQKSRRFv1yOZ95XKB0"
+      },
+      "fXl9S4fGgA3epJ9oD-_sxw131S5y9-yE4yMfF28DD5Y": {
+        "rateCode": "EGNJJ52G8NDUF7TZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2400000000",
+        "RegionlessRateCode": "fXl9S4fGgA3epJ9oD-_sxw131S5y9-yE4yMfF28DD5Y"
+      },
+      "gJ_LnUSc-n1fg9z6_zc3j6xObdiqrTzyaAsZ4q0-PbQ": {
+        "rateCode": "XQ2A7SUYZX36HHCR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "9.0000000000",
+        "RegionlessRateCode": "gJ_LnUSc-n1fg9z6_zc3j6xObdiqrTzyaAsZ4q0-PbQ"
+      },
+      "hAGh2GiUjTv6EZKo7pn96kXAhcgzcjEb9QAo0KfAxGE": {
+        "rateCode": "9RG5SJJDSKDDKH94.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "hAGh2GiUjTv6EZKo7pn96kXAhcgzcjEb9QAo0KfAxGE"
+      },
+      "hYUbVCrZ4_v0IbTfCkMjQMVWlly8RYVaPgd1dms89GI": {
+        "rateCode": "PG8RJ65RVGUEJ5DS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "24.0000000000",
+        "RegionlessRateCode": "hYUbVCrZ4_v0IbTfCkMjQMVWlly8RYVaPgd1dms89GI"
+      },
+      "i1zPqyrvhiYcsh7tU5z5mHI5V-wBkRtOb8YZ3c-yCCc": {
+        "rateCode": "E2HEEG2XQ33TGF23.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "i1zPqyrvhiYcsh7tU5z5mHI5V-wBkRtOb8YZ3c-yCCc"
+      },
+      "mUCEedTes9nK5biMUJFjc7Y2kpxqY0CcrYPnKxTT1Lk": {
+        "rateCode": "299MMA8WJYKAYTP8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "mUCEedTes9nK5biMUJFjc7Y2kpxqY0CcrYPnKxTT1Lk"
+      },
+      "n5YoZt7ZyznIL-eXNMWsDjsussFclAi-BM28YDHJSVc": {
+        "rateCode": "VTYSM8HRW5RPK9AS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "n5YoZt7ZyznIL-eXNMWsDjsussFclAi-BM28YDHJSVc"
+      },
+      "raM2kSkqAh2wLCPdvqMna5PjUHuQYAuiqHxLh63JETE": {
+        "rateCode": "RHQXF94QZ7YD3GX7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "raM2kSkqAh2wLCPdvqMna5PjUHuQYAuiqHxLh63JETE"
+      },
+      "rrqrQxCeO3ZBjPY2H5V-HoMad724a8c67XmafWA15YQ": {
+        "rateCode": "3CGKECGVV6SZRTSM.JRTCKXETXF.JXGPBPHWFF",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "rrqrQxCeO3ZBjPY2H5V-HoMad724a8c67XmafWA15YQ"
+      },
+      "spE9LOv5TYON9-XbgHZdXn6D_5XD-pCX8Zf-qqChyUQ": {
+        "rateCode": "6TDERHEBMFNKRXFY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.4000000000",
+        "RegionlessRateCode": "spE9LOv5TYON9-XbgHZdXn6D_5XD-pCX8Zf-qqChyUQ"
+      },
+      "sy5y8jyideWmq8NfsLKCEAEyZ7axQplmh5kXF6URgHc": {
+        "rateCode": "6PUUASV482EAS582.JRTCKXETXF.6YS6EN2CT7",
+        "price": "18.0000000000",
+        "RegionlessRateCode": "sy5y8jyideWmq8NfsLKCEAEyZ7axQplmh5kXF6URgHc"
+      },
+      "t5m2bX68WjyZyIuVLh0ZtIs0UhGgoqHCllTDHNwIpHg": {
+        "rateCode": "3PGARK7SADAWMUVA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3000000000",
+        "RegionlessRateCode": "t5m2bX68WjyZyIuVLh0ZtIs0UhGgoqHCllTDHNwIpHg"
+      },
+      "u0tgNH3k9Io4sDWaeLn4Jc-vbA6zS5XftYZaZAynfS0": {
+        "rateCode": "JTNGA49ETHTE2ZEW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2880000000",
+        "RegionlessRateCode": "u0tgNH3k9Io4sDWaeLn4Jc-vbA6zS5XftYZaZAynfS0"
+      },
+      "w5NlNHv2FCUBtAmsSpgdPM-EsbtGAFtWqf0LAjCJhjg": {
+        "rateCode": "DWT9A3BR98RZBQA7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "w5NlNHv2FCUBtAmsSpgdPM-EsbtGAFtWqf0LAjCJhjg"
+      },
+      "w6dSrYjbFhBMyr5X8ph4WOvEV-ENYBCYra_dKOewdGo": {
+        "rateCode": "AT2U32K366SWXF8T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "w6dSrYjbFhBMyr5X8ph4WOvEV-ENYBCYra_dKOewdGo"
+      },
+      "wTwd9e_AUSxIOw2iQ5z-WQVMTHQMde4-uBdaVJgugkw": {
+        "rateCode": "GCKW22W8P7FFVA7U.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "wTwd9e_AUSxIOw2iQ5z-WQVMTHQMde4-uBdaVJgugkw"
+      },
+      "xFA46ieuDd2oVz17FIQAKAavP493d7amTf4vY_EA454": {
+        "rateCode": "7VQB6XN3CEU27PTU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "1.0000000000",
+        "RegionlessRateCode": "xFA46ieuDd2oVz17FIQAKAavP493d7amTf4vY_EA454"
+      },
+      "xZEkE5So4LfoamVGMwLv54t_fmNKwVsjKhRBLzMiSw8": {
+        "rateCode": "8BNDVC3SSAVD8TFE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "xZEkE5So4LfoamVGMwLv54t_fmNKwVsjKhRBLzMiSw8"
+      },
+      "yktB_Isju0geCE1eF82h5OJMoV4B92gJu1NiASSX7JY": {
+        "rateCode": "C8YHWKG5P2GSF2TK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "yktB_Isju0geCE1eF82h5OJMoV4B92gJu1NiASSX7JY"
+      },
+      "Enterprise Alerts from 10000 to 100000 per kilometric": {
+        "rateCode": "3CGKECGVV6SZRTSM.JRTCKXETXF.9CAT47X48E",
+        "price": "0.1000000000",
+        "RegionlessRateCode": "0JC8WQNXV4-k3IRkkdPSJjS5O6GHoAkkXNEuCPk6f5g"
+      },
+      "Enterprise Reader Annual Query Capacity 60K Actual Usage for Q per Queries": {
+        "rateCode": "PB8P3JVZJTUXZRHN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3000000000",
+        "RegionlessRateCode": "0Zy1_GExwfNGV3W4PMaNV3XItBp7pDN31vmxmMYw3TY"
+      },
+      "Enterprise cap reader sessions per Sessions": {
+        "rateCode": "YACAX6NAFSRM66H3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2000000000",
+        "RegionlessRateCode": "1S0rN4AEzLnoGlBGvrWSbf_X2nyVX-GsnpUnpTK5qGs"
+      },
+      "Enterprise Monthly Reader Monthly 500 Sessions Pack per Month": {
+        "rateCode": "54XJM5WBSVREA9CS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "1jjj-83XMmvkc4qrolAuY29XDmFwG--0kftI_dBaOZk"
+      },
+      "Enterprise bonus reader sessions per Sessions": {
+        "rateCode": "MMPV8XBRFHTASETG.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "1tzLNjVwVHast10bhA89gBVRZejAdN9xOKKgMUomcYA"
+      },
+      "Enterprise Reader Monthly Query Capacity 500 Overage Usage for Q per Queries": {
+        "rateCode": "2HEM2283GQQR6VDM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "8LBksHXYEchbd2H0754maCbJo-vY5OVvJie-Qk8eGkE"
+      },
+      "Enterprise Reader Annual Query Capacity 60K Overage Usage for Q per Queries": {
+        "rateCode": "AE7GQAS8EY6U9XCK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3000000000",
+        "RegionlessRateCode": "8b4aQtIGYaYXBkZLzkvOSaUA_yXfIp-hHLYMRkz5RZM"
+      },
+      "Enterprise Reader Monthly Query Capacity 500 Actual Usage for Q per Queries": {
+        "rateCode": "KKYHZZVZ6VGWNGKD.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "A1yAC7XuND6smL2_HBcAh74tLkXRkSRXnWwEEj83wC8"
+      },
+      "Enterprise emails sent per sessions": {
+        "rateCode": "5W22Z5EHVJDCT2JT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AW8dEA4DEhCpCoObGr7hhkeVM3b9LyxxRiOda4qTLjE"
+      },
+      "Enterprise emails sent per Sessions": {
+        "rateCode": "5W22Z5EHVJDCT2JT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "AW8dEA4DEhCpCoObGr7hhkeVM3b9LyxxRiOda4qTLjE"
+      },
+      "Enterprise Alerts from 500 to 1500 per kilometric": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.ESVXPS4YV2",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "Ap-tW2RaZ9kerV7URf45Z44CLnCBub9squORXMO4TqA"
+      },
+      "Enterprise Monthly user subscriptions with Q free trial per Users": {
+        "rateCode": "PRTERWPFNK9T5GVK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "D1rizHf8LAnISuwxfdEIPBowc3dpUalvvJQwmd0BhNo"
+      },
+      "Enterprise Alerts from 100500 to Inf per kilometric": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.GX9X5FSU3J",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "E9LJj21RQm8NBffozRxldTNpgDx3qXadll7jUJZwu10"
+      },
+      "Enterprise Annual Reader CapacityPricing 50K Sessions Overage per Sessions": {
+        "rateCode": "DBF9GHJCD6VP8889.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.4000000000",
+        "RegionlessRateCode": "ELZ9RMruFtrSQwC_7DhonhsZYNuNe1eZWyBiKG1PMFY"
+      },
+      "Enterprise Alerts from 1500 to 10500 per kilometric": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.KRYGZUJMYY",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "FMMHBQXCUI9NBQKRRAkUTqamNyF_rv6ryeDBcdFIYt8"
+      },
+      "Enterprise bonus reader sessions with Q per Sessions": {
+        "rateCode": "899DRXCTUCAR9MAZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "HqaH8qd_z31Gid5VRBiJVYCLEZuy4p41gZJfEtPZIKg"
+      },
+      "Enterprise Reader Annual Query Capacity 600K Overage Usage for Q per Queries": {
+        "rateCode": "9E78J2E3E8CRGUBR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2000000000",
+        "RegionlessRateCode": "Kqd3e8TsYGcTPPltBySuWLDpeRFWfUNCEXfjOueImYw"
+      },
+      "Enterprise cap reader sessions with Q per Sessions": {
+        "rateCode": "422BVK3EA5EAVP5M.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1000000000",
+        "RegionlessRateCode": "N4fU3lx6X9p4clUt3bthJVUrDuoZApnhlbAxytniePQ"
+      },
+      "Enterprise Alerts from 1000 to 10000 per kilometric": {
+        "rateCode": "3CGKECGVV6SZRTSM.JRTCKXETXF.FA59GSBSCH",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "NXtbmLHDvwRsC6V5SfFBtFdvcHzCQH_7sTMpYmQ6N6Q"
+      },
+      "Free Reader CapacityPricing 200KSessions Overage per Sessions": {
+        "rateCode": "VEJHWGNQ4D4C7Y87.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2800000000",
+        "RegionlessRateCode": "PFHkunYXQT5oRWK8VUa5-gBtXfmZmcDpG3ODv62uEeI"
+      },
+      "Enterprise Alerts from 10500 to 100500 per kilometric": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.6JXGNJYD8R",
+        "price": "0.1000000000",
+        "RegionlessRateCode": "PgYw1dNmbtCz1_Sr5EeLlRNSorj88VihO0FmiFrdgMM"
+      },
+      "Enterprise Alerts from 0 to 500 per kilometric": {
+        "rateCode": "F8KGTYVQ5XZRD88Z.JRTCKXETXF.C2QCTD4VXQ",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "QWd-V8p0W0ZTgctM9mLcSldv_0bty2zxSRmOZqKIKA0"
+      },
+      "Enterprise paid reader sessions per Sessions": {
+        "rateCode": "PX9ZJ8NFJN8RS8M4.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3000000000",
+        "RegionlessRateCode": "QajTQeyJiOajM8tzKFHmGlEMG642aJho8RWl2Ud5was"
+      },
+      "Free Reader CapacityPricing 800KSessions Overage per Sessions": {
+        "rateCode": "A6SHKWURHG36TVBZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2000000000",
+        "RegionlessRateCode": "Sizhw-C1cXPGTjI4gkwK7i7Wu2ENjQm6e0HoHAzraIo"
+      },
+      "Free Reader CapacityPricing 800KSessions Usage per Sessions": {
+        "rateCode": "34HTKYK4GJNDEKHA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2025000000",
+        "RegionlessRateCode": "VHrdi36sii0_-Ys7lO9P55c_RYCQ9yC72_z1IAs0FzI"
+      },
+      "Standard Monthly user subscriptions per User": {
+        "rateCode": "96CPD4MN7Q6WKPAM.JRTCKXETXF.6YS6EN2CT7",
+        "price": "12.0000000000",
+        "RegionlessRateCode": "WSduSlyNtcI91Z4-0kMQ-v_z2Ydli_RjNidg1F06Wv4"
+      },
+      "Enterprise Annual Bonus session for report readers per Sessions": {
+        "rateCode": "8QHQ3W79WQ6PJEQP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "XlxN-DY2oXG4pCdm7RUxfURxxX5SXSePuRUYSR-o_T0"
+      },
+      "Free Reader CapacityPricing 1600KSessions Usage per Sessions": {
+        "rateCode": "76MVJ8GR6X4CGYSV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1612500000",
+        "RegionlessRateCode": "_UEV5kvhk_gvM2is3SxsefV93ZAm4Z1D4SoK4BL9w6A"
+      },
+      "Enterprise Alerts from 100000 to Inf per kilometric": {
+        "rateCode": "3CGKECGVV6SZRTSM.JRTCKXETXF.FF8BMSDA2R",
+        "price": "0.0500000000",
+        "RegionlessRateCode": "c4PzOgJmfrmjkuV_pbwjalv0CkFOgkOTCFgiIq6B7wg"
+      },
+      "Enterprise Reader Annual Query Capacity 600K Actual Usage for Q per Queries": {
+        "rateCode": "W8FCAM8AYYC3AFTP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2000000000",
+        "RegionlessRateCode": "c_Fh42S3U57vAnHdS6GWbRRPW8OvOBgeM45u1J23EZg"
+      },
+      "Enterprise Reader CapacityPricing 500 Session Usage per Sessions": {
+        "rateCode": "FTP227AUWNMMYG63.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "e_0II4Cn4vHqbDgcTjGDeIpqOufCaoCx8NpiiGnJ39c"
+      },
+      "Free Reader CapacityPricing 400KSessions Usage per Sessions": {
+        "rateCode": "XB37G5VQ9SUV266T.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2400000000",
+        "RegionlessRateCode": "fRrbY0NFUAOYRoa_g5wmANkprTQKSRRFv1yOZ95XKB0"
+      },
+      "Free Reader CapacityPricing 400KSessions Overage per Sessions": {
+        "rateCode": "EGNJJ52G8NDUF7TZ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2400000000",
+        "RegionlessRateCode": "fXl9S4fGgA3epJ9oD-_sxw131S5y9-yE4yMfF28DD5Y"
+      },
+      "Standard Annual user subscriptions per User": {
+        "rateCode": "XQ2A7SUYZX36HHCR.JRTCKXETXF.6YS6EN2CT7",
+        "price": "9.0000000000",
+        "RegionlessRateCode": "gJ_LnUSc-n1fg9z6_zc3j6xObdiqrTzyaAsZ4q0-PbQ"
+      },
+      "Enterprise Annual user subscriptions with Q per Users": {
+        "rateCode": "9RG5SJJDSKDDKH94.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "hAGh2GiUjTv6EZKo7pn96kXAhcgzcjEb9QAo0KfAxGE"
+      },
+      "Enterprise Monthly user subscriptions per User": {
+        "rateCode": "PG8RJ65RVGUEJ5DS.JRTCKXETXF.6YS6EN2CT7",
+        "price": "24.0000000000",
+        "RegionlessRateCode": "hYUbVCrZ4_v0IbTfCkMjQMVWlly8RYVaPgd1dms89GI"
+      },
+      "Free Reader CapacityPricing 1600KSessions Overage per Sessions": {
+        "rateCode": "RHQXF94QZ7YD3GX7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "raM2kSkqAh2wLCPdvqMna5PjUHuQYAuiqHxLh63JETE"
+      },
+      "Enterprise Alerts from 0 to 1000 per kilometric": {
+        "rateCode": "3CGKECGVV6SZRTSM.JRTCKXETXF.JXGPBPHWFF",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "rrqrQxCeO3ZBjPY2H5V-HoMad724a8c67XmafWA15YQ"
+      },
+      "Enterprise Annual Reader CapacityPricing 50K Sessions Usage per Sessions": {
+        "rateCode": "6TDERHEBMFNKRXFY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.4000000000",
+        "RegionlessRateCode": "spE9LOv5TYON9-XbgHZdXn6D_5XD-pCX8Zf-qqChyUQ"
+      },
+      "Enterprise Annual user subscriptions per User": {
+        "rateCode": "6PUUASV482EAS582.JRTCKXETXF.6YS6EN2CT7",
+        "price": "18.0000000000",
+        "RegionlessRateCode": "sy5y8jyideWmq8NfsLKCEAEyZ7axQplmh5kXF6URgHc"
+      },
+      "Enterprise paid reader sessions with Q per Sessions": {
+        "rateCode": "3PGARK7SADAWMUVA.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3000000000",
+        "RegionlessRateCode": "t5m2bX68WjyZyIuVLh0ZtIs0UhGgoqHCllTDHNwIpHg"
+      },
+      "Free Reader CapacityPricing 200KSessions Usage per Sessions": {
+        "rateCode": "JTNGA49ETHTE2ZEW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2880000000",
+        "RegionlessRateCode": "u0tgNH3k9Io4sDWaeLn4Jc-vbA6zS5XftYZaZAynfS0"
+      },
+      "Enterprise Monthly user subscriptions with Q per Users": {
+        "rateCode": "DWT9A3BR98RZBQA7.JRTCKXETXF.6YS6EN2CT7",
+        "price": "10.0000000000",
+        "RegionlessRateCode": "w5NlNHv2FCUBtAmsSpgdPM-EsbtGAFtWqf0LAjCJhjg"
+      },
+      "Enterprise Reader CapacityPricing 500 Sessions Overage per Sessions": {
+        "rateCode": "8BNDVC3SSAVD8TFE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.5000000000",
+        "RegionlessRateCode": "xZEkE5So4LfoamVGMwLv54t_fmNKwVsjKhRBLzMiSw8"
+      },
+      "Enterprise Monthly Reader Monthly 500 Query Pack for Q per Month": {
+        "rateCode": "C8YHWKG5P2GSF2TK.JRTCKXETXF.6YS6EN2CT7",
+        "price": "250.0000000000",
+        "RegionlessRateCode": "yktB_Isju0geCE1eF82h5OJMoV4B92gJu1NiASSX7JY"
+      }
+    },
+    "Africa (Cape Town)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "N2YGP7J4XXTJPUR6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "N4D3NJ9Y2TB84GF9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "Q3MJ9MS392FJQ28R.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "ADD5HUPEUUYBJQ99.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "N2YGP7J4XXTJPUR6.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "N4D3NJ9Y2TB84GF9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "Q3MJ9MS392FJQ28R.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "ADD5HUPEUUYBJQ99.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "AWS GovCloud (US-East)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "2KW85CUR7HGDHS2G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "DUAP5TRJUX2X5NE8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "TDRFVXZVE5RMPMUT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "WB9RT5HU7MR2VPUV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "2KW85CUR7HGDHS2G.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "DUAP5TRJUX2X5NE8.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "TDRFVXZVE5RMPMUT.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "WB9RT5HU7MR2VPUV.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    },
+    "AWS GovCloud (US)": {
+      "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg": {
+        "rateCode": "TF2REDC2KKVTMTM9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg": {
+        "rateCode": "JF3DKHJ4KHBX7JE3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc": {
+        "rateCode": "ZFD8XWEXJFUERD87.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A": {
+        "rateCode": "8HG3P6TW3BMEJGG5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      },
+      "Enterprise Monthly Reader subscriptions free trial per User": {
+        "rateCode": "TF2REDC2KKVTMTM9.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.0000000000",
+        "RegionlessRateCode": "4J9aM-aHjolv4MCoQbkRAxP-AL9Q0dDT7gmb6ldFxZg"
+      },
+      "Enterprise SPICE capacity provisioned per GB Mo": {
+        "rateCode": "JF3DKHJ4KHBX7JE3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.3800000000",
+        "RegionlessRateCode": "XnT30EmRG58ySq5UK6BIYLyPvqeG26_KCJ04aNwJFcg"
+      },
+      "Standard SPICE capacity provisioned per GB Mo": {
+        "rateCode": "ZFD8XWEXJFUERD87.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.2500000000",
+        "RegionlessRateCode": "c8r4hZMtiQs-f45wRFEt_Bj-k6f9_FnT2H6TJud1phc"
+      },
+      "Enterprise Monthly Reader subscriptions per User": {
+        "rateCode": "8HG3P6TW3BMEJGG5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "3.0000000000",
+        "RegionlessRateCode": "pFdqy7ZyDHRnzZoNGEKtiZOykqZ4VK9qP7RNNUbtu-A"
+      }
+    }
+  }
+}

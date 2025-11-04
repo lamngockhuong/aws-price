@@ -17,7 +17,13 @@ export const locationsSource: DataSourceConfig = {
 
 // Pricing data sources - one per service
 // Validated services with pricing API support:
-// s3, lambda, cloudfront, translate, apigateway, ecs, eks, redshift, dynamodb, sns
+// Existing: ec2, natgateway, s3, lambda, cloudfront, translate, apigateway, ecs, eks, redshift, dynamodb, sns
+// New (validated): amplify, appstream, athena, backup, bedrock, braket, budgets, chime, cloudformation, cloudhsm,
+// cloudtrail, cloudwatch, codeartifact, codebuild, codecommit, codedeploy, codeguru, codepipeline, codewhisperer,
+// cognito, comprehend, config, connect, datasync, deepracer, detective, efs, elasticache, finspace, forecast,
+// fsx, gamelift, glacier, glue, greengrass, guardduty, inspector, kendra, kinesis, kms, lex, lightsail, macie,
+// mediaconnect, msk, neptune, personalize, pinpoint, polly, qldb, quicksight, rekognition, robomaker, route53,
+// ses, shield, textract, timestream, transcribe, vpc, waf, workdocs, workmail, workspaces
 export const pricingSources: DataSourceConfig[] = [
   {
     id: 'ec2-pricing',
@@ -186,8 +192,38 @@ export const pricingSources: DataSourceConfig[] = [
       'manifest' in data &&
       'regions' in data
     )
-  }
+  },
+  // New services with validated pricing endpoints (64 services)
+  ...createPricingSourceConfigs([
+    'amplify', 'appstream', 'athena', 'backup', 'bedrock', 'braket', 'budgets', 'chime',
+    'cloudformation', 'cloudhsm', 'cloudtrail', 'cloudwatch', 'codeartifact', 'codebuild',
+    'codecommit', 'codedeploy', 'codeguru', 'codepipeline', 'codewhisperer', 'cognito',
+    'comprehend', 'config', 'connect', 'datasync', 'deepracer', 'detective', 'efs',
+    'elasticache', 'finspace', 'forecast', 'fsx', 'gamelift', 'glacier', 'glue',
+    'greengrass', 'guardduty', 'inspector', 'kendra', 'kinesis', 'kms', 'lex',
+    'lightsail', 'macie', 'mediaconnect', 'msk', 'neptune', 'personalize', 'pinpoint',
+    'polly', 'qldb', 'quicksight', 'rekognition', 'robomaker', 'route53', 'ses',
+    'shield', 'textract', 'timestream', 'transcribe', 'vpc', 'waf', 'workdocs',
+    'workmail', 'workspaces',
+  ]),
 ];
+
+// Helper function to create pricing source configurations for services using generic transform
+function createPricingSourceConfigs(serviceIds: string[]): DataSourceConfig[] {
+  return serviceIds.map(serviceId => ({
+    id: `${serviceId}-pricing`,
+    name: `${serviceId.charAt(0).toUpperCase() + serviceId.slice(1).replace(/-/g, ' ')} Pricing`,
+    url: `https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/${serviceId}/USD/current/${serviceId}.json`,
+    type: 'pricing' as const,
+    transform: (data: any) => data, // Raw data preserved, transform happens in service-specific module
+    validate: (data: any) => (
+      typeof data === 'object' &&
+      data !== null &&
+      'manifest' in data &&
+      'regions' in data
+    ),
+  }));
+}
 
 export function getPricingSource(serviceId: string): DataSourceConfig | undefined {
   return pricingSources.find(source => source.id === `${serviceId}-pricing`);

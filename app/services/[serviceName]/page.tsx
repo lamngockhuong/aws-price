@@ -43,15 +43,32 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
             {service.name}
           </h1>
           <p className="mt-2 text-zinc-600 dark:text-zinc-400">{service.description}</p>
-          <span className="mt-3 inline-block rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">
-            {service.category}
-          </span>
-          <div className="mt-4">
-            <PricingInfoBanner />
+          <div className="mt-3 flex flex-wrap gap-2">
+            <span className="inline-block rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">
+              {service.category}
+            </span>
+            {service.pricingAvailable !== undefined && (
+              <span className={`inline-block rounded-full px-3 py-1 text-xs font-medium ${
+                service.pricingAvailable
+                  ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400'
+                  : 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'
+              }`}>
+                {service.pricingAvailable ? 'Pricing Available' : 'No Pricing Data'}
+              </span>
+            )}
           </div>
+          {service.pricingAvailable && (
+            <div className="mt-4">
+              <PricingInfoBanner />
+            </div>
+          )}
         </div>
 
-        <ServiceDetailContent serviceId={serviceName} allPricing={allPricing} />
+        <ServiceDetailContent
+          serviceId={serviceName}
+          allPricing={allPricing}
+          pricingAvailable={service.pricingAvailable ?? false}
+        />
       </div>
     </div>
   );

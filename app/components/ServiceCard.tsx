@@ -19,14 +19,35 @@ export default function ServiceCard({ service }: Readonly<ServiceCardProps>) {
           <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
             {service.description}
           </p>
-          <span className={`mt-3 inline-block rounded-full px-3 py-1 text-xs font-medium text-zinc-700 dark:text-zinc-300 ${
-            service.category === 'Compute' ? 'bg-blue-50 dark:bg-blue-900/30' :
-            service.category === 'Database' ? 'bg-purple-50 dark:bg-purple-900/30' :
-            service.category === 'Storage' ? 'bg-orange-50 dark:bg-orange-900/30' :
-            service.category === 'Networking' ? 'bg-teal-50 dark:bg-teal-900/30' : 'bg-zinc-100 dark:bg-zinc-800'
-          }`}>
-            {service.category}
-          </span>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <span className={`inline-block rounded-full px-3 py-1 text-xs font-medium text-zinc-700 dark:text-zinc-300 ${
+              service.category === 'Compute' ? 'bg-blue-50 dark:bg-blue-900/30' :
+              service.category === 'Database' ? 'bg-purple-50 dark:bg-purple-900/30' :
+              service.category === 'Storage' ? 'bg-orange-50 dark:bg-orange-900/30' :
+              service.category === 'Networking' ? 'bg-teal-50 dark:bg-teal-900/30' :
+              service.category === 'Security' ? 'bg-red-50 dark:bg-red-900/30' :
+              service.category === 'Analytics' ? 'bg-yellow-50 dark:bg-yellow-900/30' :
+              service.category === 'ML/AI' ? 'bg-pink-50 dark:bg-pink-900/30' :
+              service.category === 'Media' ? 'bg-indigo-50 dark:bg-indigo-900/30' :
+              service.category === 'Management' ? 'bg-gray-50 dark:bg-gray-900/30' :
+              service.category === 'Migration' ? 'bg-cyan-50 dark:bg-cyan-900/30' :
+              service.category === 'DevTools' ? 'bg-green-50 dark:bg-green-900/30' :
+              service.category === 'IoT' ? 'bg-amber-50 dark:bg-amber-900/30' :
+              service.category === 'End-User Computing' ? 'bg-violet-50 dark:bg-violet-900/30' :
+              'bg-zinc-100 dark:bg-zinc-800'
+            }`}>
+              {service.category}
+            </span>
+            {service.pricingAvailable !== undefined && (
+              <span className={`inline-block rounded-full px-3 py-1 text-xs font-medium ${
+                service.pricingAvailable
+                  ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400'
+                  : 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'
+              }`}>
+                {service.pricingAvailable ? 'Pricing Available' : 'No Pricing Data'}
+              </span>
+            )}
+          </div>
         </div>
         <div className="ml-4 h-8 w-8 shrink-0 rounded-md bg-[#FF9900]/10 text-[#FF9900] grid place-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">

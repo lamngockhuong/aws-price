@@ -1,0 +1,27 @@
+{
+  "manifest": {
+    "serviceId": "codewhisperer",
+    "accessType": "publish",
+    "esIndex": "plc-codewhisperer-usd-20250909194319",
+    "hawkFilePublicationDate": "2024-08-26T15:58:26Z",
+    "ETLIngestionTriggerDate": "2025-09-09T19:43:19Z",
+    "currencyCode": "USD",
+    "source": "codewhisperer",
+    "isMapped": "true"
+  },
+  "sets": {},
+  "regions": {
+    "US East (N. Virginia)": {
+      "aXwn1tb13iH8ecqO1AmpaPyQi6QTiau6SpmG2_OxMJU": {
+        "rateCode": "RF3SEJ8VUXYEA9BQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "19.0000000000",
+        "RegionlessRateCode": "aXwn1tb13iH8ecqO1AmpaPyQi6QTiau6SpmG2_OxMJU"
+      },
+      "codewhisperer Professional UsersPerMonth": {
+        "rateCode": "RF3SEJ8VUXYEA9BQ.JRTCKXETXF.6YS6EN2CT7",
+        "price": "19.0000000000",
+        "RegionlessRateCode": "aXwn1tb13iH8ecqO1AmpaPyQi6QTiau6SpmG2_OxMJU"
+      }
+    }
+  }
+}

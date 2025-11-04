@@ -1,4 +1,18 @@
-export type ServiceCategory = 'Compute' | 'Networking' | 'Storage' | 'Database' | 'Other';
+export type ServiceCategory =
+  | 'Compute'
+  | 'Networking'
+  | 'Storage'
+  | 'Database'
+  | 'Security'
+  | 'Analytics'
+  | 'ML/AI'
+  | 'Media'
+  | 'Management'
+  | 'Migration'
+  | 'DevTools'
+  | 'IoT'
+  | 'End-User Computing'
+  | 'Other';
 
 export interface AWSService {
   id: string;
@@ -6,6 +20,7 @@ export interface AWSService {
   category: ServiceCategory;
   description: string;
   icon?: string;
+  pricingAvailable?: boolean;
 }
 
 export interface PricingEntry {

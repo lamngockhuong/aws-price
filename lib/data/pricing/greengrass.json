@@ -1,0 +1,207 @@
+{
+  "manifest": {
+    "serviceId": "greengrass",
+    "accessType": "publish",
+    "esIndex": "plc-greengrass-usd-20250909203939",
+    "hawkFilePublicationDate": "2025-07-29T20:32:48Z",
+    "ETLIngestionTriggerDate": "2025-09-09T20:39:39Z",
+    "currencyCode": "USD",
+    "source": "greengrass",
+    "isMapped": "true"
+  },
+  "sets": {},
+  "regions": {
+    "US West (Oregon)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "RSACVX6UAJ7ER7QW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "RSACVX6UAJ7ER7QW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "US East (Ohio)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "PMDQ5VRGBTZDEJC5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "PMDQ5VRGBTZDEJC5.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "US East (N. Virginia)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "H4UXPATZVM7F6RYF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "H4UXPATZVM7F6RYF.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "EU (Spain)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "T4QMAKFBHKPY5QVN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "T4QMAKFBHKPY5QVN.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "EU (London)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "56K2END5E9SMDMGE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "56K2END5E9SMDMGE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "EU (Ireland)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "2WDYM5T3GBRKEQSE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "2WDYM5T3GBRKEQSE.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "EU (Frankfurt)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "SX4VW5WDSRHU995E.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "SX4VW5WDSRHU995E.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "Canada (Central)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "MATGV4H9VVKCQE29.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "MATGV4H9VVKCQE29.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "Asia Pacific (Tokyo)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "5GHVGYMJ9VHZT6FP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "5GHVGYMJ9VHZT6FP.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "Asia Pacific (Sydney)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "NJBZG3QRAXDWGSAH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "NJBZG3QRAXDWGSAH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "Asia Pacific (Singapore)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "ECUZNDGTKB7YQZV3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "ECUZNDGTKB7YQZV3.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "Asia Pacific (Seoul)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "GY8WTZ8RRKZJTEAY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "GY8WTZ8RRKZJTEAY.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "Asia Pacific (Mumbai)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "7952KR7SXATQY4DU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "7952KR7SXATQY4DU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "Asia Pacific (Malaysia)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "9U4ZZB8XD3CD6GUU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "9U4ZZB8XD3CD6GUU.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1600000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "AWS GovCloud (US-East)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "VEZUDPT8E9484RPW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "VEZUDPT8E9484RPW.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    },
+    "AWS GovCloud (US)": {
+      "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ": {
+        "rateCode": "6HB3URTPE93BM6NH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      },
+      "Greengrass Pay as you go": {
+        "rateCode": "6HB3URTPE93BM6NH.JRTCKXETXF.6YS6EN2CT7",
+        "price": "0.1800000000",
+        "RegionlessRateCode": "fAou4Ugv1wZ6iUvD3a54Frg3Uaf6HKQiPC3g_jDIWcQ"
+      }
+    }
+  }
+}
