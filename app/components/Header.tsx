@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 // Preline-style Button Toggle (sun/moon)
 
@@ -36,8 +37,16 @@ export default function Header() {
     <header className="border-b border-neutral-200 dark:border-neutral-800">
       <div className="mx-auto w-full max-w-6xl px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Link href="/" className="font-medium text-neutral-900 dark:text-neutral-100">
-            AWS Price Tracker
+          <Link href="/" className="flex items-center gap-2 font-medium text-neutral-900 dark:text-neutral-100">
+            <Image
+              src="/icon.svg"
+              alt="AWS Price Tracker"
+              width={24}
+              height={24}
+              className="flex-shrink-0"
+              unoptimized
+            />
+            <span>AWS Price Tracker</span>
           </Link>
         </div>
         <nav className="flex items-center gap-4">
